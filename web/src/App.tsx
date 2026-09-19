@@ -322,7 +322,7 @@ export default function App() {
   return (
     <div className="page">
       <header className="hero">
-        <p className="eyebrow">EOP · tech procurements</p>
+        <p className="eyebrow">EOP Tech &amp; Development</p>
         <h1>Tech &amp; development procurements</h1>
         <nav className="top-nav" aria-label="Primary">
           <button
