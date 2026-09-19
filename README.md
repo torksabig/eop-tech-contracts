@@ -1,59 +1,49 @@
-# Hermes Agent
+# EOP Tech & Development Contracts
 
-[Nous Research Hermes Agent](https://hermes-agent.nousresearch.com) — self-improving AI agent with persistent memory, skills, and multi-platform messaging.
+Collects **software / dashboard / portal / development** tenders and contracts from Bulgaria’s public procurement portal [ЦАИС ЕОП](https://app.eop.bg/today) and stores a curated dataset in this repo.
 
-This environment has Hermes **installed and ready**. Install lives under `~/.hermes/` (managed by the official installer), not in this git tree.
+## What’s here
 
-## Status
-
-| Item | Location / command |
+| Path | Purpose |
 | --- | --- |
-| Version | Hermes Agent v0.21.3 |
-| Launcher | `~/.local/bin/hermes` |
-| Config | `~/.hermes/config.yaml` |
-| API keys | `~/.hermes/.env` |
-| Source checkout | `~/.hermes/hermes-agent` |
+| `data/tech-development.json` | Curated tenders + contracts (deduped, scored) |
+| `data/tech-development.csv` | Same data for spreadsheets |
+| `data/tech-development.md` | Top matches digest |
+| `eop_collector/` | Collector agent (public NX1 JSON API) |
+| `web/` | Browse UI for the dataset |
 
-## Start chatting
+Source UI: [Today](https://app.eop.bg/today) · [Search](https://app.eop.bg/today/reporting/search)
 
-```bash
-source ~/.bashrc   # ensure ~/.local/bin is on PATH
-hermes             # classic CLI
-# or
-hermes --tui       # modern TUI
-```
-
-## First-time provider setup (required)
-
-No LLM API keys are configured yet. Pick one path:
+## Browse the results
 
 ```bash
-# Fastest: Nous Portal (OAuth, 300+ models + Tool Gateway)
-hermes setup --portal
-
-# Or interactive provider/model picker
-hermes model
-
-# Or full wizard
-hermes setup
+cd web
+npm install
+npm run dev
 ```
 
-Then start a session with `hermes`.
+Open [EOP Tech Contracts](http://127.0.0.1:43127).
 
-## Useful commands
+## Re-run the collector
 
 ```bash
-hermes doctor          # diagnose install / config
-hermes status          # overview of env, keys, gateway
-hermes gateway setup   # Telegram / Discord / Slack / etc.
-hermes skills browse   # Skills Hub
-hermes update          # pull latest
+python3 eop_collector/collect.py --max-pages 2 --page-size 50
 ```
 
-## Reinstall (this machine)
+It queries:
 
-```bash
-curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
-```
+- Quick search keywords (софтуер, портал, платформа, CRM, ERP, дигитализация, …)
+- Advanced tenders by IT CPV codes (`72000000`, `72200000`, `72230000`, `48000000`, …)
+- Awarded contracts by the same keywords/CPVs
 
-Docs: [Quickstart](https://hermes-agent.nousresearch.com/docs/getting-started/quickstart) · [Installation](https://hermes-agent.nousresearch.com/docs/getting-started/installation)
+Then keeps items that look like **development / systems / web / software** work (not pure hardware toner carts).
+
+API used (public, no login):
+
+`POST https://service.eop.bg/NX1Service.svc/GetQuickSearchResult`  
+`POST https://service.eop.bg/NX1Service.svc/GetPublishedTendersAdvancedSearchResult`  
+`POST https://service.eop.bg/NX1Service.svc/GetContractsAdvancedSearchResult`
+
+## Hermes (optional)
+
+This environment also has [Hermes Agent](https://hermes-agent.nousresearch.com) installed under `~/.hermes/`. See `scripts/open-hermes.sh`.
