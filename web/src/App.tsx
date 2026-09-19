@@ -55,6 +55,12 @@ type Dataset = {
   items: Item[];
 };
 
+type View = "browse" | "saved";
+
+type SavedItem = Item & { saved_at: string };
+
+const SAVED_STORAGE_KEY = "eop-tech-contracts-saved-v1";
+
 function formatMoney(value?: number | null, currency?: string | null) {
   if (value == null) return null;
   const amount = new Intl.NumberFormat("en-GB", {
@@ -103,12 +109,122 @@ function statusClass(item: Item) {
   return "unknown";
 }
 
+function itemKey(item: Item) {
+  return [
+    item.kind,
+    item.special_number || "",
+    item.title_en || item.title || "",
+    item.supplier || "",
+    item.contact_email || "",
+    item.url || "",
+  ].join("::");
+}
+
+function loadSavedMap(): Record<string, SavedItem> {
+  try {
+    const raw = localStorage.getItem(SAVED_STORAGE_KEY);
+    if (!raw) return {};
+    const parsed = JSON.parse(raw) as Record<string, SavedItem>;
+    if (!parsed || typeof parsed !== "object") return {};
+    return parsed;
+  } catch {
+    return {};
+  }
+}
+
+function persistSavedMap(map: Record<string, SavedItem>) {
+  localStorage.setItem(SAVED_STORAGE_KEY, JSON.stringify(map));
+}
+
 async function loadDataset(): Promise<Dataset> {
   const preferred = await fetch("/data/tech-development-contacts.json");
   if (preferred.ok) return preferred.json();
   const fallback = await fetch("/data/tech-development.json");
   if (!fallback.ok) throw new Error(`Failed to load dataset (${fallback.status})`);
   return fallback.json();
+}
+
+function ItemRow({
+  item,
+  saved,
+  onToggleSave,
+  showSavedAt,
+}: {
+  item: Item;
+  saved: boolean;
+  onToggleSave: () => void;
+  showSavedAt?: string;
+}) {
+  const title = displayTitle(item);
+  const desc = displayDescription(item);
+  const budget = displayBudget(item);
+  const label = item.status_label || (item.is_active ? "Active" : "Unknown");
+
+  return (
+    <li className="row">
+      <div className="row-top">
+        <span className={`tag ${item.kind}`}>{item.kind}</span>
+        <span className={`badge status-${statusClass(item)}`}>{label}</span>
+        <span className="score-pill">{item.relevance_score}</span>
+        <span className="muted">{item.special_number || "—"}</span>
+        <span className="muted">
+          {formatDate(item.publication_date || item.contract_date)}
+        </span>
+        {showSavedAt ? (
+          <span className="muted">saved {formatDate(showSavedAt)}</span>
+        ) : null}
+        <button
+          type="button"
+          className={saved ? "save-btn saved" : "save-btn"}
+          onClick={onToggleSave}
+          aria-pressed={saved}
+        >
+          {saved ? "Saved" : "Save"}
+        </button>
+      </div>
+      <h2>
+        {item.url ? (
+          <a href={item.url} target="_blank" rel="noreferrer">
+            {title}
+          </a>
+        ) : (
+          title
+        )}
+      </h2>
+      <p className="budget">{budget}</p>
+      <p className="desc">
+        {desc.slice(0, 260) || "No description"}
+        {!item.title_en && item.translation_note ? (
+          <span className="muted"> · BG source</span>
+        ) : null}
+      </p>
+      <div className="contact">
+        <strong>{item.contact_name || "No named contact"}</strong>
+        {item.contact_email ? (
+          <a href={`mailto:${item.contact_email}`}>{item.contact_email}</a>
+        ) : (
+          <span className="muted">no email</span>
+        )}
+        <span>{item.contact_phone || "—"}</span>
+        {item.buyer_address && <span>{item.buyer_address}</span>}
+      </div>
+      <div className="row-bottom">
+        <span>{item.organization || "—"}</span>
+        {item.supplier && <span>→ {item.supplier}</span>}
+        {item.deadline || item.offer_phase_end ? (
+          <span>
+            deadline {formatDate(item.offer_phase_end || item.deadline)}
+          </span>
+        ) : null}
+        {item.cpv && <span>CPV {item.cpv}</span>}
+        {item.url ? (
+          <a href={item.url} target="_blank" rel="noreferrer">
+            Open on EOP
+          </a>
+        ) : null}
+      </div>
+    </li>
+  );
 }
 
 export default function App() {
@@ -120,6 +236,10 @@ export default function App() {
   const [minScore, setMinScore] = useState(30);
   const [onlyWithEmail, setOnlyWithEmail] = useState(false);
   const [onlyActive, setOnlyActive] = useState(false);
+  const [view, setView] = useState<View>("browse");
+  const [savedMap, setSavedMap] = useState<Record<string, SavedItem>>(() =>
+    loadSavedMap(),
+  );
   const deferredQuery = useDeferredValue(query);
 
   useEffect(() => {
@@ -142,6 +262,20 @@ export default function App() {
       cancelled = true;
     };
   }, []);
+
+  const toggleSave = (item: Item) => {
+    const key = itemKey(item);
+    setSavedMap((prev) => {
+      const next = { ...prev };
+      if (next[key]) {
+        delete next[key];
+      } else {
+        next[key] = { ...item, saved_at: new Date().toISOString() };
+      }
+      persistSavedMap(next);
+      return next;
+    });
+  };
 
   const filtered = useMemo(() => {
     if (!data) return [];
@@ -177,165 +311,158 @@ export default function App() {
     });
   }, [data, deferredQuery, kind, minScore, onlyWithEmail, onlyActive]);
 
+  const savedItems = useMemo(() => {
+    return Object.values(savedMap).sort((a, b) =>
+      (b.saved_at || "").localeCompare(a.saved_at || ""),
+    );
+  }, [savedMap]);
+
+  const savedCount = savedItems.length;
+
   return (
     <div className="page">
       <header className="hero">
         <p className="eyebrow">EOP · tech procurements</p>
         <h1>Tech &amp; development procurements</h1>
-        <p className="lede">
-          Active status, budget scope, and English titles for software / portal /
-          systems work from{" "}
-          <a href="https://app.eop.bg/today" target="_blank" rel="noreferrer">
-            app.eop.bg
-          </a>
-          , with buyer contacts.
-        </p>
-        <div className="meta">
-          {data ? (
-            <>
-              <span>{data.counts.total} rows</span>
-              <span>{data.counts.tenders} tenders</span>
-              <span>{data.counts.contracts} contracts</span>
-              {data.counts.active != null && <span>{data.counts.active} active</span>}
-              {data.counts.with_email != null && (
-                <span>{data.counts.with_email} with email</span>
-              )}
-              {data.counts.with_title_en != null && (
-                <span>{data.counts.with_title_en} with EN title</span>
-              )}
-              <span>
-                synced {formatDate(data.enriched_at || data.collected_at)}
-              </span>
-            </>
-          ) : (
-            <span>Loading dataset…</span>
-          )}
-        </div>
-        <p className="downloads">
-          Downloads:{" "}
-          <a href="/data/tech-development-contacts.csv">full CSV</a>
-          {" · "}
-          <a href="/data/contact-list.csv">unique contacts CSV</a>
-          {" · "}
-          <a href="/data/tech-development-contacts.json">JSON</a>
-        </p>
+        <nav className="top-nav" aria-label="Primary">
+          <button
+            type="button"
+            className={view === "browse" ? "nav-tab active" : "nav-tab"}
+            onClick={() => setView("browse")}
+            aria-current={view === "browse" ? "page" : undefined}
+          >
+            Browse
+          </button>
+          <button
+            type="button"
+            className={view === "saved" ? "nav-tab active" : "nav-tab"}
+            onClick={() => setView("saved")}
+            aria-current={view === "saved" ? "page" : undefined}
+          >
+            Saved projects{savedCount > 0 ? ` (${savedCount})` : ""}
+          </button>
+        </nav>
       </header>
 
-      <section className="controls" aria-label="Filters">
-        <input
-          className="search"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          placeholder="Filter: portal, CRM, email, organization…"
-        />
-        <div className="chips">
-          {(["all", "tender", "contract"] as const).map((value) => (
-            <button
-              key={value}
-              type="button"
-              className={kind === value ? "chip active" : "chip"}
-              onClick={() => setKind(value)}
-            >
-              {value}
-            </button>
-          ))}
-          <button
-            type="button"
-            className={onlyActive ? "chip active" : "chip"}
-            onClick={() => setOnlyActive((v) => !v)}
-          >
-            Active only
-          </button>
-          <button
-            type="button"
-            className={onlyWithEmail ? "chip active" : "chip"}
-            onClick={() => setOnlyWithEmail((v) => !v)}
-          >
-            has email
-          </button>
-        </div>
-        <label className="score">
-          Min score
-          <input
-            type="range"
-            min={0}
-            max={120}
-            step={5}
-            value={minScore}
-            onChange={(e) => setMinScore(Number(e.target.value))}
-          />
-          <strong>{minScore}</strong>
-        </label>
-      </section>
+      {view === "browse" ? (
+        <>
+          <section className="controls" aria-label="Filters">
+            <input
+              className="search"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Filter: portal, CRM, email, organization…"
+            />
+            <div className="chips">
+              {(["all", "tender", "contract"] as const).map((value) => (
+                <button
+                  key={value}
+                  type="button"
+                  className={kind === value ? "chip active" : "chip"}
+                  onClick={() => setKind(value)}
+                >
+                  {value}
+                </button>
+              ))}
+              <button
+                type="button"
+                className={onlyActive ? "chip active" : "chip"}
+                onClick={() => setOnlyActive((v) => !v)}
+              >
+                Active only
+              </button>
+              <button
+                type="button"
+                className={onlyWithEmail ? "chip active" : "chip"}
+                onClick={() => setOnlyWithEmail((v) => !v)}
+              >
+                has email
+              </button>
+            </div>
+            <label className="score">
+              Min score
+              <input
+                type="range"
+                min={0}
+                max={120}
+                step={5}
+                value={minScore}
+                onChange={(e) => setMinScore(Number(e.target.value))}
+              />
+              <strong>{minScore}</strong>
+            </label>
+          </section>
 
-      <section className="results" aria-live="polite">
-        {loading && <p className="state">Loading contacts…</p>}
-        {error && <p className="state error">{error}</p>}
-        {!loading && !error && filtered.length === 0 && (
-          <p className="state">No matches. Lower the score or clear the filter.</p>
-        )}
-        <ul className="list">
-          {filtered.slice(0, 200).map((item) => {
-            const key = `${item.kind}-${item.special_number}-${item.title}-${item.supplier}-${item.contact_email}`;
-            const title = displayTitle(item);
-            const desc = displayDescription(item);
-            const budget = displayBudget(item);
-            const label = item.status_label || (item.is_active ? "Active" : "Unknown");
-            return (
-              <li key={key} className="row">
-                <div className="row-top">
-                  <span className={`tag ${item.kind}`}>{item.kind}</span>
-                  <span className={`badge status-${statusClass(item)}`}>{label}</span>
-                  <span className="score-pill">{item.relevance_score}</span>
-                  <span className="muted">{item.special_number || "—"}</span>
-                  <span className="muted">
-                    {formatDate(item.publication_date || item.contract_date)}
-                  </span>
-                </div>
-                <h2>
-                  {item.url ? (
-                    <a href={item.url} target="_blank" rel="noreferrer">
-                      {title}
-                    </a>
-                  ) : (
-                    title
-                  )}
-                </h2>
-                <p className="budget">{budget}</p>
-                <p className="desc">
-                  {desc.slice(0, 260) || "No description"}
-                  {!item.title_en && item.translation_note ? (
-                    <span className="muted"> · BG source</span>
-                  ) : null}
-                </p>
-                <div className="contact">
-                  <strong>{item.contact_name || "No named contact"}</strong>
-                  {item.contact_email ? (
-                    <a href={`mailto:${item.contact_email}`}>{item.contact_email}</a>
-                  ) : (
-                    <span className="muted">no email</span>
-                  )}
-                  <span>{item.contact_phone || "—"}</span>
-                  {item.buyer_address && <span>{item.buyer_address}</span>}
-                </div>
-                <div className="row-bottom">
-                  <span>{item.organization || "—"}</span>
-                  {item.supplier && <span>→ {item.supplier}</span>}
-                  {item.deadline || item.offer_phase_end ? (
-                    <span>
-                      deadline {formatDate(item.offer_phase_end || item.deadline)}
-                    </span>
-                  ) : null}
-                  {item.cpv && <span>CPV {item.cpv}</span>}
-                </div>
-              </li>
-            );
-          })}
-        </ul>
-        {filtered.length > 200 && (
-          <p className="state">Showing 200 of {filtered.length}. Narrow the filter.</p>
-        )}
-      </section>
+          <section className="results" aria-live="polite">
+            {loading && <p className="state">Loading contacts…</p>}
+            {error && <p className="state error">{error}</p>}
+            {!loading && !error && filtered.length === 0 && (
+              <p className="state">No matches. Lower the score or clear the filter.</p>
+            )}
+            <ul className="list">
+              {filtered.slice(0, 200).map((item) => {
+                const key = itemKey(item);
+                return (
+                  <ItemRow
+                    key={key}
+                    item={item}
+                    saved={Boolean(savedMap[key])}
+                    onToggleSave={() => toggleSave(item)}
+                  />
+                );
+              })}
+            </ul>
+            {filtered.length > 200 && (
+              <p className="state">
+                Showing 200 of {filtered.length}. Narrow the filter.
+              </p>
+            )}
+          </section>
+        </>
+      ) : (
+        <section className="results saved-view" aria-live="polite">
+          <p className="section-lede">
+            Projects you marked to pursue. Stored in this browser only.
+          </p>
+          {savedCount === 0 ? (
+            <p className="state">
+              Nothing saved yet. Browse tenders and tap{" "}
+              <strong>Save</strong> on ones you want to do.
+            </p>
+          ) : (
+            <ul className="list">
+              {savedItems.map((item) => {
+                const key = itemKey(item);
+                return (
+                  <ItemRow
+                    key={key}
+                    item={item}
+                    saved
+                    showSavedAt={item.saved_at}
+                    onToggleSave={() => toggleSave(item)}
+                  />
+                );
+              })}
+            </ul>
+          )}
+        </section>
+      )}
+
+      <footer className="page-footer">
+        <a href="/data/tech-development-contacts.csv">CSV</a>
+        <span aria-hidden="true">·</span>
+        <a href="/data/contact-list.csv">Contacts</a>
+        <span aria-hidden="true">·</span>
+        <a href="/data/tech-development-contacts.json">JSON</a>
+        {data ? (
+          <>
+            <span aria-hidden="true">·</span>
+            <span className="muted">
+              synced {formatDate(data.enriched_at || data.collected_at)}
+            </span>
+          </>
+        ) : null}
+      </footer>
     </div>
   );
 }

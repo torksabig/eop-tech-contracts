@@ -63,20 +63,36 @@ a {
   line-height: 0.95;
 }
 
-.lede {
-  max-width: 42rem;
-  margin: 1rem 0 0;
-  color: var(--muted);
-  font-size: 1.05rem;
-}
-
-.meta {
+.top-nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.75rem 1.25rem;
-  margin-top: 1.4rem;
+  gap: 0.5rem;
+  margin-top: 1.35rem;
+}
+
+.nav-tab {
+  border: 1px solid var(--line);
+  background: transparent;
   color: var(--muted);
-  font-size: 0.92rem;
+  border-radius: 0.35rem;
+  padding: 0.45rem 0.95rem;
+  font: inherit;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.nav-tab.active,
+.nav-tab:hover {
+  color: var(--ink);
+  border-color: rgba(214, 167, 86, 0.55);
+  background: rgba(214, 167, 86, 0.12);
+}
+
+.section-lede {
+  margin: 1.5rem 0 0.5rem;
+  color: var(--muted);
+  font-size: 0.95rem;
 }
 
 .controls {
@@ -154,10 +170,49 @@ a {
   animation: rise 0.55s ease both;
 }
 
-.downloads {
-  margin: 0.9rem 0 0;
+.page-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.75rem;
+  align-items: center;
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
   color: var(--muted);
-  font-size: 0.92rem;
+  font-size: 0.85rem;
+}
+
+.page-footer a {
+  color: var(--muted);
+}
+
+.page-footer a:hover {
+  color: var(--accent);
+}
+
+.save-btn {
+  margin-left: auto;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--muted);
+  border-radius: 0.3rem;
+  padding: 0.28rem 0.7rem;
+  font: inherit;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.save-btn:hover {
+  color: var(--ink);
+  border-color: rgba(214, 167, 86, 0.45);
+}
+
+.save-btn.saved {
+  color: var(--accent);
+  border-color: rgba(214, 167, 86, 0.55);
+  background: rgba(214, 167, 86, 0.12);
 }
 
 .contact {
