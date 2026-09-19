@@ -7,8 +7,8 @@
   --line: rgba(243, 240, 231, 0.12);
   --tender: #6fcf97;
   --contract: #56ccf2;
-  --font-display: "Instrument Serif", Georgia, serif;
-  --font-body: "DM Sans", "Segoe UI", sans-serif;
+  --font-display: "Manrope", "Segoe UI", sans-serif;
+  --font-body: "Manrope", "Segoe UI", sans-serif;
 }
 
 * {
