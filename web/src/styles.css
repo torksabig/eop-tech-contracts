@@ -231,6 +231,41 @@ a {
   color: var(--contract);
 }
 
+.badge {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.72rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid currentColor;
+}
+
+.badge.status-active {
+  color: #8dffb0;
+  background: rgba(111, 207, 151, 0.12);
+}
+
+.badge.status-closed {
+  color: #c9b8a8;
+  background: rgba(201, 184, 168, 0.08);
+}
+
+.badge.status-awarded {
+  color: #7ec8ff;
+  background: rgba(86, 204, 242, 0.1);
+}
+
+.badge.status-unknown {
+  color: var(--muted);
+}
+
+.budget {
+  margin: 0 0 0.45rem;
+  color: var(--accent);
+  font-size: 0.95rem;
+  font-variant-numeric: tabular-nums;
+}
+
 .score-pill {
   color: var(--accent);
   font-variant-numeric: tabular-nums;

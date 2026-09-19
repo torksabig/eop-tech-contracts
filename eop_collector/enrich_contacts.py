@@ -92,6 +92,7 @@ def _fetch_one_tender(tid: int) -> tuple[int, dict[str, Any]]:
     return tid, {
         "tender_id": tid,
         "tender_name": details.get("TenderName"),
+        "tender_description": details.get("TenderDescription"),
         "special_number": details.get("SpecialNumber"),
         "organization_id": details.get("OrganizationId"),
         "organization_name": details.get("OrganizationName"),
@@ -100,7 +101,12 @@ def _fetch_one_tender(tid: int) -> tuple[int, dict[str, Any]]:
         "contact_phone": details.get("ContactPersonPhone"),
         "publication_date": parse_dotnet_date(details.get("PublicationDate")),
         "offer_phase_end": parse_dotnet_date(details.get("OfferPhaseEndDate")),
+        "offer_phase_start": parse_dotnet_date(details.get("OfferPhaseStartDate")),
         "estimated_value": details.get("EstimatedValue"),
+        "currency_type": details.get("CurrencyType"),
+        "participation_status": details.get("PublishedTenderParticipationStatus"),
+        "published_tender_status": details.get("PublishedTenderStatus"),
+        "explicit_tender_status": details.get("ExplicitTenderStatus"),
         "procedure_type": details.get("ProcedureType"),
         "fetched_at": datetime.now(timezone.utc).isoformat(),
     }
@@ -140,22 +146,42 @@ def fetch_tender_details_parallel(
 
 
 def prioritize_tender_ids(items: list[dict[str, Any]], limit: int) -> list[int]:
-    """Highest relevance first, unique tender ids."""
-    best: dict[int, int] = {}
+    """Highest relevance first, unique tender ids. Prefer open deadlines."""
+    from datetime import datetime, timezone
+
+    now = datetime.now(timezone.utc)
+
+    def open_deadline_bonus(item: dict[str, Any]) -> int:
+        for key in ("deadline", "offer_phase_end", "offers_receiving_deadline"):
+            raw = item.get(key)
+            if not raw:
+                continue
+            try:
+                dt = datetime.fromisoformat(str(raw).replace("Z", "+00:00"))
+            except ValueError:
+                continue
+            return 1 if dt >= now else 0
+        return 0
+
+    best: dict[int, tuple[int, int]] = {}
     for item in items:
         tid = item.get("tender_id")
         if not tid:
             continue
         score = int(item.get("relevance_score") or 0)
-        if tid not in best or score > best[tid]:
-            best[tid] = score
-    ranked = sorted(best.items(), key=lambda kv: (-kv[1], kv[0]))
+        bonus = open_deadline_bonus(item)
+        prev = best.get(tid)
+        if prev is None or (bonus, score) > prev:
+            best[tid] = (bonus, score)
+    ranked = sorted(best.items(), key=lambda kv: (-kv[1][0], -kv[1][1], kv[0]))
     return [tid for tid, _ in ranked[:limit]]
 
 
 def enrich(
     items: list[dict[str, Any]], orgs: dict[str, Any], tenders: dict[str, Any]
 ) -> list[dict[str, Any]]:
+    from status import apply_status_and_budget
+
     enriched: list[dict[str, Any]] = []
     for item in items:
         row = dict(item)
@@ -163,6 +189,8 @@ def enrich(
         oid = item.get("organization_id")
         t = tenders.get(str(tid), {}) if tid else {}
         o = orgs.get(str(oid), {}) if oid else {}
+        if t.get("error"):
+            t = {}
 
         contact_name = t.get("contact_name") or o.get("contact_name") or ""
         contact_email = t.get("contact_email") or o.get("contact_email") or ""
@@ -196,6 +224,7 @@ def enrich(
                 "buyer_nuts": o.get("nuts") or "",
             }
         )
+        row = apply_status_and_budget(row, t or None)
         enriched.append(row)
     return enriched
 
@@ -210,6 +239,8 @@ def write_outputs(enriched: list[dict[str, Any]], collected_at: str) -> None:
         if r.get("contact_email") or r.get("contact_phone") or r.get("contact_name")
     )
     with_email = sum(1 for r in enriched if r.get("contact_email"))
+    active_n = sum(1 for r in enriched if r.get("is_active"))
+    with_en = sum(1 for r in enriched if r.get("title_en"))
 
     payload = {
         "collected_at": collected_at,
@@ -221,6 +252,8 @@ def write_outputs(enriched: list[dict[str, Any]], collected_at: str) -> None:
             "contracts": sum(1 for r in enriched if r["kind"] == "contract"),
             "with_contact": with_contact,
             "with_email": with_email,
+            "active": active_n,
+            "with_title_en": with_en,
         },
         "items": enriched,
     }
@@ -231,9 +264,14 @@ def write_outputs(enriched: list[dict[str, Any]], collected_at: str) -> None:
 
     fields = [
         "kind",
+        "status",
+        "is_active",
+        "status_label",
         "relevance_score",
         "special_number",
         "title",
+        "title_en",
+        "description_en",
         "organization",
         "buyer_registry_number",
         "contact_name",
@@ -251,10 +289,16 @@ def write_outputs(enriched: list[dict[str, Any]], collected_at: str) -> None:
         "supplier",
         "amount",
         "contract_value",
+        "budget_amount",
+        "currency",
+        "currency_code",
+        "budget_scope",
+        "estimated_value",
         "cpv",
         "publication_date",
         "contract_date",
         "deadline",
+        "offer_phase_end",
         "url",
         "tender_id",
         "contract_id",

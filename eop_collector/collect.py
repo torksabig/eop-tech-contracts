@@ -56,8 +56,10 @@ CPV_QUERIES = [
 def normalize_tender(
     raw: dict[str, Any], source: str, query: str, score: int, hits: list[str]
 ) -> dict[str, Any]:
+    from status import apply_status_and_budget
+
     tender_id = raw.get("TenderId")
-    return {
+    item = {
         "kind": "tender",
         "source": source,
         "query": query,
@@ -75,17 +77,35 @@ def normalize_tender(
         "cpv": raw.get("TenderMainCpv"),
         "publication_date": parse_dotnet_date(raw.get("PublicationDate")),
         "deadline": parse_dotnet_date(raw.get("Deadline") or raw.get("OffersReceivingDeadline")),
+        "offers_receiving_deadline": parse_dotnet_date(raw.get("OffersReceivingDeadline")),
+        "published_tender_participation_status": raw.get("PublishedTenderParticipationStatus"),
+        "tender_status": raw.get("TenderStatus"),
         "procedure_type": raw.get("ProcedureType"),
         "url": tender_url(tender_id),
         "raw": raw,
     }
+    enriched = apply_status_and_budget(item)
+    for key in (
+        "status",
+        "is_active",
+        "status_label",
+        "status_reason",
+        "estimated_value",
+        "budget_amount",
+        "currency_code",
+        "budget_scope",
+    ):
+        item[key] = enriched.get(key)
+    return item
 
 
 def normalize_contract(
     raw: dict[str, Any], source: str, query: str, score: int, hits: list[str]
 ) -> dict[str, Any]:
+    from status import apply_status_and_budget
+
     tender_id = raw.get("TenderId")
-    return {
+    item = {
         "kind": "contract",
         "source": source,
         "query": query,
@@ -111,6 +131,19 @@ def normalize_contract(
         "url": tender_url(tender_id),
         "raw": raw,
     }
+    enriched = apply_status_and_budget(item)
+    for key in (
+        "status",
+        "is_active",
+        "status_label",
+        "status_reason",
+        "estimated_value",
+        "budget_amount",
+        "currency_code",
+        "budget_scope",
+    ):
+        item[key] = enriched.get(key)
+    return item
 
 
 def dedupe_key(item: dict[str, Any]) -> str:
@@ -258,13 +291,20 @@ def write_outputs(items: list[dict[str, Any]]) -> None:
     csv_path = DATA_DIR / "tech-development.csv"
     fields = [
         "kind",
+        "status",
+        "is_active",
+        "status_label",
         "relevance_score",
         "title",
+        "title_en",
         "organization",
         "supplier",
         "amount",
         "contract_value",
+        "budget_amount",
         "currency",
+        "currency_code",
+        "budget_scope",
         "cpv",
         "special_number",
         "publication_date",

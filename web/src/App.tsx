@@ -3,19 +3,30 @@ import { useDeferredValue, useEffect, useMemo, useState } from "react";
 type Item = {
   kind: "tender" | "contract";
   relevance_score: number;
+  status?: string;
+  is_active?: boolean;
+  status_label?: string;
   title?: string;
+  title_en?: string;
   description?: string;
+  description_en?: string;
   contract_subject?: string;
+  contract_subject_en?: string;
   organization?: string;
   supplier?: string;
   amount?: number | null;
   contract_value?: number | null;
+  budget_amount?: number | null;
+  estimated_value?: number | null;
   currency?: number | string | null;
+  currency_code?: string | null;
+  budget_scope?: string | null;
   cpv?: string | null;
   special_number?: string | null;
   publication_date?: string | null;
   contract_date?: string | null;
   deadline?: string | null;
+  offer_phase_end?: string | null;
   url?: string | null;
   query?: string;
   source?: string;
@@ -26,6 +37,7 @@ type Item = {
   buyer_address?: string;
   buyer_city?: string;
   buyer_registry_number?: string;
+  translation_note?: string;
 };
 
 type Dataset = {
@@ -37,22 +49,58 @@ type Dataset = {
     contracts: number;
     with_contact?: number;
     with_email?: number;
+    active?: number;
+    with_title_en?: number;
   };
   items: Item[];
 };
 
-function formatMoney(value?: number | null) {
-  if (value == null) return "—";
-  return new Intl.NumberFormat("bg-BG", {
+function formatMoney(value?: number | null, currency?: string | null) {
+  if (value == null) return null;
+  const amount = new Intl.NumberFormat("en-GB", {
     maximumFractionDigits: 0,
   }).format(value);
+  return currency ? `${amount} ${currency}` : amount;
 }
 
 function formatDate(value?: string | null) {
   if (!value) return "—";
   const d = new Date(value);
   if (Number.isNaN(d.getTime())) return value.slice(0, 10);
-  return d.toLocaleDateString("bg-BG");
+  return d.toLocaleDateString("en-GB");
+}
+
+function displayTitle(item: Item) {
+  return item.title_en || item.title || "Untitled";
+}
+
+function displayDescription(item: Item) {
+  return (
+    item.description_en ||
+    item.contract_subject_en ||
+    item.description ||
+    item.contract_subject ||
+    ""
+  );
+}
+
+function displayBudget(item: Item) {
+  if (item.budget_scope && item.budget_scope !== "Budget unknown") {
+    return item.budget_scope;
+  }
+  const amount =
+    item.budget_amount ??
+    (item.kind === "contract" ? item.contract_value : item.amount) ??
+    item.estimated_value;
+  const formatted = formatMoney(amount, item.currency_code || null);
+  return formatted || "Budget unknown";
+}
+
+function statusClass(item: Item) {
+  if (item.is_active || item.status === "active") return "active";
+  if (item.status === "awarded") return "awarded";
+  if (item.status === "closed") return "closed";
+  return "unknown";
 }
 
 async function loadDataset(): Promise<Dataset> {
@@ -71,6 +119,7 @@ export default function App() {
   const [kind, setKind] = useState<"all" | "tender" | "contract">("all");
   const [minScore, setMinScore] = useState(30);
   const [onlyWithEmail, setOnlyWithEmail] = useState(false);
+  const [onlyActive, setOnlyActive] = useState(false);
   const deferredQuery = useDeferredValue(query);
 
   useEffect(() => {
@@ -101,10 +150,14 @@ export default function App() {
       if (kind !== "all" && item.kind !== kind) return false;
       if ((item.relevance_score ?? 0) < minScore) return false;
       if (onlyWithEmail && !(item.contact_email || "").trim()) return false;
+      if (onlyActive && !(item.is_active || item.status === "active")) return false;
       if (!q) return true;
       const hay = [
+        item.title_en,
         item.title,
+        item.description_en,
         item.description,
+        item.contract_subject_en,
         item.contract_subject,
         item.organization,
         item.supplier,
@@ -114,25 +167,28 @@ export default function App() {
         item.contact_email,
         item.contact_phone,
         item.buyer_city,
+        item.budget_scope,
+        item.status_label,
       ]
         .filter(Boolean)
         .join(" ")
         .toLowerCase();
       return hay.includes(q);
     });
-  }, [data, deferredQuery, kind, minScore, onlyWithEmail]);
+  }, [data, deferredQuery, kind, minScore, onlyWithEmail, onlyActive]);
 
   return (
     <div className="page">
       <header className="hero">
-        <p className="eyebrow">ЦАИС ЕОП · contacts dataset</p>
+        <p className="eyebrow">EOP · tech procurements</p>
         <h1>Tech &amp; development procurements</h1>
         <p className="lede">
-          Full list with buyer contact persons (name, email, phone, address) from{" "}
+          Active status, budget scope, and English titles for software / portal /
+          systems work from{" "}
           <a href="https://app.eop.bg/today" target="_blank" rel="noreferrer">
             app.eop.bg
           </a>
-          .
+          , with buyer contacts.
         </p>
         <div className="meta">
           {data ? (
@@ -140,8 +196,12 @@ export default function App() {
               <span>{data.counts.total} rows</span>
               <span>{data.counts.tenders} tenders</span>
               <span>{data.counts.contracts} contracts</span>
+              {data.counts.active != null && <span>{data.counts.active} active</span>}
               {data.counts.with_email != null && (
                 <span>{data.counts.with_email} with email</span>
+              )}
+              {data.counts.with_title_en != null && (
+                <span>{data.counts.with_title_en} with EN title</span>
               )}
               <span>
                 synced {formatDate(data.enriched_at || data.collected_at)}
@@ -166,7 +226,7 @@ export default function App() {
           className="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Filter: name, email, портал, CRM, CPV…"
+          placeholder="Filter: portal, CRM, email, organization…"
         />
         <div className="chips">
           {(["all", "tender", "contract"] as const).map((value) => (
@@ -179,6 +239,13 @@ export default function App() {
               {value}
             </button>
           ))}
+          <button
+            type="button"
+            className={onlyActive ? "chip active" : "chip"}
+            onClick={() => setOnlyActive((v) => !v)}
+          >
+            Active only
+          </button>
           <button
             type="button"
             className={onlyWithEmail ? "chip active" : "chip"}
@@ -210,14 +277,15 @@ export default function App() {
         <ul className="list">
           {filtered.slice(0, 200).map((item) => {
             const key = `${item.kind}-${item.special_number}-${item.title}-${item.supplier}-${item.contact_email}`;
-            const money =
-              item.kind === "contract"
-                ? formatMoney(item.contract_value)
-                : formatMoney(item.amount);
+            const title = displayTitle(item);
+            const desc = displayDescription(item);
+            const budget = displayBudget(item);
+            const label = item.status_label || (item.is_active ? "Active" : "Unknown");
             return (
               <li key={key} className="row">
                 <div className="row-top">
                   <span className={`tag ${item.kind}`}>{item.kind}</span>
+                  <span className={`badge status-${statusClass(item)}`}>{label}</span>
                   <span className="score-pill">{item.relevance_score}</span>
                   <span className="muted">{item.special_number || "—"}</span>
                   <span className="muted">
@@ -227,15 +295,18 @@ export default function App() {
                 <h2>
                   {item.url ? (
                     <a href={item.url} target="_blank" rel="noreferrer">
-                      {item.title || "Untitled"}
+                      {title}
                     </a>
                   ) : (
-                    item.title || "Untitled"
+                    title
                   )}
                 </h2>
+                <p className="budget">{budget}</p>
                 <p className="desc">
-                  {(item.description || item.contract_subject || "").slice(0, 220) ||
-                    "No description"}
+                  {desc.slice(0, 260) || "No description"}
+                  {!item.title_en && item.translation_note ? (
+                    <span className="muted"> · BG source</span>
+                  ) : null}
                 </p>
                 <div className="contact">
                   <strong>{item.contact_name || "No named contact"}</strong>
@@ -250,7 +321,11 @@ export default function App() {
                 <div className="row-bottom">
                   <span>{item.organization || "—"}</span>
                   {item.supplier && <span>→ {item.supplier}</span>}
-                  <span>{money}</span>
+                  {item.deadline || item.offer_phase_end ? (
+                    <span>
+                      deadline {formatDate(item.offer_phase_end || item.deadline)}
+                    </span>
+                  ) : null}
                   {item.cpv && <span>CPV {item.cpv}</span>}
                 </div>
               </li>

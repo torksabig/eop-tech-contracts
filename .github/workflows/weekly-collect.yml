@@ -1,0 +1,74 @@
+name: Weekly EOP collect
+
+# Schedule: Monday + Friday 06:00 UTC
+# ≈ 09:00 Europe/Sofia during EEST (UTC+3); ≈ 08:00 during EET (UTC+2).
+on:
+  schedule:
+    - cron: "0 6 * * 1,5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-eop-collect
+  cancel-in-progress: false
+
+jobs:
+  collect-and-enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect tenders & contracts
+        working-directory: eop_collector
+        run: python3 collect.py --max-pages 4 --page-size 50 --delay 0.35
+
+      - name: Enrich contacts
+        working-directory: eop_collector
+        run: python3 enrich_contacts.py --tender-limit 250 --workers 5 --delay 0.3
+
+      - name: Status, budget & English fields
+        working-directory: eop_collector
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          MYMEMORY_EMAIL: ${{ secrets.MYMEMORY_EMAIL }}
+          LIBRETRANSLATE_URL: ${{ secrets.LIBRETRANSLATE_URL }}
+          TRANSLATE_PROVIDER: ${{ vars.TRANSLATE_PROVIDER }}
+        run: >
+          python3 enrich_i18n.py
+          --refresh-details
+          --tender-limit 400
+          --workers 5
+          --delay 0.35
+          --translate-limit 800
+
+      - name: Commit updated dataset
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            data/tech-development.json \
+            data/tech-development.csv \
+            data/tech-development.md \
+            data/tech-development-contacts.json \
+            data/tech-development-contacts.csv \
+            data/tech-development-contacts.md \
+            data/contact-list.csv \
+            data/cache/translations.json \
+            web/public/data/ || true
+          if git diff --staged --quiet; then
+            echo "No dataset changes to commit."
+          else
+            git commit -m "chore: weekly EOP collect ($(date -u +%Y-%m-%d))"
+            git push
+          fi

@@ -1,6 +1,6 @@
 # Tech & development — contacts
 
-Enriched: `2026-09-19T17:38:14.536316+00:00`
+Enriched: `2026-09-19T18:50:19.151057+00:00`
 Rows: **1796** · with contact: **1796** · with email: **1796**
 Unique contact people: **378**
 

@@ -1,5 +1,6 @@
 
-data/cache/
+data/cache/*
+!data/cache/translations.json
 dist/
 .DS_Store
 *.log
