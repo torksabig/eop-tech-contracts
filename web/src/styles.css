@@ -51,6 +51,105 @@ a:hover {
   animation: fade-in 0.4s ease both;
 }
 
+.session-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.session-user {
+  margin: 0;
+  font-size: 0.8125rem;
+  font-family: var(--font-mono);
+  color: var(--ink);
+  word-break: break-word;
+}
+
+.logout-btn {
+  border: 1px solid var(--line);
+  background: var(--bg);
+  color: var(--muted);
+  border-radius: 4px;
+  padding: 0.35rem 0.7rem;
+  font: inherit;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.logout-btn:hover {
+  color: var(--ink);
+  background: var(--hover);
+}
+
+.login-page {
+  max-width: 28rem;
+}
+
+.login-hero h1 {
+  margin-bottom: 0;
+}
+
+.login-lede {
+  margin-top: 0.85rem;
+}
+
+.login-form {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.75rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+  animation: fade-in 0.45s ease 0.05s both;
+}
+
+.login-field {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.login-field > span {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.login-submit {
+  border: 1px solid var(--ink-deep);
+  background: var(--ink-deep);
+  color: var(--bg);
+  border-radius: 4px;
+  padding: 0.7rem 1rem;
+  font: inherit;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+
+.login-submit:hover {
+  opacity: 0.88;
+}
+
+.login-error {
+  margin: 0;
+  color: var(--ink-deep);
+  font-size: 0.875rem;
+}
+
+.login-note {
+  margin: 0.25rem 0 0;
+  font-size: 0.75rem;
+  font-family: var(--font-mono);
+  line-height: 1.45;
+}
+
 .eyebrow {
   margin: 0 0 0.75rem;
   font-family: var(--font-ui);

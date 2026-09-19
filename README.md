@@ -28,6 +28,8 @@ Open [http://127.0.0.1:43127](http://127.0.0.1:43127).
 
 The UI defaults to **English** title/description when available, shows an **Active / Closed / Awarded** badge, a clear **budget scope** line, and supports an **Active only** filter. Contact person fields remain visible on each row.
 
+**Demo login:** the app is gated behind a simple email/password screen. A seeded owner account for firm `demo-firm` is configured in `web/src/auth.ts` (client-side check + `localStorage` session — demo-only, not production auth).
+
 Vercel: set the project **Root Directory** to `web/`. `web/vercel.json` rewrites SPA routes to `index.html`.
 
 ## Dataset fields (highlights)

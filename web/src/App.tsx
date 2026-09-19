@@ -1,4 +1,12 @@
-import { useDeferredValue, useEffect, useMemo, useState } from "react";
+import { FormEvent, useDeferredValue, useEffect, useMemo, useState } from "react";
+import {
+  authenticate,
+  clearSession,
+  loadSession,
+  persistSession,
+  savedStorageKey,
+  type SessionUser,
+} from "./auth";
 
 type Item = {
   kind: "tender" | "contract";
@@ -59,7 +67,7 @@ type View = "browse" | "saved";
 
 type SavedItem = Item & { saved_at: string };
 
-const SAVED_STORAGE_KEY = "eop-tech-contracts-saved-v1";
+const LEGACY_SAVED_KEY = "eop-tech-contracts-saved-v1";
 
 function formatMoney(value?: number | null, currency?: string | null) {
   if (value == null) return null;
@@ -120,10 +128,9 @@ function itemKey(item: Item) {
   ].join("::");
 }
 
-function loadSavedMap(): Record<string, SavedItem> {
+function parseSavedMap(raw: string | null): Record<string, SavedItem> {
+  if (!raw) return {};
   try {
-    const raw = localStorage.getItem(SAVED_STORAGE_KEY);
-    if (!raw) return {};
     const parsed = JSON.parse(raw) as Record<string, SavedItem>;
     if (!parsed || typeof parsed !== "object") return {};
     return parsed;
@@ -132,8 +139,22 @@ function loadSavedMap(): Record<string, SavedItem> {
   }
 }
 
-function persistSavedMap(map: Record<string, SavedItem>) {
-  localStorage.setItem(SAVED_STORAGE_KEY, JSON.stringify(map));
+function loadSavedMap(email: string): Record<string, SavedItem> {
+  const key = savedStorageKey(email);
+  const namespaced = parseSavedMap(localStorage.getItem(key));
+  if (Object.keys(namespaced).length > 0) return namespaced;
+  // One-time migrate legacy unscoped saves into this user's bucket
+  const legacy = parseSavedMap(localStorage.getItem(LEGACY_SAVED_KEY));
+  if (Object.keys(legacy).length > 0) {
+    persistSavedMap(email, legacy);
+    localStorage.removeItem(LEGACY_SAVED_KEY);
+    return legacy;
+  }
+  return {};
+}
+
+function persistSavedMap(email: string, map: Record<string, SavedItem>) {
+  localStorage.setItem(savedStorageKey(email), JSON.stringify(map));
 }
 
 async function loadDataset(): Promise<Dataset> {
@@ -142,6 +163,76 @@ async function loadDataset(): Promise<Dataset> {
   const fallback = await fetch("/data/tech-development.json");
   if (!fallback.ok) throw new Error(`Failed to load dataset (${fallback.status})`);
   return fallback.json();
+}
+
+function LoginScreen({ onLogin }: { onLogin: (user: SessionUser) => void }) {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState<string | null>(null);
+
+  const handleSubmit = (e: FormEvent) => {
+    e.preventDefault();
+    const user = authenticate(email, password);
+    if (!user) {
+      setError("Invalid email or password.");
+      return;
+    }
+    persistSession(user);
+    onLogin(user);
+  };
+
+  return (
+    <div className="page login-page">
+      <header className="hero login-hero">
+        <p className="eyebrow">EOP Tech &amp; Development</p>
+        <h1>Sign in</h1>
+        <p className="section-lede login-lede">
+          Access tech &amp; development procurements for your firm.
+        </p>
+      </header>
+
+      <form className="login-form" onSubmit={handleSubmit} noValidate>
+        <label className="login-field">
+          <span>Email</span>
+          <input
+            className="search"
+            type="email"
+            name="email"
+            autoComplete="username"
+            value={email}
+            onChange={(e) => {
+              setEmail(e.target.value);
+              setError(null);
+            }}
+            required
+          />
+        </label>
+        <label className="login-field">
+          <span>Password</span>
+          <input
+            className="search"
+            type="password"
+            name="password"
+            autoComplete="current-password"
+            value={password}
+            onChange={(e) => {
+              setPassword(e.target.value);
+              setError(null);
+            }}
+            required
+          />
+        </label>
+        {error ? <p className="login-error">{error}</p> : null}
+        <button type="submit" className="login-submit">
+          Sign in
+        </button>
+        <p className="login-note muted">
+          Demo auth only — session stored in this browser (localStorage). Not
+          production security.
+        </p>
+      </form>
+    </div>
+  );
 }
 
 function ItemRow({
@@ -227,7 +318,13 @@ function ItemRow({
   );
 }
 
-export default function App() {
+function AppShell({
+  user,
+  onLogout,
+}: {
+  user: SessionUser;
+  onLogout: () => void;
+}) {
   const [data, setData] = useState<Dataset | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
@@ -238,9 +335,13 @@ export default function App() {
   const [onlyActive, setOnlyActive] = useState(false);
   const [view, setView] = useState<View>("browse");
   const [savedMap, setSavedMap] = useState<Record<string, SavedItem>>(() =>
-    loadSavedMap(),
+    loadSavedMap(user.email),
   );
   const deferredQuery = useDeferredValue(query);
+
+  useEffect(() => {
+    setSavedMap(loadSavedMap(user.email));
+  }, [user.email]);
 
   useEffect(() => {
     let cancelled = false;
@@ -272,7 +373,7 @@ export default function App() {
       } else {
         next[key] = { ...item, saved_at: new Date().toISOString() };
       }
-      persistSavedMap(next);
+      persistSavedMap(user.email, next);
       return next;
     });
   };
@@ -323,6 +424,16 @@ export default function App() {
   return (
     <div className="page">
       <header className="hero">
+        <div className="session-bar">
+          <p className="session-user">
+            <span>{user.email}</span>
+            <span className="muted"> · {user.firm}</span>
+            <span className="muted"> · {user.role}</span>
+          </p>
+          <button type="button" className="logout-btn" onClick={onLogout}>
+            Logout
+          </button>
+        </div>
         <p className="eyebrow">EOP Tech &amp; Development</p>
         <h1>Tech &amp; development procurements</h1>
         <nav className="top-nav" aria-label="Primary">
@@ -465,5 +576,23 @@ export default function App() {
         ) : null}
       </footer>
     </div>
+  );
+}
+
+export default function App() {
+  const [user, setUser] = useState<SessionUser | null>(() => loadSession());
+
+  if (!user) {
+    return <LoginScreen onLogin={setUser} />;
+  }
+
+  return (
+    <AppShell
+      user={user}
+      onLogout={() => {
+        clearSession();
+        setUser(null);
+      }}
+    />
   );
 }
