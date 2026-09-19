@@ -8,3 +8,5 @@ node_modules/
 *.pyc
 __pycache__/
 .venv/
+*.tsbuildinfo
+
