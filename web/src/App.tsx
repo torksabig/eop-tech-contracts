@@ -281,6 +281,7 @@ export default function App() {
     if (!data) return [];
     const q = deferredQuery.trim().toLowerCase();
     return data.items.filter((item) => {
+      if (savedMap[itemKey(item)]) return false;
       if (kind !== "all" && item.kind !== kind) return false;
       if ((item.relevance_score ?? 0) < minScore) return false;
       if (onlyWithEmail && !(item.contact_email || "").trim()) return false;
@@ -309,7 +310,7 @@ export default function App() {
         .toLowerCase();
       return hay.includes(q);
     });
-  }, [data, deferredQuery, kind, minScore, onlyWithEmail, onlyActive]);
+  }, [data, deferredQuery, kind, minScore, onlyWithEmail, onlyActive, savedMap]);
 
   const savedItems = useMemo(() => {
     return Object.values(savedMap).sort((a, b) =>
