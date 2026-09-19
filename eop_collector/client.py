@@ -71,17 +71,20 @@ class EopClient:
             time.sleep(self.delay_s - elapsed)
 
     def call(self, method: str, request: dict[str, Any], *, retries: int = 6) -> dict[str, Any]:
+        return self.call_raw(method, {"request": request}, retries=retries)
+
+    def call_raw(self, method: str, body: dict[str, Any], *, retries: int = 6) -> dict[str, Any]:
         url = f"{SERVICE_BASE}/{method}"
-        payload = json.dumps({"request": request}, ensure_ascii=False).encode("utf-8")
+        payload = json.dumps(body, ensure_ascii=False).encode("utf-8")
         last_err: Exception | None = None
         for attempt in range(retries):
             self._throttle()
             req = urllib.request.Request(url, data=payload, headers=HEADERS, method="POST")
             try:
                 with urllib.request.urlopen(req, timeout=self.timeout_s) as resp:
-                    body = resp.read().decode("utf-8")
+                    raw = resp.read().decode("utf-8")
                 self._last_call = time.monotonic()
-                return json.loads(body)
+                return json.loads(raw)
             except urllib.error.HTTPError as exc:
                 detail = exc.read().decode("utf-8", errors="replace")[:500]
                 self._last_call = time.monotonic()

@@ -24,10 +24,30 @@ npm run dev
 
 Open [EOP Tech Contracts](http://127.0.0.1:43127).
 
+## Contact dataset
+
+Enrich every procurement with tender + buyer contact persons (name, email, phone, address):
+
+```bash
+python3 eop_collector/enrich_contacts.py
+```
+
+Outputs:
+
+| File | Contents |
+| --- | --- |
+| `data/tech-development-contacts.json` | Full rows + contacts |
+| `data/tech-development-contacts.csv` | Spreadsheet of all rows |
+| `data/contact-list.csv` | Deduped contact people for outreach |
+| `data/tech-development-contacts.md` | Digest |
+
+Caches under `data/cache/` so re-runs only fetch missing IDs.
+
 ## Re-run the collector
 
 ```bash
 python3 eop_collector/collect.py --max-pages 2 --page-size 50
+./scripts/collect-eop.sh
 ```
 
 It queries:
@@ -42,7 +62,9 @@ API used (public, no login):
 
 `POST https://service.eop.bg/NX1Service.svc/GetQuickSearchResult`  
 `POST https://service.eop.bg/NX1Service.svc/GetPublishedTendersAdvancedSearchResult`  
-`POST https://service.eop.bg/NX1Service.svc/GetContractsAdvancedSearchResult`
+`POST https://service.eop.bg/NX1Service.svc/GetContractsAdvancedSearchResult`  
+`POST https://service.eop.bg/NX1Service.svc/GetPublishedTenderDetails`  
+`POST https://service.eop.bg/NX1Service.svc/GetPublicBuyerProfileBasicInformation`
 
 ## Hermes (optional)
 

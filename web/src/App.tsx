@@ -19,11 +19,25 @@ type Item = {
   url?: string | null;
   query?: string;
   source?: string;
+  contact_name?: string;
+  contact_email?: string;
+  contact_phone?: string;
+  contact_source?: string | null;
+  buyer_address?: string;
+  buyer_city?: string;
+  buyer_registry_number?: string;
 };
 
 type Dataset = {
   collected_at: string;
-  counts: { total: number; tenders: number; contracts: number };
+  enriched_at?: string;
+  counts: {
+    total: number;
+    tenders: number;
+    contracts: number;
+    with_contact?: number;
+    with_email?: number;
+  };
   items: Item[];
 };
 
@@ -41,6 +55,14 @@ function formatDate(value?: string | null) {
   return d.toLocaleDateString("bg-BG");
 }
 
+async function loadDataset(): Promise<Dataset> {
+  const preferred = await fetch("/data/tech-development-contacts.json");
+  if (preferred.ok) return preferred.json();
+  const fallback = await fetch("/data/tech-development.json");
+  if (!fallback.ok) throw new Error(`Failed to load dataset (${fallback.status})`);
+  return fallback.json();
+}
+
 export default function App() {
   const [data, setData] = useState<Dataset | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -48,16 +70,13 @@ export default function App() {
   const [query, setQuery] = useState("");
   const [kind, setKind] = useState<"all" | "tender" | "contract">("all");
   const [minScore, setMinScore] = useState(30);
+  const [onlyWithEmail, setOnlyWithEmail] = useState(false);
   const deferredQuery = useDeferredValue(query);
 
   useEffect(() => {
     let cancelled = false;
     setLoading(true);
-    fetch("/data/tech-development.json")
-      .then(async (res) => {
-        if (!res.ok) throw new Error(`Failed to load dataset (${res.status})`);
-        return res.json() as Promise<Dataset>;
-      })
+    loadDataset()
       .then((json) => {
         if (!cancelled) {
           setData(json);
@@ -81,6 +100,7 @@ export default function App() {
     return data.items.filter((item) => {
       if (kind !== "all" && item.kind !== kind) return false;
       if ((item.relevance_score ?? 0) < minScore) return false;
+      if (onlyWithEmail && !(item.contact_email || "").trim()) return false;
       if (!q) return true;
       const hay = [
         item.title,
@@ -90,21 +110,25 @@ export default function App() {
         item.supplier,
         item.cpv,
         item.special_number,
+        item.contact_name,
+        item.contact_email,
+        item.contact_phone,
+        item.buyer_city,
       ]
         .filter(Boolean)
         .join(" ")
         .toLowerCase();
       return hay.includes(q);
     });
-  }, [data, deferredQuery, kind, minScore]);
+  }, [data, deferredQuery, kind, minScore, onlyWithEmail]);
 
   return (
     <div className="page">
       <header className="hero">
-        <p className="eyebrow">ЦАИС ЕОП · curated feed</p>
+        <p className="eyebrow">ЦАИС ЕОП · contacts dataset</p>
         <h1>Tech &amp; development procurements</h1>
         <p className="lede">
-          Software, portals, platforms, integrations, and IT systems pulled from{" "}
+          Full list with buyer contact persons (name, email, phone, address) from{" "}
           <a href="https://app.eop.bg/today" target="_blank" rel="noreferrer">
             app.eop.bg
           </a>
@@ -113,15 +137,28 @@ export default function App() {
         <div className="meta">
           {data ? (
             <>
-              <span>{data.counts.total} curated</span>
+              <span>{data.counts.total} rows</span>
               <span>{data.counts.tenders} tenders</span>
               <span>{data.counts.contracts} contracts</span>
-              <span>synced {formatDate(data.collected_at)}</span>
+              {data.counts.with_email != null && (
+                <span>{data.counts.with_email} with email</span>
+              )}
+              <span>
+                synced {formatDate(data.enriched_at || data.collected_at)}
+              </span>
             </>
           ) : (
             <span>Loading dataset…</span>
           )}
         </div>
+        <p className="downloads">
+          Downloads:{" "}
+          <a href="/data/tech-development-contacts.csv">full CSV</a>
+          {" · "}
+          <a href="/data/contact-list.csv">unique contacts CSV</a>
+          {" · "}
+          <a href="/data/tech-development-contacts.json">JSON</a>
+        </p>
       </header>
 
       <section className="controls" aria-label="Filters">
@@ -129,7 +166,7 @@ export default function App() {
           className="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Filter: dashboard, портал, CRM, CPV…"
+          placeholder="Filter: name, email, портал, CRM, CPV…"
         />
         <div className="chips">
           {(["all", "tender", "contract"] as const).map((value) => (
@@ -142,6 +179,13 @@ export default function App() {
               {value}
             </button>
           ))}
+          <button
+            type="button"
+            className={onlyWithEmail ? "chip active" : "chip"}
+            onClick={() => setOnlyWithEmail((v) => !v)}
+          >
+            has email
+          </button>
         </div>
         <label className="score">
           Min score
@@ -158,14 +202,14 @@ export default function App() {
       </section>
 
       <section className="results" aria-live="polite">
-        {loading && <p className="state">Loading contracts…</p>}
+        {loading && <p className="state">Loading contacts…</p>}
         {error && <p className="state error">{error}</p>}
         {!loading && !error && filtered.length === 0 && (
           <p className="state">No matches. Lower the score or clear the filter.</p>
         )}
         <ul className="list">
           {filtered.slice(0, 200).map((item) => {
-            const key = `${item.kind}-${item.special_number}-${item.title}-${item.supplier}`;
+            const key = `${item.kind}-${item.special_number}-${item.title}-${item.supplier}-${item.contact_email}`;
             const money =
               item.kind === "contract"
                 ? formatMoney(item.contract_value)
@@ -193,10 +237,20 @@ export default function App() {
                   {(item.description || item.contract_subject || "").slice(0, 220) ||
                     "No description"}
                 </p>
+                <div className="contact">
+                  <strong>{item.contact_name || "No named contact"}</strong>
+                  {item.contact_email ? (
+                    <a href={`mailto:${item.contact_email}`}>{item.contact_email}</a>
+                  ) : (
+                    <span className="muted">no email</span>
+                  )}
+                  <span>{item.contact_phone || "—"}</span>
+                  {item.buyer_address && <span>{item.buyer_address}</span>}
+                </div>
                 <div className="row-bottom">
                   <span>{item.organization || "—"}</span>
                   {item.supplier && <span>→ {item.supplier}</span>}
-                  <span>{money} BGN-eq</span>
+                  <span>{money}</span>
                   {item.cpv && <span>CPV {item.cpv}</span>}
                 </div>
               </li>

@@ -154,6 +154,33 @@ a {
   animation: rise 0.55s ease both;
 }
 
+.downloads {
+  margin: 0.9rem 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem 1rem;
+  align-items: baseline;
+  margin: 0 0 0.65rem;
+  padding: 0.55rem 0.7rem;
+  border-left: 2px solid rgba(214, 167, 86, 0.55);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--ink);
+  font-size: 0.92rem;
+}
+
+.contact strong {
+  font-weight: 600;
+}
+
+.muted {
+  color: var(--muted);
+}
+
 .row-top,
 .row-bottom {
   display: flex;
