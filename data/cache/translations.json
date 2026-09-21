@@ -1273,5 +1273,165 @@
     "text": "Development and implementation of a software solution in support of the Directorate General\"European Funds for Competitiveness\" (DG EFC) at the Ministry of Innovation and Growth",
     "provider": "mymemory",
     "source_len": 171
+  },
+  "bg|en|2ff0eb9cc4dd47a332ab": {
+    "text": "Development of a specialized software product to the IS \" Farm-Use\" for updating the data with legal grounds under Windows and functionalities for data transmission with registered legal grounds for their loading in IACS",
+    "provider": "mymemory",
+    "source_len": 232
+  },
+  "bg|en|66555c12a12ed465867a": {
+    "text": "Development of a specialized software product to the IS \" Farm-Use \" for updating the data with legal grounds under Windows and functionalities for data transmission with registered legal grounds for their loading into the ISAC\", as follows: Stage 1 Development of software of the specialized module \"Updating data to the ISAC system in the IS\" Farm-Use \", module legal grounds for data transmission with legal grounds under Windows. Testing with real data. Stage 2 Development of the necessary functionalities (settings, ranking capabilities, controls, etc. parameters) for data transmission under Windows in the course of the Direct Payments 2020 campaign, which should include: 1. Acceptance of SHP files with graphics and DBF files with property data provided by AGCC by land in the \"Register of agricultural land, forests and lands from the forestry fund\" of the information system \"FARM\" Win",
+    "provider": "mymemory",
+    "source_len": 897
+  },
+  "bg|en|86d7a2a04499e17794c0": {
+    "text": "Construction of a parking lot in RLP I-845\"for a hospital\", quarter 15, according to the pl. of the town of Karnobat - Stage 1 and Stage 2",
+    "provider": "mymemory",
+    "source_len": 98
+  },
+  "bg|en|71dea91e6188fd9b7925": {
+    "text": "The subject of this order is a contractor of construction and installation works for the construction of a parking lot for visitors in the northwestern part of the property (RLP I-845, sq. 15 according to the plan of the town of Karnobat) with 122 parking spaces, of which 10 for disadvantaged people, as well as official parking with 8 spaces opposite the entrance to the hospital. The visitor's parking lot is being built in a green area with a completely new asphalt pavement. Adjoining sidewalks will be constructed with concrete slabs and a garden curb. The visitor parking lot envisages the construction of an access control system - entry and exit barriers, entry and exit devices. Anti-parking pegs will be installed to limit unauthorized parking. Stage 1 This stage provides for the repair of internal streets, including the area for official parking with 8 places - replacement of a road curb, milling of asphalt pavement and laying of a new…",
+    "provider": "mymemory",
+    "source_len": 890
+  },
+  "bg|en|a6c765a8b1a9ea57129a": {
+    "text": "Design, construction and implementation of a material property management system in military stores and material security of servicemen",
+    "provider": "mymemory",
+    "source_len": 147
+  },
+  "bg|en|7abcc206461492e12ed8": {
+    "text": "1. Subject of the public procurement: Design, construction and implementation of a material property management system in military stores and material security of servicemen, according to TPZ C 93.0137.23. A detailed description of the subject of the contract is contained in TPZ C 93.0137.23. 2. Scope of activities: 1. First stage - Development of a detailed design of the system, which includes: 1.1. Development of a detailed design of the infrastructure of system and working design of the software system; 1.2. Development of a \"Program for the construction and commissioning of the system in experimental operation\"; 1.3. Development of a \"Reliability Assurance Program\". 2. Second stage: Supply of technical equipment complying with TPZ C 93.0137.23. 3. Third stage - Construction and commissioning of the system: 3.1. Construction of the system. 3.2. Installing, configuring and setting up…",
+    "provider": "mymemory",
+    "source_len": 880
+  },
+  "bg|en|db910b3cfa2a627b9bb7": {
+    "text": "Out-of-warranty service of the systems \"Acstre-office\", \"Acstre communicator\" and communication modules",
+    "provider": "mymemory",
+    "source_len": 100
+  },
+  "bg|en|e0b87259cf2507c7a7a5": {
+    "text": "The subject of the public procurement includes: -post-warranty service and maintenance of the administrative information system \"Acstre-office\" (AISCO) implemented in Sofia Municipality; - post-warranty service and maintenance of an integration module with the system of the Contact Center of Sofia Municipality and the SocWorld system installed on the servers of the municipality; - post-warranty service and maintenance of an integration module with the Electronic Exchange System of communications (sea) and the Secure Electronic Service System (SSEW) of the Ministry of Electronic Governance; - after-sales service and maintenance of 26 modules \"Acstre Communicator\", implemented in Sofia Municipality, Architecture and Urban Planning Department (NAG), 23 regional administrations and OP \"Tourism\"; - after-sales service of an integration program interface provided by the \"Acstre Office\" of the Identity Management System of…",
+    "provider": "mymemory",
+    "source_len": 892
+  },
+  "bg|en|f9c9a7f8f07bd93b4536": {
+    "text": "Supply, integration, implementation and maintenance of the Single Window platform and modules for administrative and financial services",
+    "provider": "mymemory",
+    "source_len": 120
+  },
+  "bg|en|883ea3a27ad35efe2cc5": {
+    "text": "The subject of the public procurement is: \"Supply, integration, implementation and maintenance of the Single Window platform and modules for administrative and financial services\" and includes the following activities: Performing an analysis of the existing information infrastructure of \"Bulgarian Posts\" EAD and the functionalities implemented in it; Delivery and implementation of a ready platform for the needs of \"Bulgarian Posts\" EAD; Configuring the Platform and providing other additional services, according to the technical proposal, including the preparation of web-design- for the implementation of user interface creation activities (structure, navigation, vision, graphics, typography) and front-end templates for the Platform; Development and integration of used software; Training of key users of the Platform; Warranty maintenance. Detailed information is contained in the Technical Specification of…",
+    "provider": "mymemory",
+    "source_len": 883
+  },
+  "bg|en|5ba0b7fcdc6d7e987c5b": {
+    "text": "Supply and implementation for the needs of the Municipality of Ruse of a signal system (contact center for non-emergency calls) and a mobile application to it.",
+    "provider": "mymemory",
+    "source_len": 140
+  },
+  "bg|en|e81305f9e8c1f29d2708": {
+    "text": "Activity 1: Signals system web platform (contact center for non-emergency calls):The configuration of the signals system (contact center for non-emergency calls) should include the specific modules for the processing of non-emergency signals received in Ruse Municipality. Such are the modules for processing WEB signals, specialized screens for describing specific statuses of signal processing, the module with specific reports on the response of any signal from the services of the Municipality of Ruse and/or external organizations, the integration module for connection with Archimedes and others. Activity 2: Mobile application: The mobile application must consist of the following components: Logo of the mobile application – coat of arms of the Municipality of Ruse. Main screen – the work with the mobile application should consist in performing the following actions: Creating an account/registration.",
+    "provider": "mymemory",
+    "source_len": 850
+  },
+  "bg|en|c0b64dee2a574d51c1e0": {
+    "text": "Continuation of a contract for subscription to an automated library and information system (AB WEB)",
+    "provider": "mymemory",
+    "source_len": 99
+  },
+  "bg|en|767fe72e24793fa9e1db": {
+    "text": "Continuation of a contract for subscription to an automated library information system (AB WEB) for the needs of the University Library at the University of National and World Economy, whose subject scope includes the following elements: Implementation of maintenance of automated library processes and library modules:​​​​ - Module \"Classifiers\": once entered, the information is not entered a second time, but only selected and automatically filled in during the processing of individual titles; save time to describe library documents; Protect databases from spelling errors; - Data entry modules: Book processing, periodicals processing, analytical processing, processing of non-book media, dissertations and research developments; - Reader service loan module: registering the reader, borrowing and returning books, library and bibliographic references and others.",
+    "provider": "mymemory",
+    "source_len": 898
+  },
+  "bg|en|1b99112b4f52b960dec1": {
+    "text": "Development of a single portal, including web interactive electronic pages of Bulgarian Posts EAD, SP \"EMS/ Bulpost\", SP\" BFN \"with included support for a period of 5 years",
+    "provider": "mymemory",
+    "source_len": 170
+  },
+  "bg|en|816d0b9fd25305d854e2": {
+    "text": "Order aims: Provide hosting and server infrastructure;Up-to-date cyber protection in real time ; Content Management System (CMS) and functional modules.Setting up and administering an open source content management system;Installation of additional functional modules to the content management system (CMS);Web-design and user functionality by creating a User Interface (structure, navigation, vision, graphics, typography) and Front-end templates for the web platforms of the Contracting Authority (bgpost.bg, emsbulpost.bg and abo.bgpost.bg); Development and integration of the user functionality for the web platforms of the Contracting Authority (bgpost.bg, emsbulpost.bg and abo.bgpost.bg);More information is given in the Technical Specification for the order.",
+    "provider": "mymemory",
+    "source_len": 763
+  },
+  "bg|en|ad797056720bcc0ff0c1": {
+    "text": "Renewal of subscriptions to software products for the Unified Information Security Management System, events and vulnerabilities related to the information assets of Sofia Municipality and the regional administrations",
+    "provider": "mymemory",
+    "source_len": 212
+  },
+  "bg|en|a3baa084352549dbe0fa": {
+    "text": "Renewal of subscription to use the RAPID 7 cloud platform to analyze information infrastructure and manage vulnerabilities against modern cyber-threats. Includes the renewal of the following subscriptions: 700 subscriptions to RAPID 7 InsightIDR Advanced SIEM (to manage security events, incidents and threats); 700 subscriptions to RAPID 7 IP InsightVM (with scanning and vulnerability management features, as well as detection/correction of inaccuracies and vulnerabilities in critical IT infrastructure) Coverage period: 19.03.2026 - 18.03.2027 2. Renewal of subscription to SentinelOne end device protection products as follows: 1101 pieces Complete Protection Platform (Per Workstation) 1 piece Singularity XDR Platform 2 pieces Complete Cloud Workload Security (Per Server) Period of coverage: 19.03.2026 - 18.03.2027…",
+    "provider": "mymemory",
+    "source_len": 874
+  },
+  "bg|en|8faf1e9e847c1eff7844": {
+    "text": "Development of the website of the Commission for Protection against Discrimination with a portal for electronic services for citizens, employers and other stakeholders under project BG05SFPR002-1.008-0001\"Improving the prevention of discrimination on the labor market through modernization and strengthening of the CPD\" under Contract BG05SFPR002-1.008-0001-C01, funded by the Human Resources Development Program 2021-2027",
+    "provider": "mymemory",
+    "source_len": 394
+  },
+  "bg|en|16932a8652b7ebe422f9": {
+    "text": "Development of the website of the Commission for Protection against Discrimination (according to the Technical Specification) with a portal for electronic services for citizens, employers and other stakeholders\" is the development of a website type of portal that contains electronic services and tools, in accordance with procedure BG05SFPR002-1.008 - \"NO\" TO DISCRIMINATION under the Operational Programme \"Human Resources Development\", taking into account the indicator \"Number of developed and implemented digital tools, services\" – 3. The electronic services and tools are as follows: - Electronic service \"Employer without discrimination\"; - Electronic service for submitting signals/complaints to the CPD; - Electronic register for the decisions and mandatory prescriptions issued by the CPD, which have entered into force. Verification of the functionality of the Software Products; Training of the Employer's personnel to work with the developed…",
+    "provider": "mymemory",
+    "source_len": 893
+  },
+  "bg|en|471146233e3369bf302d": {
+    "text": "Subscription maintenance of the information system for control and management of the vehicle fleet of Avtomagistrali EAD",
+    "provider": "mymemory",
+    "source_len": 116
+  },
+  "bg|en|3b5cf0df642d07a24654": {
+    "text": "The procedure is carried out in connection with the need to maintain an existing information system for driving, GPS equipment and service. This information system covers 260 vehicles in which specialized GPS equipment of A1 Bulgaria EAD is installed, functioning with the software platform for monitoring and control of transport units.",
+    "provider": "mymemory",
+    "source_len": 378
+  },
+  "bg|en|47fb48a0c9b5a60c72c7": {
+    "text": "Development of specialized laboratory software",
+    "provider": "mymemory",
+    "source_len": 49
+  },
+  "bg|en|91579c80a3ebda9e1575": {
+    "text": "This public procurement is awarded in the framework of a procedure through direct provision BG16FFPR002-1.003 - Modernization of the state health control bodies for monitoring the quality of drinking water under the Environment Programme 2021-2027 and covers the following project activities: • Activity 1 - Provision of tools for collection, processing, analysis and presentation, including through a geographic information system at national level of the monitoring data, in accordance with the requirements of Directive 98/83/EC on the quality of water intended for human consumption and Ordinance No 9 on the quality of water intended for drinking and domestic purposes. • Activity 2 - Development of a software system • Activity 3 - Implementation of a multi-component structure composed of an administrative part, a single reference access to data in…",
+    "provider": "mymemory",
+    "source_len": 861
+  },
+  "bg|en|c34c5a31d9384bbc98a4": {
+    "text": "Data backup software delivery",
+    "provider": "mymemory",
+    "source_len": 43
+  },
+  "bg|en|b4e2728f12bc987b8470": {
+    "text": "Supply of data reservation software, including:1. Supply of licenses for software for data reservation for 30 virtual machines;2. Preparation of an analysis of the existing infrastructure in the part of the data archiving and backup systems;3. Preparation of an integration plan - includes activities for installation, configuration and integration into the infrastructure of the Contracting Authority;4. Activities related to the implementation of the plan;5. Warranty maintenance for 36 months.",
+    "provider": "mymemory",
+    "source_len": 472
+  },
+  "bg|en|24551b3843446d13a37b": {
+    "text": "Maintenance and granting of rights to use an information system for licenses in the administration (ISLA) for the needs of the Administration of the Council of Ministers (AMC)",
+    "provider": "mymemory",
+    "source_len": 168
+  },
+  "bg|en|43e37217d4ddefbfaaa6": {
+    "text": "The requirements for the performance of the public procurement are described in detail in the Technical Specification of the Contracting Authority - Annex No. 1. * * * The place of performance of the service: Subscription support services are provided remotely. If a site visit is necessary, the place of execution is: the building of the Administration of the Council of Ministers - in the city of Sofia, 1 Knyaz Alexander Dondukov Blvd. * * * The term of provision of subscription maintenance and granting of rights to use the ISLA information system (\"Software as a Service\" - SaaS) is up to 5 working days from the date of conclusion of the contract. The term for subscription support and the granted rights to use the ISLA information system is for a period from the date of provision of support until 31.12.2026. * * * Reasons under Art. 231, para. 5 of the Public Procurement Act: The non-application of the standardized templates of the contracts approved...",
+    "provider": "mymemory",
+    "source_len": 893
+  },
+  "bg|en|c7e3696f7e6e3a855abb": {
+    "text": "System Integration Contract under Art. 7c of the Uso with subject: \"Development, optimization and maintenance of the Management and Monitoring Information System (MIS 2020)\" in connection with the project \"Digital Transformation in the Management of EU Funds",
+    "provider": "mymemory",
+    "source_len": 241
+  },
+  "bg|en|52593e20b0780b4b7b6a": {
+    "text": "Development, implementation, testing and maintenance of NAVET software, incl. new functionalities and updating the integration between the document flow system and the NAVET information system under the project",
+    "provider": "mymemory",
+    "source_len": 186
+  },
+  "bg|en|3f60b88365187df2d7ed": {
+    "text": "Development, implementation, testing and maintenance of NAVET software, incl. new functionalities and updating the integration between the document flow system and the NAVET Information System under the Pro",
+    "provider": "mymemory",
+    "source_len": 200
+  },
+  "bg|en|8e94127e26b4dcd0086e": {
+    "text": "Upgrading the system for weighing the generated municipal waste in settlements on the territory of the municipality of Berkovitsa",
+    "provider": "mymemory",
+    "source_len": 122
   }
 }
