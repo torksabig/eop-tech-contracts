@@ -1588,5 +1588,170 @@
     "text": "Migrating e-learning platform to the cloud",
     "provider": "mymemory",
     "source_len": 70
+  },
+  "bg|en|1cddb902c0adad5a464d": {
+    "text": "Providing support type \"Enterprise support\" of SAP licenses by lots.",
+    "provider": "mymemory",
+    "source_len": 87
+  },
+  "bg|en|92daeb263f45b48535cd": {
+    "text": "The subject of the public procurement is providing support type \"Enterprise support\" of SAP licenses with the following lots: Lot 1 \" Providing support type \"Enterprise support\" of SAP S/4HANA licenses for \"Integrated financial information system\" (IFIS) at the Ministry of Finance (MoF)\" Lot 2: \"Providing support type\" Enterprise support \"of SAP S/4HANA licenses for\" Integrated financial – information System\" (IFIS) at the Council of Ministers (AMC) and the Ministry of Interior to it\" Lot 3: \"Provision of support type\" Enterprise support \"of permanent SAP licenses for\" Information System for Management of the State Budget \"(ISUDB) at the Ministry of Finance (MoF)\" . ​​​​​​​ The requirements of the Contracting Authority are described in detail in the Technical Specifications for each lot.",
+    "provider": "mymemory",
+    "source_len": 827
+  },
+  "bg|en|1a5eb42bc591a17b6c52": {
+    "text": "Provision of licenses for the right of use with included support for VMware software products by lots",
+    "provider": "mymemory",
+    "source_len": 118
+  },
+  "bg|en|964cea928d2ee5d22fa5": {
+    "text": "The subject of the public procurement is \"Provision of licenses for the right of use with included support for VMware software products by lots\", as follows: Lot 1 with subject: \"Provision of licenses for the right of use with included support for VMware vSphere Foundation software products for a period of 12 months for the needs of the Ministry of Finance (MoF)\"; Lot 2 with subject: \"Provision of licenses for the right of use with included support for software products VMware vSphere Foundation for a period of 12 months for the needs of the Registry Agency (RA) \"; Lot 3 with subject:\" Provision of licenses for the right of use with included support for software products VMware vSphere Foundation for a period of 24 months for the needs of the Ministry of Energy (ME) \". The performance requirements are detailed in the Technical…",
+    "provider": "mymemory",
+    "source_len": 886
+  },
+  "bg|en|bed31d4ffb81ba44a81c": {
+    "text": "The e-learning platform Blackboard Learn of the Medical University – Varna is hosted on its own servers (Self-Hosted System) and has access rights for 10,000 users. Due to changes in the way of providing services to its customers from 01.01.2024, the company developing the Blackboard platform stops the maintenance and update of all Self-Hosted System and it is necessary to transfer them to the SaaS cloud space (Software-as-a-Service) .The purpose of the public procurement is to provide the process of migration of the training platform into the cloud space and provide subscription access for one year. The activities subject of the public procurement are described in detail in the Technical Specification (Annex No.1).",
+    "provider": "mymemory",
+    "source_len": 749
+  },
+  "bg|en|40a1ffcbdc6e182efde0": {
+    "text": "Granting the right to use, parameterization, adjustment, subscription maintenance of an automated accounting system for the needs of \"Irrigation Systems\" EAD and training",
+    "provider": "mymemory",
+    "source_len": 171
+  },
+  "bg|en|b327828899c257e4118d": {
+    "text": "The subject of this public procurement includes the implementation of the following activities: 1. Granting the right of use for the duration of the contract, parameterization and adjustment of the automated accounting system and license for the Database Management System for the Central Management of Irrigation Systems EAD and its territorial divisions. 2. Training of 70 employees in the territorial divisions and central management to work with the system. (The number of the employees is indicative and calculated on the basis of the accountants and financial controllers engaged in the system of Irrigation Systems EAD. The exact number of employees to be trained is determined by the specific needs of the Contracting Authority) .3. Subscription maintenance of the accounting software from the date of putting into regular operation, certified by a Protocol, until the expiration of the contract. 4. Annual technical maintenance of a System for…",
+    "provider": "mymemory",
+    "source_len": 889
+  },
+  "bg|en|c733c20412e2323f99df": {
+    "text": "Ensuring the continuation of technical support of a specialized web GIS application and the continuation of the right to use and maintain ArcGIS software licenses for the needs of the Ministry of Health (MoH)",
+    "provider": "mymemory",
+    "source_len": 220
+  },
+  "bg|en|8f0951eef460520729c0": {
+    "text": "The subject of the assignment is the provision of technical support for a specialized web GIS application and ArcGIS software licenses. The service is provided for the needs of the Ministry of Health (MoH). The specialized web GIS application \"GIS dashboard\" consists of basic ESRI GIS software, including the following licenses: - ArcGIS Enterprise Standard, incl. Named user type Creator for Operations Dashboard for ArcGIS and named user Insights for ArcGIS - 1 pieces; - ArcGIS GeoEvent Server - 1 piece; - ArcGIS Desktop Standard - 1 piece. The application \"GIS dashboard\" consists of several web pages and provides the following functionality: - Dynamic entry into the geo-database of quarantined persons through a web service, incl. status of persons, quarantine period, address to the level of ECATTE and their geocoding by location - Dynamic entry into the geo-database of data from the ViruSafe mobile application for persons, submitters…",
+    "provider": "mymemory",
+    "source_len": 900
+  },
+  "bg|en|f819813d46985cc400bd": {
+    "text": "Renewal of subscription license and provision of support for the software platform Liferay DXP, used for the management and development of the web portal Sofia.bg1 no. Liferay Self-Hosted Subscription - Gold Prod Sizing 11 pcs. LiferaySelf-Hosted Subscription-Gold Non-Prod Sizing 1",
+    "provider": "mymemory",
+    "source_len": 284
+  },
+  "bg|en|9fd2079d3e112d854d93": {
+    "text": "Renewal of licenses for the right to use software products related to vulnerability management and SIEM processes of information systems of the Ministry of Education and Science, with 2 lots.",
+    "provider": "mymemory",
+    "source_len": 177
+  },
+  "bg|en|15c4d19d970e6798b235": {
+    "text": "Renewal of the license for the right to use the software/Vulnerability management system of the Qualys Web Application Scanning web-based information systems for",
+    "provider": "mymemory",
+    "source_len": 200
+  },
+  "bg|en|af860d9248afc29c7db5": {
+    "text": "“Renewal of the license for the right to use Vulnerability management system of Qualys Web Application Scanning web-based information systems for the needs of the Ministry of Education and Science”.",
+    "provider": "mymemory",
+    "source_len": 218
+  },
+  "bg|en|75c7b92cb4d055610c45": {
+    "text": "Renewal of license for the right to use software/Vulnerability management system of web-based information systems Qualys Web Application Scanning h",
+    "provider": "mymemory",
+    "source_len": 200
+  },
+  "bg|en|dc9dd8c8959236521ca3": {
+    "text": "Provision of license for software/Vulnerability management system of web-based information systems for the needs of the Ministry of Education and Science for a period of 12 months",
+    "provider": "mymemory",
+    "source_len": 183
+  },
+  "bg|en|3c545a3c38215dc949ca": {
+    "text": "Building registers and upgrading the information system for electronic administrative services of BIM\" refers to the construction of an information system with 5 registers and related upgrade of the information system for the provision of electronic administrative services of BIM. The following registers and electronic services are included in the functional scope of the system: Registers: • Register of types and modifications of gaming equipment; o Gaming machines with one or more gaming venues; o Gaming tables in a gaming casino; o Gaming facilities for number lottery games lotto, lotto, bingo and keno. • Registry of types and modifications of jackpot systems. • Registry of gaming software and communication equipment for online betting (incl. virtual gaming equipment, online betting systems and control local server). • Registry of central computer systems for control of…",
+    "provider": "mymemory",
+    "source_len": 895
+  },
+  "bg|en|5816e73c6eb66bc8b4cc": {
+    "text": "Performing maintenance activities on the EIT – 119 units and on the DBMS with a subsystem for automatic vehicle positioning and management of processes in mass urban transport /MGT- AVL/ and a subsystem for real-time passenger information, as well as AVL equipment and on-board computers with vehicle display/90 units/, for the needs of Stara Zagora Municipality",
+    "provider": "mymemory",
+    "source_len": 367
+  },
+  "bg|en|b3fbe0becb7b4b4348dc": {
+    "text": "Description of the subject of the procurement 1. Activity 1. - Maintenance of an existing integrated urban transport management system (SUGT) with a subsystem of automatic vehicle positioning and process management in the MTG (AVL) and a real-time passenger information subsystem (RTPL or RIS) \"SMARTTRACKER ®\" Public Transportation, including central server management software, client software for a management and for a monitoring centre. - Maintenance of the operation of the workstations in the GPS center located in the Municipality of Stara Zagora, maintenance of the Software of the workstations. - Maintenance of UPS, and Diesel generator in the GPS center, as well as the connectivity between them, ensuring the operation of the server. - Support for AVL equipment and on-board computers with driver touch display for a total of 90 vehicles; hardware and software support for GPS",
+    "provider": "mymemory",
+    "source_len": 893
+  },
+  "bg|en|9ab0126fc257761a5daf": {
+    "text": "Renewal of technical support for Oracle software products for the needs of the National Revenue Agency (NRA)",
+    "provider": "mymemory",
+    "source_len": 118
+  },
+  "bg|en|10a998d11011176431c6": {
+    "text": "The subject of the public procurement is the renewal of technical support services for the following Oracle software products for the needs of the National Revenue Agency (NRA): 1. Oracle Database Enterprise Edition - Named User Plus Perpetual - 5964 pcs. - CSI number 14671940; 2. Oracle Real Application Clusters - Named User Plus Perpetual – 2231 pcs. - CSI number 14671940; 3. Oracle OLAP - Named User Plus Perpetual – 100 pcs. - CSI number 14671940; 4. Oracle Data Mining - Named User Plus Perpetual – 100 pcs. - CSI number 14671940; 5. Oracle Partitioning - Named User Plus Perpetual – 400 pcs. - CSI number 14671940; 6. Oracle Diagnostics Pack - Named User Plus Perpetual – 400 pcs. - CSI number 14671940; 7. Oracle Tuning Pack - Named User Plus Perpetual – 400 pcs. - CSI number 14671940; 8. Internet Application Server Java Edition - Named User Plus Perpetual – 5864 pcs. - CSI number 14671940; 9. Oracle…",
+    "provider": "mymemory",
+    "source_len": 894
+  },
+  "bg|en|f6f180439511d73236f6": {
+    "text": "The subject of the contract includes the development and implementation of information modules for (1) reconciliation of the Unified Case-Information System (edis), maintained by the Supreme Administrative Court (SAC), with the electronic portal for summons, maintained by the Supreme Judicial Council (SJC), and the Secure Electronic Service System (SSEE), maintained by the Ministry of Electronic Governance (MES), on parties to administrative cases, and (2) enabling the digital remote filing and receipt of electronic documents in court cases by the parties and their procedural representatives for the needs of administrative courts. The scope of the procurement includes the following activities: a) activity of analysis and modeling of business processes in the development of web-based information systems; b) activity of development, implementation and integration of web-based information systems…",
+    "provider": "mymemory",
+    "source_len": 887
+  },
+  "bg|en|eafb52563033eb9265fc": {
+    "text": "Technological and functional upgrade of the IP of the Registry Agency (CRRNPLE and EPZEU)",
+    "provider": "mymemory",
+    "source_len": 91
+  },
+  "bg|en|bc86703a3abcb2444c44": {
+    "text": "Granting the right to use and subscription maintenance of a software product for managing the activity of the municipal nurseries on the territory of Varna Municipality, to the Health Care Function",
+    "provider": "mymemory",
+    "source_len": 194
+  },
+  "bg|en|a999d20000e9e3892896": {
+    "text": "Granting the right to use a unified electrical system for the needs of nurseries on the territory of Varna Municipality,which includes: Electrical admission system – half/full day,according to the technical specification; Electrical system for organization and management of the activities of nurseries,according to the technical specification;Call center – Hotline – consulting assistance,diagnostics in case of problems, monthly system maintenance,according to the technical specification;Integrated connection between the modules in the management system;Integration with external systems – Local database \"Population\" of the Municipality of Varna;The unified electrical system to be in compliance with the Rules and criteria for classification and admission of children in the municipal all-day nurseries on the territory of the Municipality of Varna,which are published on the website of the Municipality of Varna www.varna.bg;Making a dynamic connection between the electrical systems of the nurseries and kindergartens;Maintenance on the basis…",
+    "provider": "mymemory",
+    "source_len": 895
+  },
+  "bg|en|8bcbf708fb9436c76b93": {
+    "text": "Development of website and CMS system for content management, databases, files and users by project",
+    "provider": "mymemory",
+    "source_len": 109
+  },
+  "bg|en|2bdccd71d0d69f7b5442": {
+    "text": "Design, development and commissioning of a software platform representing: a website and a CMS system for content management, databases, files and users under the project \"Preservation and promotion of cultural heritage through digital preservation and presentation\" Operational and technical support, as well as system administration of the provided hosting resources, for a period of 12 months after signing the PPP for completion performance of the service under the contract. Hosting services in the form and volume, according to the design of the contractor and satisfying the performance of the system in the set parameters, for a period of 12 months after signing the IRP for completion of the service under the contract. Services for registration and provision of the required number of domains and SSL certificates, for a period of 12 months after signing the IRP for completion of the service under the contract.",
+    "provider": "mymemory",
+    "source_len": 855
+  },
+  "bg|en|91d84a86a3645f043e21": {
+    "text": "Development, implementation, implementation and warranty support of an information system",
+    "provider": "mymemory",
+    "source_len": 85
+  },
+  "bg|en|f3030d5bd25244392165": {
+    "text": "Development, implementation, implementation and warranty support of an information system representing: a dynamic information website and a CMS system for content management, databases, files and users under project No. 101090711\" Sports4GreenDeal\".",
+    "provider": "mymemory",
+    "source_len": 256
+  },
+  "bg|en|5ffa1c991cd51e63d0c5": {
+    "text": "Development, implementation, implementation and warranty support of an information system, representing: dynamic information website and CMS content management system, databases, files",
+    "provider": "mymemory",
+    "source_len": 200
+  },
+  "bg|en|a64686a1b9f73e1985fc": {
+    "text": "Activity 4 of Project № BG16FFPR002-1.001-0006 \"Integrated water project for Burgas region - phase 2\", financed by the Environment Program 2021-2027, co-financed by the European Union, includes the following: Upgrading of the SCADA system and construction of a Geographic Information System (GIS) for the designated territory of \"Water Supply and Sewerage\" EAD, Burgas. The upgrading of a system for complex monitoring and management of elements of water supply and sewerage systems (SCADA) will include the following main activities: Activity 1 – Scope analysis, including evaluation of all processes and site parameters to be integrated into SCADA, evaluation of the existing system and upgrade possibilities; Activity 2 – Preparation of detailed technical design of hardware and communication modules, communication environment design, description of the logic in managing…",
+    "provider": "mymemory",
+    "source_len": 895
+  },
+  "bg|en|3fba4cdd04e7c2932741": {
+    "text": "Digitizing on-the-ground workflows",
+    "provider": "mymemory",
+    "source_len": 44
+  },
+  "bg|en|cc513a5910318dcc8a3d": {
+    "text": "The subject of the public procurement is the supply of a management, control and reporting system for the process of construction of substations and power lines for the needs of ESO EAD. The contracting authority envisages delivery as follows: - 1 (one) system for \"Digitization of work processes in the field\"; - 25 (twenty-five) competitive licenses for operator application; - 200 (two hundred) licenses for mobile application; - 200 (two hundred) mobile devices. Deadline for implementation of the system and delivery of licenses and mobile devices – up to 180 (one hundred and eighty) calendar days from the entry into force of the contract. Service life of the system with included maintenance – 48 (forty-eight) months after the implementation of the system.",
+    "provider": "mymemory",
+    "source_len": 727
+  },
+  "bg|en|35c11296525659acb1aa": {
+    "text": "Development and implementation of the institutional architecture of the Customs Agency with regard to the module \"Follow-up\" on Cloud architecture",
+    "provider": "mymemory",
+    "source_len": 140
   }
 }

@@ -1,7 +1,7 @@
 # Tech & development procurements (ЦАИС ЕОП)
 
-Collected: `2026-09-25T11:20:56.113548+00:00`
-Total curated: **2914** (1467 tenders, 1447 contracts)
+Collected: `2026-09-28T13:07:40.356701+00:00`
+Total curated: **2913** (1466 tenders, 1447 contracts)
 
 Source: [app.eop.bg/today](https://app.eop.bg/today) · Search: [reporting/search](https://app.eop.bg/today/reporting/search)
 
