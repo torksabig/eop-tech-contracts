@@ -1,8 +1,8 @@
 # Tech & development — contacts
 
-Enriched: `2026-10-09T13:33:44.397010+00:00`
+Enriched: `2026-10-12T15:25:28.765287+00:00`
 Rows: **2911** · with contact: **2911** · with email: **2911**
-Unique contact people: **529**
+Unique contact people: **527**
 
 ## Contact list (top 100)
 
@@ -58,7 +58,7 @@ Unique contact people: **529**
 | Елена Христова Георгиева | Elena.Georgieva@lozenetz-hospital.bg | +359 888961051 | Многопрофилна болница за активно лечение " Лозенец " ЕАД | 2 |
 | Ваня Ангелова Грашкина-Минчева | grashkina@nacid.bg | +359 28173824 | НАЦИОНАЛЕН ЦЕНТЪР ЗА ИНФОРМАЦИЯ И ДОКУМЕНТАЦИЯ | 4 |
 | Asya Velislavova Ivanova | velislavova.a@berkovitsa.com | +359 888001312 | ОБЩИНА БЕРКОВИЦА | 1 |
-| Георги Емилов Йорданов | gyordanov@bpo.bg | — | ПАТЕНТНО ВЕДОМСТВО НА РЕПУБЛИКА БЪЛГАРИЯ | 4 |
+| Георги Емилов Йорданов | gyordanov@bpo.bg | — | ПАТЕНТНО ВЕДОМСТВО НА РЕПУБЛИКА БЪЛГАРИЯ | 5 |
 | Милен Живков Тодоров | m.todorov@bgports.bg | 028079999 | ПРИСТАНИЩНА ИНФРАСТРУКТУРА ДП | 2 |
 | Бистра Георгиева Петрова | bpetrova@admin.uni-sofia.bg | +359 29308259 | СОФИЙСКИ УНИВЕРСИТЕТ "СВ.КЛИМЕНТ ОХРИДСКИ" | 3 |
 | Кирил Георгиев Кирилов | kiril_georgiev77@abv.bg | — | ИНСТИТУТ ПО ОРГАНИЧНА ХИМИЯ С ЦЕНТЪР ПО ФИТОХИМИЯ-СОФИЯ | 1 |
@@ -91,7 +91,7 @@ Unique contact people: **529**
 | Кристина  Съева | kristina_saeva@dfz.bg | +35924202284 | ДЪРЖАВЕН ФОНД "ЗЕМЕДЕЛИЕ" | 1 |
 | Даниела  Димитрова | d.dimitrova@eso.bg | +359 29696853 | ЕЛЕКТРОЕНЕРГИЕН СИСТЕМЕН ОПЕРАТОР ЕАД | 4 |
 | Петър Димитров Димитров | pdidimitrov@mzh.government.bg | +359 298511856 | МИНИСТЕРСТВО НА ЗЕМЕДЕЛИЕТО, ХРАНИТЕ И ГОРИТЕ | 1 |
-| Niya Toteva Ivanova | nivanova@seea.government.bg | — | АГЕНЦИЯ ЗА УСТОЙЧИВО ЕНЕРГИЙНО РАЗВИТИЕ | 2 |
+| Niya Toteva Ivanova | nivanova@seea.government.bg | — | АГЕНЦИЯ ЗА УСТОЙЧИВО ЕНЕРГИЙНО РАЗВИТИЕ | 3 |
 | Михаела  Тодорова | Mihaela.Todorova@az.government.bg | +359 29265428 | АГЕНЦИЯ ПО ЗАЕТОСТТА | 2 |
 | Румяна  Маринова | RMarinova@mvr.bg | +359 29828874 | ГЛАВНА ДИРЕКЦИЯ НАЦИОНАЛНА ПОЛИЦИЯ | 2 |
 | Деница Янева Янева | Denitsa.Yan.Yaneva@evn.bg | — | Електроразпределение Юг ЕАД | 2 |
