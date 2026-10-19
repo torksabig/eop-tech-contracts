@@ -2553,5 +2553,185 @@
     "text": "The order includes delivery, if necessary, of licenses from the Hospital Information System, subscription maintenance and servicing of modules, software maintenance of the system and possibly ordered additional accompanying activities such as, subscription of newly acquired modules and licenses, maintenance, implementation, training, finishing, installations and acquisition of the right to use a software product at the request of the contracting authority for a period of 12 months and possibility of extension for another 12 months. The estimated value of the procurement for 12 months amounts to EUR 36,432. excluding VAT, and the estimated values for the individual activities of the subject of the procurement for a period of 12 months are as follows: The estimated quantities of the subject of the procurement include for a period of 12 months the subscription of 92 licenses /at the time of announcement of the procurement/ with an estimated value of EUR 32,088.00 excluding VAT. Providing…",
     "provider": "mymemory",
     "source_len": 886
+  },
+  "bg|en|b37116a4b50cadc06a21": {
+    "text": "Supply, construction, configuration and maintenance of a Security Information and Event Management System (SIEM) for a Security Operations Center integrated with an existing Hadoop system to introduce additional capabilities for AI information security functions located in the project infrastructure at UNWE, under project DIGD BG16RFPR002-1.014-0013-C01 with leading organization UNWE",
+    "provider": "mymemory",
+    "source_len": 400
+  },
+  "bg|en|fd832feedd1c56ca6c6d": {
+    "text": "For the construction of the system, it is necessary to perform the following activities: To deliver and configure a SIEM system consisting of a server with an installed software component – with a type-subscription license necessary for the implementation of the system. To carry out the activities on: Design and configuration of the SIEM system and planning the integration with the existing infrastructure at the University of National and World Economy, accepting the logs of the following devices for processing - members of the project infrastructure; Firewall – Watchguard; MS AD; 2 Windows servers. Integration of the SIEM system with an existing Hadopp system in the project infrastructure located at UNWE. For this purpose, all logs submitted for the SIEM system to be transmitted and stored in the Hadoop system, as well as all results created by the SIEM system to be submitted to the Hadoop integration system. Creating in…",
+    "provider": "mymemory",
+    "source_len": 884
+  },
+  "bg|en|1dc704e64d99c9a2f580": {
+    "text": "Use of \"software as a service\" for centralized management of municipal parking for the needs of the Municipal activity \"Management, control and regulation of transport and road activities",
+    "provider": "mymemory",
+    "source_len": 187
+  },
+  "bg|en|d37ac0321d6be9c976d2": {
+    "text": "Use of \"software as a service\" for centralized management of municipal parking for the needs of the Municipal activity \"Management, control and regulation of transport and road activities\" in the municipality of Sandanski​​​​​​​",
+    "provider": "mymemory",
+    "source_len": 213
+  },
+  "bg|en|c2a569cedb13499e1e1b": {
+    "text": "Providing a system for network detection, investigation and response to cyber threats and renewal of a software solution for audit and analysis of changes in the ICT environment FOR the needs of the Ministry of Foreign Affairs (MFA)",
+    "provider": "mymemory",
+    "source_len": 219
+  },
+  "bg|en|62c8325e2dea14d19773": {
+    "text": "The subject of the public procurement includes the following: 1. Provision of a system for network detection, investigation and response to cyber threats: The Contractor shall deliver 1 Network Detection & Response (NDR) solution for detection of threats, based on behavioral analysis of network traffic data. The Contractor shall deliver all necessary licenses with the rights to use all required functionalities for 1500 IP addresses. The Contractor should provide: - Hardware support: minimum 36 months; - Maintenance type: 24x7x365; - Possibility to update the software during the maintenance period to the latest up-to-date version of the manufacturer. 2. Renewal of a software solution for audit and analysis of changes in THE ICI environments The Contractor shall provide renewal of the right of use and support for Netwrix products as follows: 2.1. NW-MS-NA-AD - 750 pcs. - Netwrix Auditor for…",
+    "provider": "mymemory",
+    "source_len": 883
+  },
+  "bg|en|119cdd75b8d9151628ef": {
+    "text": "Maintenance and renovation of the network infrastructure in the Ministry of Foreign Affairs (MFA)",
+    "provider": "mymemory",
+    "source_len": 93
+  },
+  "bg|en|a269cd2fcb7e90939e37": {
+    "text": "The subject of the public procurement includes maintenance and renovation of the network infrastructure at the Ministry of Foreign Affairs (MFA). The scope of the public procurement includes: 1. Renewal of support for the available network equipment as follows: - Network switches - 2 pieces; - Support switch - 4 pieces; - Access switch - 4 pieces; - Managed switch - 4 pieces; - Cisco Firepower 4115 NGFW Appliance, 1U - 2 pieces; - Cisco FPR4115 Threat Defense Threat Protection License - 2 pieces; - Cisco Firepower Management Center, (VMWa) - 1 piece; - Cisco Secure Malware Analytics License for Appliance - 1500 pieces; - Cisco Threat Grid M5 Model Hardware - 1 piece; - Cisco UCS S3260 Storage Server Base Ch - 2 pieces; - Cisco ISE Virtual Machine Common PID - 2 pieces; - Cisco Secure Email XaaS Subscription - 1200 pieces; - Cisco Web Security XaaS Subscription - 630 pieces; - UCS C240 M5…",
+    "provider": "mymemory",
+    "source_len": 882
+  },
+  "bg|en|ddc9e3c451690b4ace6b": {
+    "text": "Implementation of construction and installation works for the construction of a system for park and stage lighting in the park area of the Tutrakan Epopee Memorial Complex",
+    "provider": "mymemory",
+    "source_len": 159
+  },
+  "bg|en|e866b2b5371d2e04f831": {
+    "text": "The purpose of the public procurement is the selection of a contractor for the implementation of construction and installation works for the construction of a system for park and stage lighting in the park area of the Memorial Complex \"Tutrakan Epopee\", including the supply and use of the necessary construction products, materials, cables, electrical panels, luminaires, protective devices, control elements, terminals and accessories necessary to achieve the design solutions. The subject includes the construction of standard park lighting, stage/spectacular management of part of the lighting system, underground wiring, power supply, electrical panels, protective and grounding events and exit points for future light show integration.",
+    "provider": "mymemory",
+    "source_len": 715
+  },
+  "bg|en|5e31c2889ce63260d3e9": {
+    "text": "Out-of-warranty subscription service of medical equipment and software, 4 lots each",
+    "provider": "mymemory",
+    "source_len": 106
+  },
+  "bg|en|834a623022edb3a01e67": {
+    "text": "The subject of the public procurement includes out-of-warranty subscription service of medical equipment and software installed in KOC-Ruse EOOD -Magnetic Resonance Imaging MAGNETOM free.Max, Mammogram MAMMOMAT Revelation, Software for post-processing and visualization of imaging studies Syngo.via WS, Specialized system for storage and distribution of diagnostic images. Full information on scope, volume and technical requirements for the implementation of the public procurement is described and regulated in the Technical Specification.",
+    "provider": "mymemory",
+    "source_len": 549
+  },
+  "bg|en|d3eaeba60e3be1c9f3d9": {
+    "text": "Delivery of specialized cars for the needs of the Day Care Center for Children with Disabilities\" Faith, Hope, Love\", Kyustendil and Center for Social Rehabilitation and Integration (CSRI) in the village of Lozno",
+    "provider": "mymemory",
+    "source_len": 192
+  },
+  "bg|en|e1fb6e4b9ea0093a8d40": {
+    "text": "The subject of this public procurement includes the delivery of one specialised vehicle for the needs of the \"Day Center for Children with Disabilities \"Faith, Hope, Love\", Kyustendil\" and one specialized vehicle for the needs of the \"Center for Social Rehabilitation and Integration (CSRI) Lozo\". The minimum technical characteristics and equipment of the specialized vehicles are specified in the Technical Specifications for each separate item, which are an integral part of this documentation.",
+    "provider": "mymemory",
+    "source_len": 503
+  },
+  "bg|en|9cf5da9f0b0e14b9cb4f": {
+    "text": "DESIGN AND CONSTRUCTION OF FIRE ALARM SYSTEM IN BUILDINGS OF VI PRIMARY SCHOOL \"ST. NIKOLA\", STARA ZAGORA",
+    "provider": "mymemory",
+    "source_len": 122
+  },
+  "bg|en|84879e5dcbbc748c3103": {
+    "text": "The subject of this public procurement includes: preparation of a detailed design and construction of the fire alarm installation in the building of VI Primary School \"St. Nikola\", Stara Zagora. This order will be executed by design, delivery and installation of equipment, and commissioning of the fire alarm installation and conducting a 72-hour sample. Regarding the types of activities, the restoration of the installation will be realized as following: - preparation of a detailed design with filming; - supply of installation materials, equipment, installation, adjustment and commissioning of the fire alarm installation. The implementation of the order includes the following volume of restoration work: - Preparation of a detailed design, according to the requirements of this technical specification; - Construction and commissioning of the fire alarm installation; - Training of authorized personnel for",
+    "provider": "mymemory",
+    "source_len": 900
+  },
+  "bg|en|cd08e1c335e84954135b": {
+    "text": "Provision and renewal of maintenance of software products for the needs of the General Directorate of Civil Registration and Administrative Services (DG Civil Registration AND Administrative Services) under three lots",
+    "provider": "mymemory",
+    "source_len": 181
+  },
+  "bg|en|ce588d04d43e03cd18f8": {
+    "text": "The subject of the public procurement is \"Provision and renewal of maintenance of software products for the needs of the Civil Registration and Administrative Services Directorate General (DG GRAO) under three lots\" as follows: - Lot 1 \"Renewal of software maintenance of the Database Management System (DBMS) of IBM INFORMIX ENTERPRISE EDITION of DG GRAO\" - Lot 2 \"Renewal of software licenses for MDaemon for the needs of DG GRAO\" - Lot No. 3 \"Provision of software licenses for VMware for the needs of DG GRAO\" The performance requirements are detailed in the Technical Specification of the Contracting Authority to the respective lot.",
+    "provider": "mymemory",
+    "source_len": 696
+  },
+  "bg|en|74d7ddfeffb0ce74462a": {
+    "text": "PROVISION OF POST-WARRANTY MAINTENANCE OF INFORMATION SYSTEM \"LICENSING AND REGISTERS\" AND THE PORTAL FOR ELECTRONIC ADMINISTRATIVE SERVICES OF THE COMMUNICATIONS REGULATION COMMISSION",
+    "provider": "mymemory",
+    "source_len": 182
+  },
+  "bg|en|b03aab3021b56ad2307b": {
+    "text": "Purchase of licenses for software products for the needs of the Municipality of Varna by lots\", Lot 1: \"Purchase of a license and update (if necessary) of an information system for publications under the Public Procurement Act, the Financial Management and Control System and other modules part of the Proc Center 4.0 software product for the needs of the Municipality of Varna",
+    "provider": "mymemory",
+    "source_len": 376
+  },
+  "bg|en|976f9268b480efe9d6e2": {
+    "text": "Provision of licenses for backup software for the Centralized Automated Information System \"Electronic Procurement\" (CAIS EOP) for the needs of the Public Procurement Agency (PPL)",
+    "provider": "mymemory",
+    "source_len": 203
+  },
+  "bg|en|0d898604db0a6e0f72f7": {
+    "text": "Provision of out-of-warranty support for the Licensing and Registers information system and the Electronic Administrative Services Portal of the Communications Regulation Commission",
+    "provider": "mymemory",
+    "source_len": 179
+  },
+  "bg|en|5aa451f35df7851a3f4f": {
+    "text": "PROVISION OF POST-WARRANTY MAINTENANCE OF INFORMATION SYSTEM \"LICENSING AND REGISTERS\"AND PORTAL FOR ELECTRONIC ADMINISTRATIVE SERVICES OF THE COMMUNICATIONS REGULATION COMMISSION",
+    "provider": "mymemory",
+    "source_len": 181
+  },
+  "bg|en|95adf1129cea85cfd964": {
+    "text": "“Provide license (s) to update/extend the right to use and maintain a database security, monitoring and management software product – IBM Security Guardium ”",
+    "provider": "mymemory",
+    "source_len": 195
+  },
+  "bg|en|f8e788d7a1f3e108d9ab": {
+    "text": "The subject of the public procurement includes the provision of license (s) for the update/continuation of the right to use and maintain a software product for the protection, monitoring and management of a database – IBM Security Guardium for the needs of the Registry Agency for a period of 24 (twenty-four) months, as follows: - IBM Security Guardium Vulnerability Assessment for Databases Resource Value Unit (MVS) Annual SW Subscription & Support Renewal - 4 pieces - IBM Security Guardium Data Protection for Databases Resource Value Unit (MVS) Annual SW Subscription & Support Renewal - 4 pieces. Software support parameters include: • Updating products; • Updating products, signatures and definitions; • Telephone support; • Email support; • Opening an unlimited number of cases to the manufacturer. The performance requirements are…",
+    "provider": "mymemory",
+    "source_len": 862
+  },
+  "bg|en|74c97df37e367c1c214b": {
+    "text": "Providing license (s) for updating/extending the right to use and maintain a software product for protection, monitoring and management of a database – IBM Security Guardium for the needs of the Registry Agency (RA)",
+    "provider": "mymemory",
+    "source_len": 236
+  },
+  "bg|en|b7a5f5b697eb54fd0eba": {
+    "text": "Provision of licenses for updating/extending the right of use and maintenance of Oracle software products by lots",
+    "provider": "mymemory",
+    "source_len": 149
+  },
+  "bg|en|91a0f08d6e8ebd4020da": {
+    "text": "Lot 2: \"Renewal of support of 4 Oracle Database 19c Standard Edition 2 -Processor Perpetual licenses for the Public Procurement Register (PPR), located in the information environment",
+    "provider": "mymemory",
+    "source_len": 200
+  },
+  "bg|en|aa4f659f1439f8a2d4ab": {
+    "text": "Securing Zoom Platform Licenses",
+    "provider": "mymemory",
+    "source_len": 42
+  },
+  "bg|en|abe431485e393cfe94e4": {
+    "text": "The subject of the public procurement are services for providing licenses for the Zoom platform (or equivalent) as follows: - Zoom workplace business - annual - 1 Year Prepay (or equivalent) – estimated quantity: 13 pieces; - Zoom Workplace Pro Annual - 1 Year Prepay (or equivalent) – estimated quantity: 33 pieces; - Zoom Workplace Pro Three Years Prepay – 3 Year Prepay (or equivalent) – estimated quantity: 65 pieces. Requirements for software products are described in detail in the Technical Specification of the Contracting Authority – Appendix No. 1. The licenses are delivered on the basis of a request made by the Contracting Authority to the Contractor. The contracting authority reserves the right during the term of the contract not to order the entire estimated amount of licenses or, if necessary, to increase it until the maximum allowable value of the contract is reached, and the same will be paid at the unit prices, …",
+    "provider": "mymemory",
+    "source_len": 887
+  },
+  "bg|en|e83326d35a2061943593": {
+    "text": "POST-WARRANTY MAINTENANCE AND DEVELOPMENT OF the AUTOMATED INFORMATION SYSTEM for ELECTRONIC SERVICES OF the Ministry OF Foreign Affairs",
+    "provider": "mymemory",
+    "source_len": 107
+  },
+  "bg|en|c62d639a1dc70f24a664": {
+    "text": "The need to implement the activities for providing post-warranty maintenance and development of the AIS-MFA is dictated by the requirements for constant development, renovation and upgrade of the AIS system in order to optimize, facilitate and increase the efficiency of the operation of the existing system, as well as creating conditions for connecting the AIS with other systems in the context of the functional and technical standards, conditions and requirements for interoperability of the systems with which the contracting authority works. The Contractor shall provide post-warranty maintenance of all components of the AIS-MFA system, as well as development and upgrade of the system if necessary; During the post-warranty maintenance, the Contractor shall carry out activities to ensure the operability and effective use of the AIS-MFA by the contracting authority and the users of the system, in case they come…",
+    "provider": "mymemory",
+    "source_len": 894
+  },
+  "bg|en|99406667436070eab8f0": {
+    "text": "Subscription support of the information system for municipal management implemented in the Municipality of Varna – \"IMEON KAO",
+    "provider": "mymemory",
+    "source_len": 111
+  },
+  "bg|en|e6694a532ba5b0429507": {
+    "text": "When executing the order, the following should be carried out: subscription maintenance of the existing information system for the duration of the contract, according to the Technical Specification, which includes: ensuring the continuous and reliable functioning of the system;prevention and optimization of performance;diagnosis and elimination of problems and errors; performance of inquiries and technical checks at the request of the Contracting Authority;update of the system in case of changes in the regulatory framework;optimization of the server and client part (database, services, reports and functionalities);restoration of the system in case of a technical failure, after a backup provided by the Contracting Authority;provision of data exchange with other systems; telephone and e-mail consultations;installation of new workplaces and on-demand training of employees; on-site visits if necessary.",
+    "provider": "mymemory",
+    "source_len": 859
+  },
+  "bg|en|fddc40981b7123746a3c": {
+    "text": "Within the scope of the service, the operability of the information system must be ensured for a period of 12 months, which consists in the fulfillment of the following tasks: 1. Resolving all problems that impair the functional operability of the information system such as: 1.1. Troubleshooting errors in the program code and software settings - if necessary; within a period not exceeding one business day; 1.2. Assistance in changing software settings - if necessary; within a period not exceeding one working day; 1.3. Troubleshooting other technical faults- if necessary; within no more than one business day. 2. Review of system logs for errors and problems and prophylaxis of the software application and database – monthly. 3. Installation and implementation of all improvements developed by the Contractor in the current version of the information system related с",
+    "provider": "mymemory",
+    "source_len": 891
+  },
+  "bg|en|290953ea3be0ee9608cf": {
+    "text": "Renewal of the software support of the OpenText™ NetIQ Access Manager and the OpenText™ GroupWise electronic mail system for the needs of the Department of Energy",
+    "provider": "mymemory",
+    "source_len": 204
   }
 }
