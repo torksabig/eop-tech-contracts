@@ -3048,5 +3048,195 @@
     "text": "Ensuring Availability and Upgrading the Open Data Portal",
     "provider": "mymemory",
     "source_len": 78
+  },
+  "bg|en|bf69f98795994bfee01b": {
+    "text": "Supply, implementation and warranty support of a complex solution of cybersecurity systems and protection of the information infrastructure of the BNR",
+    "provider": "mymemory",
+    "source_len": 147
+  },
+  "bg|en|13c9d403270919fbb79b": {
+    "text": "The subject of the public procurement: covers the supply, installation and integration in the information system of the Bulgarian National Radio of modern systems, solutions and software in the field of information security, accompanying hardware equipment necessary for use in the systems, connection of the individual components and commissioning of an integrated modular platform for the establishment of a cybersecurity operational center of the Bulgarian National Radio, as well as staff training and system warranty maintenance. The Cybersecurity Operations Center is designed to provide a high level of protection against intrusions to the BNR network and endpoints (servers and workstations). The integrated platform should include the following hardware and software components: -Centralized platform for information collection, analysis and correlation (SOC); -Network firewalls of new…",
+    "provider": "mymemory",
+    "source_len": 887
+  },
+  "bg|en|be161ded5f82b93ca490": {
+    "text": "Upgrading a national information system on the state of energy efficiency",
+    "provider": "mymemory",
+    "source_len": 89
+  },
+  "bg|en|bf4f0685073db93b3046": {
+    "text": "The subject of the contract is \"Upgrading a national information system on the state of energy efficiency\", which includes : 1. Change of business processes and logic in the submission of documents from an energy efficiency audit for existing buildings ; 2. Changing business processes and logic when submitting an energy performance certificate for new buildings; 3. Development of a mechanism for reporting information from the national database on the energy performance of buildings in the European Commission's POLICY REPORTING PLATFORM information system pursuant to Commission Implementing Regulation (EU) 2025/1328 of 30 June 2025;4. Development of a mechanism for submission of documents for energy consumption to municipalities and state institutions and preparation of reports.",
+    "provider": "mymemory",
+    "source_len": 794
+  },
+  "bg|en|18b31ccbd20298925961": {
+    "text": "IMPLEMENTATION OF A SOLUTION FOR MANAGING THE PRODUCTION OF HEAT AND ELECTRICITY",
+    "provider": "mymemory",
+    "source_len": 90
+  },
+  "bg|en|e1378ed0fd698128699c": {
+    "text": "The subject of the public procurement is \"Implementation of a solution for management of the production of heat and electricity\", the site – \"provision of services\" within the meaning of Art. 3, para. 1, item 3 of the Public Procurement Act. The contracting authority has an existing SAP information environment, including: SAP ECC, used as the main transaction system (SAP IS-U solution implemented therein, used for the management of heat supply activities); SAP BW/4HANA (Business Warehouse), used as a centralized data storage and analysis system; SAP BO BI (Business Objects), used as a visualization and analysis system for building management reports and analytical dashboards. The subject of this contract envisages the construction and implementation of a solution for managing the production of heat and electricity, which will use and expand the existing SAP architecture…",
+    "provider": "mymemory",
+    "source_len": 889
+  },
+  "bg|en|2269890e91e9750c28ab": {
+    "text": "DELIVERY OF HARDWARE AND SOFTWARE OF THE PAYMENT SOLUTION INFRASTRUCTURE",
+    "provider": "mymemory",
+    "source_len": 71
+  },
+  "bg|en|b9be8e6842e16d110b94": {
+    "text": "The subject of this public procurement is \"Supply of hardware and software of the payment solution infrastructure\", for the needs of the National Toll Management under Art.18, para.1, item1 of the Public Procurement Act. The Electronic Toll System (ESPT) is a critical national information system that ensures continuous toll collection processes, processing of large volumes of transactions, enforcement and control activities, data exchange with other systems, integration with payment and back-office systems and provision of services to users, carriers, National Service Providers and control bodies. Therefore, the normal functioning of data centers has a direct impact on the sustainability of the system, on toll revenues and on the implementation of the Ria's statutory powers. The existing infrastructure is typed in…",
+    "provider": "mymemory",
+    "source_len": 896
+  },
+  "bg|en|bb19d24bae85b458f24d": {
+    "text": "Upgrading the infrastructure of the National Health Insurance Fund (NHIF) by lots",
+    "provider": "mymemory",
+    "source_len": 101
+  },
+  "bg|en|e554e7a77e6775ceac44": {
+    "text": "The subject of the public procurement is \"Upgrading the infrastructure of the National Health Insurance Fund (NHIF) under lots\" and includes the following lots: 1. Lot 1: \"Provision of licenses for archiving software\"; 2. Lot 2: \"Providing a WAF solution for the protection of web applications\". The performance requirements are detailed in the Technical Specifications of the Contracting Authority, relevant to the respective lot.",
+    "provider": "mymemory",
+    "source_len": 478
+  },
+  "bg|en|fff98203b4e38230a0a5": {
+    "text": "Subscription for access, use and maintenance of the system Hubgrade Performance Plant, SewerView and Anammox/AnitaMox for UWWTP Kubratovo",
+    "provider": "mymemory",
+    "source_len": 134
+  },
+  "bg|en|a5d1981cae1c086a8cd2": {
+    "text": "The subject of the contract is to provide subscription access, connectivity, maintenance and updates of a system for optimization of technological processes in UWWTP Kubratovo – Hubgrade Performance Plant, Sewerview & AnitaMox. The Contractor undertakes to maintain in working condition the cloud-based Hubgrade system during the subscription period, which includes: The Contractor's maintenance of constant connection and access to the system; The maintenance of up-to-date versions of the used modules; Periodic verification of system functionality; Periodic backup records of current system settings; Provision of historical equipment data for a minimum of 1 year back.",
+    "provider": "mymemory",
+    "source_len": 685
+  },
+  "bg|en|c2d8e5515e433ff0ba92": {
+    "text": "Supply of software for the needs of planned development of large-scale IP and ensuring interoperability between components",
+    "provider": "mymemory",
+    "source_len": 130
+  },
+  "bg|en|5272fc4df82ea5963a9c": {
+    "text": "Supply of software for the needs of planned development of large-scale IP and ensuring interoperability between components: 1. Virtualization platform and container applications – 1; 1.1. Providing the right of use for Red Hat OpenShift Platform Plus and Red Hat OpenShift Data Foundation Advanced for installation on physical servers – 6 pieces. 1.2. Securing the right of use for Red Hat Enterprise Linux – 9 pieces. 2. Software for backup and recovery for virtualization platform and container applications – 1 piece; 2.1. Providing a software tool for archiving and restoring the Openshift platform for virtualization and container applications – 1 pc. 2.2. To support work with object S3 storage. 2.3. .Do allow backup of min. 100 virtual machines. 2.4. Be certified for OpenShift backups. 2.5. Ability to define a schedule for…",
+    "provider": "mymemory",
+    "source_len": 890
+  },
+  "bg|en|ee9645f7302dc7fa0349": {
+    "text": "Subscription service for access to a training system with an extensive library of digital educational content, including the full medical program during all academic years for preparatory, pre-clinical and clinical curricula for 2200 medical students from the Faculty of Medicine at the Medical University - Pleven in Bulgarian and English.",
+    "provider": "mymemory",
+    "source_len": 370
+  },
+  "bg|en|14df0607910510bcf356": {
+    "text": "Subscription service for access to a training system that has an extensive library of digital educational content, including the full medical program during all school years for preparatory, pre-clinical and clinical curricula for 2200 medical students from the Faculty of Medicine at the Medical University - Pleven in Bulgarian and English. The training system must offer the following modules / services Training module Module with multimedia catalogues on medical topics Module for memorizing the training content Module for student progress Module for tests and exams Module for administration and management Services supporting the implementation of digital education at MU Pleven",
+    "provider": "mymemory",
+    "source_len": 724
+  },
+  "bg|en|67e7ce977f8b93d07392": {
+    "text": "Supply and implementation of software for the implantation of eddy current signals from defects in eddy current signals from a pipe",
+    "provider": "mymemory",
+    "source_len": 119
+  },
+  "bg|en|aa73f490196cb97a399b": {
+    "text": "The subject of the public procurement is \"Supply and implementation of software for implantation of eddy current signals from defects in eddy current signals from a pipe\". The requirements for the software, as well as the criteria for making and accepting the delivery, are specified in Terms of ReferenceNo.25.BIC.TZ.636/01.",
+    "provider": "mymemory",
+    "source_len": 296
+  },
+  "bg|en|4a355e82c9eb65ddb959": {
+    "text": "Maintenance of network equipment",
+    "provider": "mymemory",
+    "source_len": 31
+  },
+  "bg|en|1eef4cb4cbdc2466a41f": {
+    "text": "Maintenance of network equipment of the Automobile Administration Executive Agency",
+    "provider": "mymemory",
+    "source_len": 83
+  },
+  "bg|en|5878dc5b82db172fc8e0": {
+    "text": "Ensuring the functioning and optimization of registers related to them in 3 lots",
+    "provider": "mymemory",
+    "source_len": 95
+  },
+  "bg|en|fc947016bb5f21fa070f": {
+    "text": "Ensuring the functioning and optimization of registers, 3 lots each",
+    "provider": "mymemory",
+    "source_len": 82
+  },
+  "bg|en|a0718031e7ffe6644e76": {
+    "text": "Subscription software support of the hospital information system in the hospital \"Sveta Petka\" AD, Vidin",
+    "provider": "mymemory",
+    "source_len": 104
+  },
+  "bg|en|15bfd7b65762fac82caf": {
+    "text": "Subscription software support of the hospital information system in the hospital\"Sveta Petka\" AD in the town of Vidin. The subject and description of the public procurement includes: Subscription support must include the following application software products, building a hospital information system of \"Multiprofile Hospital for Active Treatment \"Sveta Petka\" AD, Vidin: Gamma CODMASTER, Gamma KONT, Gamma MULTILAB, GammaMULTILAB-KAAV, Gamma STORE, Gamma STOR Verification, Gamma Sespa Link, Gamma FU Link, Gamma Admin, Gamma COMPETITOR, Gamma DIETS, Gamma WEB with their licenses. Subscription support includes updates to the software products, providing consultations and services related to their use.",
+    "provider": "mymemory",
+    "source_len": 683
+  },
+  "bg|en|8265d527d6d7565debc2": {
+    "text": "“Securing the right to use and maintain the software package of ATDI SA, France”",
+    "provider": "mymemory",
+    "source_len": 86
+  },
+  "bg|en|c82c1720c93bc4461914": {
+    "text": "The procedure is conducted in connection with the need to ensure the right to use and maintain a specialized program package, delivered and installed for the needs of the Communications Regulation Commission (CRC) by ATDI SA, France. This invitation is sent on the basis of Art. 191, para. 1, item 2 of the PPL to the company \"Telcom Engineering\" Ltd., through publication in the Centralized Automated Information System \"Electronic Public Procurement\" (CAIS EOP). It is impossible to assign the contract to another person due to the existence of intellectual property rights. The intellectual property right to the software used by the CRC belongs to the author of the product ATDI SA, France, as evidenced by an authorization letter dated October 16, 2026 from the Chairman and CEO of ATDI SA, France, the company has authorized Telcom Engineering OOD with the exclusive…",
+    "provider": "mymemory",
+    "source_len": 890
+  },
+  "bg|en|e34f9971671850bfe745": {
+    "text": "Construction of a new educational corps of\"Acad. Prof. Dr. Asen Zlatarov \", located in RLP-II -for a school in quarter70 according to the plan of the town of Botevgrad – Stage 2",
+    "provider": "mymemory",
+    "source_len": 147
+  },
+  "bg|en|765e4b6bfa6abfd8f5c9": {
+    "text": "The subject of the contract covers the construction of a new training building of the Acad. Prof. Dr. Asen Zlatarov \"in accordance with the current regulatory requirements, the applicable standards and an approved investment project in the\" Technical \"phase. The building is a third category, according to Ordinance No. 1 of 30 July 2003 on the nomenclature of types of constructions Art. 6, para. 1, item 4 buildings and public service facilities with a total built-up area of more than 5000 square meters or with a capacity from 200 to 1000 places including for visitors according to the nomenclature in Annex № 2. This public procurement excludes the construction of a new school building directly connected to the existing building and a warm connection to the existing gym. The building is planned to be divided into three parts: a public area, a multifunctional hall and a study area (classrooms and classrooms). The project development defines two stages of…",
+    "provider": "mymemory",
+    "source_len": 887
+  },
+  "bg|en|8840576850ab3fa0d504": {
+    "text": "Selection of a contractor for construction and installation works for the site: \"Construction of inter-block space in RLP XIX-for a residential complex in sq.47, Elhovo",
+    "provider": "mymemory",
+    "source_len": 154
+  },
+  "bg|en|731b02f60d0952a12c45": {
+    "text": "The subject of this public procurement within the meaning of Art. 3, para. 1, item 1 of the PPL is construction with subject: \"Selection of a contractor of construction and installation works for the site: \"Construction of inter-block space in RLP XIX-for a residential complex in quarter47, Elhovo\". The construction is IV category according to Art. 137, para.1, item4 of the Spatial Planning Act and issued Building Permit No. 54 of 18.08.2026 to the Chief Architect of the Municipality of Elhovo. With the approved project development presents a comprehensive concept for the development of the properties in which the residential blocks are built, replacement of the existing pavement and the establishment of parking spaces. The activities provided for in the project will provide morecomfortable conditions for access to residential blocks and for secure parking for some of the residents. Main construction activities within the scope of the procurement: Construction activities subject to…",
+    "provider": "mymemory",
+    "source_len": 882
+  },
+  "bg|en|ff934092010ce289af45": {
+    "text": "The scope of the public procurement includes the following activities: Activity 1: Ensuring the operability and normal functioning of the system UNDER for a period of 24 months; Activity 2: Upgrading the system UNDER for a period of 24 months. Within Activity 1, the following sub-actions must be implemented: 1. Setup and optimization of the connection between the individual components and elements of the Open Data Portal (for all modules and functionalities); 2. Setup, maintenance and optimization of the Open Data Portal application environment (for all modules and functionalities); 3. Monitoring, tuning, optimization and maintenance of the Open Data Portal database (for all modules and functionalities); 4. Setup, maintenance and optimization of Open Data Portal application software (for all modules and functionalities), including debugging, bugs, …",
+    "provider": "mymemory",
+    "source_len": 885
+  },
+  "bg|en|13623361a41feb2d721f": {
+    "text": "Development, implementation, testing and maintenance of software/information system for tracking the development of students and doctoral students at the Medical University – Varna",
+    "provider": "mymemory",
+    "source_len": 167
+  },
+  "bg|en|5ca7387c382987d7dff3": {
+    "text": "Development and implementation of an \"Electronic system for managing the work of the Ombudsman's administration\".",
+    "provider": "mymemory",
+    "source_len": 106
+  },
+  "bg|en|19e4f6a7bcceb307e7c9": {
+    "text": "Development and implementation of \"Electronic system for management of the work of the Ombudsman's administration\", in connection with the implementation of Project № BG05SFOP001-2.001-0011 \"Electronic system for management of the work of the Ombudsman's administration\" with subject: Development and implementation of \"Electronic system for management of the work of the Ombudsman's administration\", including a register, a website with a public register, a registry system and a mobile application for the needs of the Ombudsman of the Republic of Bulgaria, as well as training of the administration of the Ombudsman to work with the electronic system.",
+    "provider": "mymemory",
+    "source_len": 590
+  },
+  "bg|en|7aac633659de70d27491": {
+    "text": "Maintenance of a web-based version of the automated information system \"e-Documento-floor\" (web-AIS) at the Ministry of Finance (MoF)",
+    "provider": "mymemory",
+    "source_len": 137
+  },
+  "bg|en|01e78e968f30d8db2e78": {
+    "text": "The subject of the public procurement is: \"Maintenance of a web-based version of the automated information system \" e-Documento-floor \" (web-AIS) at the Ministry of Finance (MoF)\". The requirements are detailed in the Technical Specification of the Contracting Authority. Activities that are assigned and paid for in addition, in case of interest and assignment by the Ministry of Finance, beyond the value of subscription support (option): - Migration of data from current to new Web-AIS-2020 system; - Trainings for working with a new Web-AIS-2020 system, including trainings of: - up to 600 users; - up to 3 administrators; - up to 2 trainers. The activities shall be initiated by the Ministry of Finance at thelatest by 01.09.2024, by submitting an application type \"change\" in the online request management system (OMS), after which an additional agreement shall be signed between the Contracting Authority and the Contractor on the grounds of Art. 116, para. 1, item 1 of the Public Procurement Act. The deadline…",
+    "provider": "mymemory",
+    "source_len": 898
+  },
+  "bg|en|1e132294db4bbe47659d": {
+    "text": "Software Systems Support\", by lot, Lot 2: \"Software System Maintenance Hummingbird ERP",
+    "provider": "mymemory",
+    "source_len": 121
+  },
+  "bg|en|f319f2529e879b2aa0c3": {
+    "text": "Post-warranty support for data backup software",
+    "provider": "mymemory",
+    "source_len": 60
   }
 }
