@@ -3238,5 +3238,205 @@
     "text": "Post-warranty support for data backup software",
     "provider": "mymemory",
     "source_len": 60
+  },
+  "bg|en|382175494f4c7fe75f08": {
+    "text": "Implementation of Self Service Annual Performance Evaluation and Electronic Signature of Annual Evaluations, to the Human Resource Management System, Calculation of Wages and Additional Material Incentives for the Needs of Sofia Municipality – HeRMeS",
+    "provider": "mymemory",
+    "source_len": 259
+  },
+  "bg|en|bca00017b8ba0d4ecfca": {
+    "text": "1. Implementation of Electronic Signing of Annual Performance Assessments in the Self-Service Portal and main application of HeRMeS: -Self-Service Annual Performance Assessment in Yes – Electronic signing of annual assessment forms by authorized managers and employees through the Self-Service Portal with QES. - Forms signed with electronic signature (QES) are included in the \"Register of Electronic Documents\". - Licensing of Electronic signing in performance evaluation procedures and Self-Service Annual performance evaluation in Yes.",
+    "provider": "mymemory",
+    "source_len": 543
+  },
+  "bg|en|7f2839d7c4e70f9e27c4": {
+    "text": "Implementation of a passenger information system for modernization of public urban transport in the Municipality of Montana",
+    "provider": "mymemory",
+    "source_len": 116
+  },
+  "bg|en|95a37fd337a349288d56": {
+    "text": "Supply and implementation of hardware and software and accompanying activities to achieve the goal of implementing an integrated passenger information system for modernization of public urban transport in the Municipality of Montana, including the implementation of the following activities: - Supply, adaptation and commissioning of central software, including for an automatic vehicle positioning system (AVL system) and passenger information system (PIA), providing real-time information about electronic information boards at public transport stops, as well as in vehicles; - Delivery and installation of on-board equipment and application software to ensure automatic location of 12 vehicles (electric buses) and information of passengers in vehicles; - Delivery…",
+    "provider": "mymemory",
+    "source_len": 897
+  },
+  "bg|en|0bc9867fab4efd434677": {
+    "text": "Upgrading the Business Cycles Information System",
+    "provider": "mymemory",
+    "source_len": 52
+  },
+  "bg|en|57e5f93cfee79e45d199": {
+    "text": "The subject of this public procurement is \"Upgrading the Business Cycles Information System \". The Business Cycles Information System (BCIS) includes the observations conducted by the National Statistical Institute (NSI), which provide information on the formation of short-term indicators in accordance with the regulations of the European Union, as well as other important indicators in the field of investment, production and sales of basic industrial products monitored with monthly and quarterly periodicity. The system consists of an external application used by respondents and accounting firms, an internal application used by employees of the territorial statistical offices and the NSI headquarters, and an administrative application. The main objective of the project is to upgrade the HCCI in connection with the transition to the new Classification of Economic Activities NACE-2025, integration",
+    "provider": "mymemory",
+    "source_len": 896
+  },
+  "bg|en|be4bd740bf9a2cc50390": {
+    "text": "Supply of computer and peripheral equipment in connection with the provision of a social service \"Family-type accommodation center for children without disabilities in the village of Ovchi Kladenets, Tundzha Municipality.",
+    "provider": "mymemory",
+    "source_len": 185
+  },
+  "bg|en|f4b40e308d6380192d7b": {
+    "text": "The subject of this order is the selection of a contractor for the supply and warranty maintenance of computer and peripheral equipment in connection with the provision of a social service \"Center for family-type accommodation for children without disabilities (CCSTDBU)\", located in LP 356, quarter 48 under the Detailed Development Plan of the village of Ovchi Kladenets, Tundzha Municipality, in connection with the implementation of the Project \"Creation of alternative social services for unaccompanied refugee children in Bulgaria\", financed under Administrative Grant Agreement No. 812108-31 dated 20.06.2025 \"under\" Procedure No. 3, Specific Objective 1 \"Common European Asylum System\", Specific Objective 2 \"Legal Migration and Integration\", under a procedure through direct grant award No. BG65AMPR001-1.003 of the Program of the Republic of Bulgaria under the Asylum, Migration and Integration Fund 2021-2027 (AMIF). The scope of the procurement includes delivery",
+    "provider": "mymemory",
+    "source_len": 899
+  },
+  "bg|en|a9f3ed1e815886260a5e": {
+    "text": "Engineering – design, construction and implementation of author's supervision during the construction of a combined volleyball, basketball and tennis court in Kestenite Park, Slavovtsi, Novi Iskar, Novi Iskar District - Sofia Municipality",
+    "provider": "mymemory",
+    "source_len": 225
+  },
+  "bg|en|a646406349d47378e324": {
+    "text": "In the performance of this public procurement, the following should be carried out: engineering-design, author's supervision and implementation of construction works in order to build a combined court for volleyball, basketball and tennis. The following activities are included in the scope of assignment: □ Activity 1: Design - Preparation of an investment project in the \"technical project\" phase; according to Ordinance No. 4 of 21.05.2001 on the scope and content of investment projects, Spatial Planning Act and the secondary legislation for its implementation. The project development should include at least the following parts: Part \"Architecture\" Part \"Structures\" Part \"Geodesy\" Part \"Vertical Planning\" Part \"Electro\" Part \"Water Supply and Sewerage\" Part \"Safety and Health Plan\" The projects should be submitted on paper in 3 (three) original copies and 1 (one) copy on digital media (in .pdf, .doc, .xls, .dwg format). In the project…",
+    "provider": "mymemory",
+    "source_len": 886
+  },
+  "bg|en|916298049792925e6644": {
+    "text": "Delivery of a software mobile application for reading electricity meters on the spot according to the communication protocol DLMS COSEM, transmission of the reported data to the information system of Elektrorazpredelenie Yug EAD",
+    "provider": "mymemory",
+    "source_len": 207
+  },
+  "bg|en|e8fc3f15748b7d9096e6": {
+    "text": "The purpose of the public procurement is the delivery of a software mobile application for reading electricity meters on the spot according to the communication protocol DLMS COSEM, transfer of the reported data to the information system of Elektrorazpredelenie Yug EAD.",
+    "provider": "mymemory",
+    "source_len": 240
+  },
+  "bg|en|424d54df6777712797fe": {
+    "text": "Restoring the operational state of the digitization and archive system Noa",
+    "provider": "mymemory",
+    "source_len": 79
+  },
+  "bg|en|54c1c1480ee5853cd25d": {
+    "text": "As a result of a crypto-virus attack, much of the software environment of the BNR's technological systems was destroyed. The purpose of this public procurement is to restore to thehighest possible extent the normal operating condition of the digitization system and archive Olympic Airlines. Recovery must cover the following activities: -Installation of a new Oracle database -Reinstallation and commissioning of Middleware -Reinstalling Noa software on workstations -Training of administrative engineering personnel",
+    "provider": "mymemory",
+    "source_len": 533
+  },
+  "bg|en|1d634a9b5b30233edf8b": {
+    "text": "Subscription support and additional services for upgrading the Integrated Hospital Information System",
+    "provider": "mymemory",
+    "source_len": 104
+  },
+  "bg|en|f436078888e533446554": {
+    "text": "The subject of the public procurement is the subscription support and additional services for upgrading the software product Global Hospital, manufactured by Global System Solution OOD, implemented in NKB Hospital EAD and representing the Integrated Hospital Information System (IBS) with a total of 220 jobs, in the manner and under the conditions described in the Technical Specification described in item II of Section I of the approved documentation for participation in the procedure.",
+    "provider": "mymemory",
+    "source_len": 455
+  },
+  "bg|en|5595e96a4ea47b434be5": {
+    "text": "Supply and introduction of software products for the implementation of the Geographic Information System (GIS), digitization and migration of the technical archive of the town of Petrich",
+    "provider": "mymemory",
+    "source_len": 158
+  },
+  "bg|en|9358011f62f63dc9ff2c": {
+    "text": "The public procurement includes: delivery of GIS software for the needs of the Municipality of Petrich, including delivery of software implemented on systems/devices specified by the contracting authority, including a mobile and web client, training of employees of the contracting authority for work and warranty support of the established geographic information system; digitization of existing data for the territory of the town of Petrich and migration of the technical archive of the town of Petrich. In execution of this public procurement, the Contractor shall perform the quality and timely, in full compliance with the current legislation and with the requirements of the Contracting Authority, the following activities: Activity № 1: Sub-Activity № 1.1. Delivery and introduction (installation and configuration) of software products for the implementation of a geographic information management system on the territory of the city of Petrich for systems/devices specified by the contracting authority (working…",
+    "provider": "mymemory",
+    "source_len": 896
+  },
+  "bg|en|db089ded1d39ef4a17fe": {
+    "text": "Provision of subscription service and maintenance of a document flow information system with a paperless processing process",
+    "provider": "mymemory",
+    "source_len": 122
+  },
+  "bg|en|5f9b8515bfdbeb371eea": {
+    "text": "The public procurement with subject \"Provision of subscription service and maintenance of an information system for document circulation with paperless processing process\" includes: consulting the responsible persons (including technical persons) by the contracting authority on the functioning, settings and administration of an automated information system for document circulation with a paperless process for processing in case of problems with the use of the system, performs changes in the programming code of the software when submitting requests for changes in the existing functionality.",
+    "provider": "mymemory",
+    "source_len": 591
+  },
+  "bg|en|407daf0752f79a18a902": {
+    "text": "OTC maintenance of CRC information system for on-line filling in of questionnaires for reporting of the companies providing general electronic communications networks and services to the postal service operators",
+    "provider": "mymemory",
+    "source_len": 195
+  },
+  "bg|en|0aa5b61a21f376fddc99": {
+    "text": "Out-of-warranty maintenance of the CRC information system for online completion and acceptance of questionnaires for reporting the activities of enterprises providing public electronic communications networks and /or services to postal service operators \" (the system, the CRC electronic system, the CRC electronic system for online questionnaires).",
+    "provider": "mymemory",
+    "source_len": 340
+  },
+  "bg|en|1b9e7ab8a5440f8c4add": {
+    "text": "The subject of this contract is the out-of-warranty maintenance of the CRC information system for online completion and acceptance of questionnaires for reporting the activities of enterprises providing public electronic communications networks and /or services to postal service operators \" (the system, the CRC electronic system, the CRC electronic system for online questionnaires).",
+    "provider": "mymemory",
+    "source_len": 374
+  },
+  "bg|en|e64e7bbb806fcce18750": {
+    "text": "Ensuring the right of use and maintenance of a software system for document flow – \"Archimedes\", implementation of two additional modules to the system and carrying out activities to upgrade the system",
+    "provider": "mymemory",
+    "source_len": 200
+  },
+  "bg|en|5ac915174649f3ca42e1": {
+    "text": "The subscription technical maintenance and software provision of GPS and Maintenance of the software module for processing of travel documents, system \"NARADINFO\" and system for editing schedule and order, divided into the following lots:1. Lot No.1 - Subscription maintenance and software of GPS – Automated system for management, control and safety of electrical transport (ASUKBET) in the divisions of Sofia Public Electrical Transport Company EAD;2. Lot No.2 - Maintenance of the roadmap processing software module, NARYADINFO system and schedule and order editing system.",
+    "provider": "mymemory",
+    "source_len": 627
+  },
+  "bg|en|d99a1b80b7ed53f73019": {
+    "text": "Upgrading the Testing Platform and Job Portal in the state administration jobs.government.bg",
+    "provider": "mymemory",
+    "source_len": 114
+  },
+  "bg|en|3a765d75489bbbc71f67": {
+    "text": "Subscription service and maintenance of software products from specialized hospital information system \"GAMMA",
+    "provider": "mymemory",
+    "source_len": 114
+  },
+  "bg|en|a855405d9f82ebc70493": {
+    "text": "Subscription service and maintenance of software products from the specialized hospital information system \"GAMMA\".",
+    "provider": "mymemory",
+    "source_len": 113
+  },
+  "bg|en|e6840b2ad9cbf9d7e706": {
+    "text": "Subscription maintenance, updating and improvement of the hospital information system /BIS/ Global Hospital of MHAT \"Lozenets\" EAD",
+    "provider": "mymemory",
+    "source_len": 136
+  },
+  "bg|en|81bc51823cee7db69b90": {
+    "text": "The subject of the order is subscription maintenance, update and improvement of the Global Hospital hospital information system, consisting of 12 modules. For the administration, reporting and payment of health services by the NHIF, the Global Hospital is used in 160 separate workplaces located in the units of the medical institution. At the time of opening the public procurement, the software product Global Hospital had 12 modules: 1 Global Hospital – module Unit 2 Global Hospital – Module DCB/EMERGENCY Reception Unit 3 Global Hospital – Module Clinical/Outpatient Procedures 4 Global Hospital – Module Paraclinics – Global Lab Expert with interfaces to clinical analysts 5 Global Hospital – Module Pharmacy/Warehouse 6 Global Hospital – Module Reports 7 Global Hospital – Module NHIF and electronic invoices 8 Global Hospital – Module Finance 9 Global Hospital – Module Interfaces to accounting system 10…",
+    "provider": "mymemory",
+    "source_len": 895
+  },
+  "bg|en|9d0cfe4368bbc015fc0b": {
+    "text": "SUBSCRIPTION SUPPORT FOR SOFTWARE PRODUCT INTEGRATED HUMAN RESOURCE MANAGEMENT SYSTEM\"ALADIN\" FOR THE NEEDS OF BULGARIAN POSTSEAD",
+    "provider": "mymemory",
+    "source_len": 143
+  },
+  "bg|en|fd74ff75e002d516439a": {
+    "text": "Supply of specialized process management software for hospital nutrition",
+    "provider": "mymemory",
+    "source_len": 82
+  },
+  "bg|en|1b805ba69e33a80964e7": {
+    "text": "The subject of the procurement includes the supply and implementation of a software system for the management of hospital nutrition processes, including the preparation of databases with the necessary basic information, software installation, staff training, tests, commissioning and maintenance of the software for a period of 1 year.The maximum value of the contract for the performance of the public procurement may not exceed EUR 51,128.68 (EUR). Participants should take this circumstance into account when completing the price offer, otherwise they will be removed from participation in the listing.​​​​​​​",
+    "provider": "mymemory",
+    "source_len": 604
+  },
+  "bg|en|ff32d0d2169d03db41f3": {
+    "text": "Granting the right to use and subscription support of a software product for managing the activity of municipal nurseries on the territory of Varna Municipality, to the Healthcare Function.",
+    "provider": "mymemory",
+    "source_len": 196
+  },
+  "bg|en|23746062b910c3f538e0": {
+    "text": "The purpose of the public procurement is to select a contractor for the provision of services for the provision of the right of use and subscription maintenance of a unified electronic system for the needs of nurseries on the territory of the Municipality of Varna, detailed in the Technical Specification /Annex No.1/, an integral part of the instructions for participation.",
+    "provider": "mymemory",
+    "source_len": 326
+  },
+  "bg|en|0cfc52cb3c9c040b7b30": {
+    "text": "Right of use and provision of cloud software solution LogSentinel \"Enterprise\" implemented in the systems of Sofiyska Voda AD",
+    "provider": "mymemory",
+    "source_len": 140
+  },
+  "bg|en|17e0c21042bd66fd18df": {
+    "text": "Right of use and provision of cloud software solution LogSentinel \"Enterprise\" (Log Collection, Monitoring, Audit, Anomaly Detection; Support & Maintenance) implemented in the systems",
+    "provider": "mymemory",
+    "source_len": 199
+  },
+  "bg|en|6ccb1302bcb3357e38c0": {
+    "text": "Maintenance of specialized software product \"Astra-Warehouse\", together with its modules \"Astra – Invoicing\" , \"Astra – Cashier\" and \"Astra - Fees\", used by the Finance Directorate at the Executive Agency \"Military Clubs and Military Recreation",
+    "provider": "mymemory",
+    "source_len": 225
+  },
+  "bg|en|f4f2fa1d5cd60c1dd701": {
+    "text": "The subject of the public procurement includes maintenance of the specialized software product \"Astra-Warehouse\", together with the modules thereto \"Astra – Invoicing\" , \"Astra – Cashier\" and \"Astra - Fees\", used by the Finance Directorate at the Executive Agency \"Military Clubs and Military Recreation\", as follows: 1. Maintenance of the module \"Astra Invoicing\" for EA \"Military Clubs and Military Recreation\" on the territory of the country for 20 jobs; 2. Module Maintenance for civil contracts and fees \"Astra Fees\" for EA \"Military Clubs and Military Recreation\" on the territory of the country for 5 jobs; 3. Maintenance of the Astra Warehouse Reporting Module for the Military Clubs and Military Recreation Executive Agency – Central Office for 1 job; 4. Maintenance of a module for keeping a cash register \"Astra cash register\" for EA \"Military Clubs and Military Recreation\" on the territory of the country for 5 jobs; 5. Auto",
+    "provider": "mymemory",
+    "source_len": 899
+  },
+  "bg|en|328098d00dac9bf408e1": {
+    "text": "Subscription support of software products for the needs of ViKOOD - Gabrovo",
+    "provider": "mymemory",
+    "source_len": 79
   }
 }
