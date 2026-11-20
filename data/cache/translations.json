@@ -4123,5 +4123,195 @@
     "text": "Development and implementation of a National Information System (platform) for analyzing and assessing the risks of disasters caused by floods and landslides",
     "provider": "mymemory",
     "source_len": 158
+  },
+  "bg|en|51c156036357b80ee34e": {
+    "text": "Creation and maintenance of an electronic platform for the digitalization of the process of early screening assessment and analysis of the development of three-year-old children, part of the ispo.bg platform",
+    "provider": "mymemory",
+    "source_len": 176
+  },
+  "bg|en|10675f2f0346807880d3": {
+    "text": "The subject of the public procurement is \"Creation and maintenance of an electronic platform for the digitalization of the process of early screening assessment and analysis of the development of three-year-old children, part of the ispo.bg platform\".\"Creation and maintenance of an electronic platform for the digitalization of the process of early screening assessment and analysis of the development of three-year-old children, part of the ispo.bg platform\". • Activity 1: Development of a software platform • Activity 2: Integrations and APIs to \"ispo\" • Activity 3: Cybersecurity and GDPR • Activity 4: Training and Documentation • Activity 5: Support and Hosting (24 months) The activities are described in detail in the Technical Specification, which is an integral part of the documentation for participation in the public procurement approved by the Contracting Authority.",
+    "provider": "mymemory",
+    "source_len": 745
+  },
+  "bg|en|0d4a5a27e6470718ddcc": {
+    "text": "Technical support of Oracle Database Management Systems for the National Information System for Environmental Monitoring (NISEM) at the Executive Environment Agency (EEA) for the period 25.11.2026-02.02.2027.",
+    "provider": "mymemory",
+    "source_len": 117
+  },
+  "bg|en|c75943c2c4ac7df3fbe9": {
+    "text": "Renewal of technical support for licensed Oracle database management software products for the needs of NISO Product Description***CSI No.*** Quantity***License Metric***License Level/Type*** Start Date***End Date Oracle Database Enterprise Edition - Processor Perpetual *** 104669282 *** 7 *** PROCESSOR *** FULL USE *** 25-Nov-26 *** 2-Feb-27 Oracle Diagnostics Pack - Processor Perpetual *** 104669282 *** 7 *** PROCESSOR *** FULL USE *** 25-Nov-26 *** 2-Feb-27 Oracle Partitioning - Processor Perpetual *** 104669282 *** 7 *** PROCESSOR *** FULL USE *** 25-Nov-26 *** 2-Feb-27 Oracle Tuning Pack - Processor Perpetual *** 104669282 *** 7 *** PROCESSOR *** FULL USE *** 25-Nov-26 *** 2-Feb-27",
+    "provider": "mymemory",
+    "source_len": 719
+  },
+  "bg|en|da79d621fe0fb53c4d36": {
+    "text": "Maintenance of a customer information system – integrated end-to-end solution (SAP IS-U) and implementation of additional developments in the system",
+    "provider": "mymemory",
+    "source_len": 136
+  },
+  "bg|en|a33f79b08fee862f0d52": {
+    "text": "The subject of the public procurement procedure is divided into the following lots: Lot 1: Maintenance of a customer information system – integrated comprehensive solution /SAP IS-U/; Lot 2: Implementation of additional developments in the SAP IS-U system",
+    "provider": "mymemory",
+    "source_len": 288
+  },
+  "bg|en|40253d03bc10a350d93e": {
+    "text": "Renewal of support for ESRI ArcGIS server software",
+    "provider": "mymemory",
+    "source_len": 56
+  },
+  "bg|en|8235248c8d4e52b3b298": {
+    "text": "The specific objectives of the public procurement are: • Renewal of support for ArcGIS for Server Enterprise Advanced Up to 8 cores License - upgrade to the latest version; • Installation of the software; • Technical support for 12 months. Requirements for the performance of the procurement • Provision of the license with an acceptance and handover protocol. • Installation of the ArcGIS Server software product, latest version, on a machine provided by the Contracting Authority; • Technical support for the software, which consists of: - technical consultations by phone and email; - technical intervention on site (if necessary) to resolve technical problems related to the delivered software; - receipt of a Patch with which the manufacturer resolves technical problems. - troubleshooting of the installed software, within 3 days of the Contracting Authority reporting the issue.",
+    "provider": "mymemory",
+    "source_len": 883
+  },
+  "bg|en|e1eec57e63df945c121e": {
+    "text": "Maintenance of the existing video surveillance system of the General Directorate for the Execution of Sentences and its regional offices",
+    "provider": "mymemory",
+    "source_len": 89
+  },
+  "bg|en|5fdb2a82fbdfee03f82b": {
+    "text": "The Contractor shall provide continuous technical and software support for the existing HikCentral platform for centralized management and monitoring of video surveillance systems, without access to video recordings and real-time monitoring. The support includes diagnostics and troubleshooting; maintenance of servers, DVR/NVR devices, communication and peripheral equipment, including the video wall in the GDES building; compatibility and integration with perimeter security, burglar alarm system, access control and fire alarm; backup power supply for a minimum of 30 minutes; provision of storage capacity for recordings for a minimum of 30 days at full load; primary and backup connectivity with minimum guaranteed speeds for all the Contracting Authority's sites, including maintenance of end network devices. Round-the-clock remote support (24/7) is provided by phone, email, mail(s)",
+    "provider": "mymemory",
+    "source_len": 898
+  },
+  "bg|en|6abb2bccad41a31c7a6c": {
+    "text": "Use of \"Software as a Service\" for the centralized management of municipal parking for the needs of Municipal Enterprise \"PARKING LOTS, GARAGES AND PARKING ZONES",
+    "provider": "mymemory",
+    "source_len": 137
+  },
+  "bg|en|afb48c6fbfe28a717b5d": {
+    "text": "The subject of the public procurement is \"Use of \"Software as a Service\" for the centralized management of municipal parking for the needs of Municipal Enterprise \"PARKING LOTS, GARAGES AND PARKING AREAS – Kardzhali\". The performance requirements are described in the Technical Specification of the Contracting Authority.",
+    "provider": "mymemory",
+    "source_len": 269
+  },
+  "bg|en|a560d60f0e890b4874eb": {
+    "text": "Technical Support for Oracle Standard Base Software",
+    "provider": "mymemory",
+    "source_len": 60
+  },
+  "bg|en|e5cdd2d88b0ba3c8b37f": {
+    "text": "The procurement concerns technical support for standard Oracle base software.",
+    "provider": "mymemory",
+    "source_len": 82
+  },
+  "bg|en|42e5c803b891d0e955be": {
+    "text": "PROVISION OF VMWARE LICENSES FOR THE NEEDS OF THE COMMUNICATIONS REGULATION COMMISSION",
+    "provider": "mymemory",
+    "source_len": 84
+  },
+  "bg|en|b88bc1d758650d5b7c40": {
+    "text": "The place of performance of the procurement is: the building of the Communications Regulation Commission (CRC), located in the city of Sofia, 6 Gen. Yosif V. Gurko Str. No. 6 and the city of Veliko Tarnovo, 2a Hristo Botev Str., fl. 2, if necessary, and remotely. The contract for the performance of the procurement will be valid until December 16, 2027. The total estimated value of this public procurement is EUR 82,000 excluding VAT and EUR 98,400 including VAT. The funds for the public procurement is financed from the budget of the Communications Regulation Commission. The Contracting Authority shall make the payments of the remuneration due in accordance with the terms and conditions set out in the draft contract. The public procurement contract shall be awarded on the basis of the most economically advantageous tender. The most economically advantageous tender shall be determined on the basis of the award criterion \"lowest price\" under Art. 70, para. 2, item 1 of the PPA. Variants of the tenders will not be…",
+    "provider": "mymemory",
+    "source_len": 886
+  },
+  "bg|en|47de59f1931fdd2fea68": {
+    "text": "Maintenance of a taxi register under Art. 12, para. 4 of the Road Transport Act",
+    "provider": "mymemory",
+    "source_len": 85
+  },
+  "bg|en|fe062d065b602ba8ce80": {
+    "text": "Maintenance of a taxi register under Art. 12, para. 4 of the Road Transport Act, which ensures the following activities: registration of issued certificates for registration of traders carrying out taxi transport of passengers; issuance of permits for carrying out taxi transport of passengers; generation of reference information for the needs of municipalities and the State Road Transport Administration.",
+    "provider": "mymemory",
+    "source_len": 369
+  },
+  "bg|en|ae3b9f0d4c9819f84cec": {
+    "text": "Installation of video surveillance systems on Škoda Solaris 26Tr/Trolino 12 trolleybuses and Solaris Urbino 12 and SOR NB18 buses",
+    "provider": "mymemory",
+    "source_len": 122
+  },
+  "bg|en|890c4e2d20131f3d0034": {
+    "text": "The subject of this procurement is the installation of a new comprehensive video surveillance system for \"Skoda Solaris 26Tr/Trolino 12\" trolleybuses and \"Solaris Urbino 12\" and \"SOR NB18\" buses by replacing defective video surveillance equipment in the vehicles. The Contractor shall dismantle the defective equipment and install a new complete video surveillance system for the \"Skoda Solaris 26Tr/Trolino\" trolleybus and the \"Solaris Urbino 12\" and \"SOR NB18\" buses within 20 /twenty/ working days after submission of the request. All products used in the execution of the order must be newly manufactured and comply with the specifications prescribed by the manufacturer in terms of: type, parameters and other technical characteristics. Electronic circuit boards, modules and computer configurations must have programs and software installed in accordance with their intended use.",
+    "provider": "mymemory",
+    "source_len": 833
+  },
+  "bg|en|efa066eb4eb481375295": {
+    "text": "Market consultation to determine the estimated value of one man-hour for business analysis, software solution development, testing and documentation for the development/modification of functionalities in the information systems of the Employment Agency",
+    "provider": "mymemory",
+    "source_len": 242
+  },
+  "bg|en|121ed1c5e38c0f200573": {
+    "text": "The purpose of the public procurement is to develop and implement a National Information System (platform) for analyzing and assessing the risks of disasters caused by floods and landslides. The development of the platform for analyzing and assessing the risks of disasters will ensure the provision of timely information to the responsible units and executive authorities, which, in view of their statutorily defined functions, must have preparedness to take action in the event of danger or a disaster that has already occurred. The platform will enable the collection, processing and visualization of information and data related to disasters. The platform can be used both in the operational and preventive activities of the General Directorate \"Fire Safety and Protection of the Population\" (GDFSPP) and by the responsible units and executive authorities in the planning and implementation of preventive measures aimed at reducing the risk of disasters",
+    "provider": "mymemory",
+    "source_len": 900
+  },
+  "bg|en|6f5a1d77bd7a975fedec": {
+    "text": "Subscription service and services related to the system integration of software products into the established IT infrastructure of the University of National and World Economy",
+    "provider": "mymemory",
+    "source_len": 174
+  },
+  "bg|en|e9b6d13a447f0561658c": {
+    "text": "Selection of a contractor to provide maintenance and upgrade services for the secondary integration and law enforcement system",
+    "provider": "mymemory",
+    "source_len": 127
+  },
+  "bg|en|d43739484bda2cab1e85": {
+    "text": "Implementation of system integration activities falling within the scope of Article 7c of the Electronic Governance Act – Provision of a platform for intelligence and proactive detection of cyber threats in real time (Threat Intelligence Solution) in the Healthcare Sector",
+    "provider": "mymemory",
+    "source_len": 266
+  },
+  "bg|en|abb7f160e50ddbb3e2bd": {
+    "text": "Upgrade of the IS of the Commercial Register and the Register of Non-Profit Organizations, in connection with European legislation and transposition of Directive (EU) 2019/2121 of the European Parliament and of the Council of 27 November 2019 amending Directive (EU) 2017/1132 as regards cross-border conversions, mergers and divisions (BRIS 4) and amendment of the Commercial Act as regards the fast-track liquidation procedure, for the needs of the Registry Agency (RA)",
+    "provider": "mymemory",
+    "source_len": 400
+  },
+  "bg|en|bc969e522b1acba14d8b": {
+    "text": "The subject of the public procurement is the services for upgrading the Information System (IS) of the Commercial Register and the Register of Non-Profit Legal Entities (CRRNLE) in connection with European legislation and the transposition of Directive (EU) 2019/2121 of the European Parliament and of the Council of 27 November 2019 amending Directive (EU) 2017/1132 as regards cross-border conversions, mergers and divisions (BRIS 4) and an amendment to Commercial Act in connection with the fast-track liquidation proceedings, for the needs of the Registry Agency (RA). The Services are implemented through the following activities: Activity 1: \"Upgrade of the IS of the CRNPLNC in accordance with the amendments to the Commercial Act (prom. SG, issue 82 of 2024) on the expedited liquidation procedure\"; Sub-activity 1.1: \"Providing the possibility of entering in the CRNLE the circumstances regarding the expedited procedure for…",
+    "provider": "mymemory",
+    "source_len": 890
+  },
+  "bg|en|48008a8d96f06eb54413": {
+    "text": "Subscription-based software support for voice operating connection systems",
+    "provider": "mymemory",
+    "source_len": 73
+  },
+  "bg|en|7dd1458b76ebc5613665": {
+    "text": "Provision of subscription-based software support by maintaining Unify OpenScape 4000 OS4K, Unify OS Xpert, Unify OpenScape Business X8, Vidicode Apresa Super Micro Server systems in the latest fully functional versions. Performing activities related to the Unify OpenScape 4000 OS4K, Unify OS Xpert, Unify OpenScape Business X8, Vidicode Apresa Super Micro Server systems after an email request has been sent by the contracting authority's specialists. The activities include the construction of new and reconfiguration of existing internal and external lines, reconfiguration of the established communication networks between the individual systems, technical advice, consultations, configurations, best practices and recommendations, with the aim of improving the performance, reliability and fault tolerance of the operational voice communication network. Subscription software support must provide at least: - Update of…",
+    "provider": "mymemory",
+    "source_len": 894
+  },
+  "bg|en|b2cbeaa2122a11ab8847": {
+    "text": "Updating and upgrading /re-engineering/ of the software for calculating the energy performance of buildings in order to adapt it to the current regulatory requirements and to add functionalities that will assist enterprises in the process of certifying buildings and carrying out energy efficiency audits",
+    "provider": "mymemory",
+    "source_len": 330
+  },
+  "bg|en|e40e8234c8ddd3c468be": {
+    "text": "Updating and upgrading /re-engineering/ of the software for calculating the energy performance of buildings to an online specialized calculation system with an updated calculation algorithm and a web-based interface in full compliance with the current regulatory framework for determining the energy performance of buildings, as well as for the inspection and certification of buildings. Integration of advanced and enhanced processing of primary data, covering the calculation process when conducting an energy efficiency audit of a building and the use of databases. Development of automatic generation of regulatory documents in a standardized format (summary and certificate) and data export.",
+    "provider": "mymemory",
+    "source_len": 678
+  },
+  "bg|en|ecf69d836b674c0c25b6": {
+    "text": "Design, development and implementation of amendments and additions to the Core Banking Information System (SAP) at the Bulgarian National Bank",
+    "provider": "mymemory",
+    "source_len": 139
+  },
+  "bg|en|740b9364f82ec076e9f0": {
+    "text": "Development of new functionalities, as well as provision of related consulting, training and software support services for the remote meter reading system built in Elektrorazpredelenie Yug EAD",
+    "provider": "mymemory",
+    "source_len": 222
+  },
+  "bg|en|45e7358acccfe29281a8": {
+    "text": "Development of an e-platform for distance learning of employees in the Emergency Medical Care system in the implementation of project BG05M9OP001-3.007-0001 \"Improvement of conditions for treatment of emergency conditions",
+    "provider": "mymemory",
+    "source_len": 198
+  },
+  "bg|en|734cf36f0c979cf98f7b": {
+    "text": "The project aims to develop an electronic platform for distance learning of employees from the Emergency Medical Care (EMC) system, which will enable periodic training of medical specialists from the EMC system by providing access to learning materials, taking online tests/exams to assess the new knowledge and skills acquired, solving practical cases, and conducting online seminars/courses. The administrators of the electronic platform must be able to perform an analysis of the results of the distance learning conducted, of the identified needs for additional theoretical and practical training of medical specialists, as well as the electronic platform to provide the possibility of providing various versions of statistical information through the database created in the system, including at least by: categories of personnel, specialties, place of work, training conducted, results achieved and certificates obtained. It should be possible to process the information for Aldebaran",
+    "provider": "mymemory",
+    "source_len": 895
+  },
+  "bg|en|a81dafb194c79b267bd6": {
+    "text": "Provision of a solution for automated collection and storage of information with the possibility of generating reports and development of an intellectual property management platform in connection with the implementation of the Policy for the Support of Scientific Research and Innovation Activities of the Medical University of Plovdiv",
+    "provider": "mymemory",
+    "source_len": 253
+  },
+  "bg|en|63126ce7f86a9dbe9af6": {
+    "text": "Provision of a solution for automated collection and storage of information with the possibility of preparing reports and development of an intellectual property management platform in connection with the implementation of the Plan for Scientific Research and Innovation Activities of the Medical University of Plovdiv\", Lot 2: Development of an intellectual property management platform",
+    "provider": "mymemory",
+    "source_len": 343
+  },
+  "bg|en|0f2bb18902a0b5870a83": {
+    "text": "Subscription service and functional development of an information system for information services for the budget and the fiscal reserve at the BNB (ISBFR)",
+    "provider": "mymemory",
+    "source_len": 143
   }
 }
