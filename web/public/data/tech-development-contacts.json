@@ -1,15 +1,15 @@
 {
-  "collected_at": "2026-11-20T15:03:46.007496+00:00",
-  "enriched_at": "2026-11-20T15:39:31.242673+00:00",
+  "collected_at": "2026-11-23T17:34:11.408446+00:00",
+  "enriched_at": "2026-11-23T18:03:34.676349+00:00",
   "source": "https://app.eop.bg/today",
   "counts": {
-    "total": 2925,
-    "tenders": 1486,
-    "contracts": 1439,
-    "with_contact": 2925,
-    "with_email": 2925,
-    "active": 64,
-    "with_title_en": 470
+    "total": 2926,
+    "tenders": 1485,
+    "contracts": 1441,
+    "with_contact": 2926,
+    "with_email": 2926,
+    "active": 62,
+    "with_title_en": 552
   },
   "items": [
     {
@@ -373,9 +373,9 @@
       "offer_phase_end": "2026-12-17T21:59:59+00:00",
       "published_tender_status": 1,
       "title_en": "Creation and maintenance of an electronic platform for the digitalization of the process of early screening assessment and analysis of the development of three-year-old children, part of the ispo.bg platform",
-      "title_en_provider": "mymemory",
+      "title_en_provider": "cache",
       "description_en": "The subject of the public procurement is \"Creation and maintenance of an electronic platform for the digitalization of the process of early screening assessment and analysis of the development of three-year-old children, part of the ispo.bg platform\".\"Creation and maintenance of an electronic platform for the digitalization of the process of early screening assessment and analysis of the development of three-year-old children, part of the ispo.bg platform\". • Activity 1: Development of a software platform • Activity 2: Integrations and APIs to \"ispo\" • Activity 3: Cybersecurity and GDPR • Activity 4: Training and Documentation • Activity 5: Support and Hosting (24 months) The activities are described in detail in the Technical Specification, which is an integral part of the documentation for participation in the public procurement approved by the Contracting Authority.",
-      "description_en_provider": "mymemory"
+      "description_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -889,7 +889,7 @@
       "deadline": "2026-10-08T17:59:59+00:00",
       "offers_receiving_deadline": "2026-10-08T20:59:59+00:00",
       "published_tender_participation_status": 2,
-      "tender_status": 1,
+      "tender_status": 4,
       "procedure_type": 9,
       "url": "https://app.eop.bg/today/tenders/608925",
       "status": "closed",
@@ -2807,14 +2807,14 @@
       "publication_date": "2026-10-19T02:17:11.756000+00:00",
       "deadline": "2026-11-20T19:59:59+00:00",
       "offers_receiving_deadline": "2026-11-20T21:59:59+00:00",
-      "published_tender_participation_status": 1,
-      "tender_status": 1,
+      "published_tender_participation_status": 2,
+      "tender_status": 2,
       "procedure_type": 2,
       "url": "https://app.eop.bg/today/tenders/613332",
-      "status": "active",
-      "is_active": true,
-      "status_label": "Active",
-      "status_reason": "participation_open",
+      "status": "closed",
+      "is_active": false,
+      "status_label": "Closed",
+      "status_reason": "participation_closed",
       "estimated_value": 63911.49,
       "budget_amount": 63911.49,
       "currency_code": "EUR",
@@ -7408,7 +7408,7 @@
       "buyer_nuts": "BG411",
       "published_tender_status": 1,
       "title_en": "Market consultation to determine the estimated value of one man-hour for business analysis, software solution development, testing and documentation for the development/modification of functionalities in the information systems of the Employment Agency",
-      "title_en_provider": "mymemory"
+      "title_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -10206,14 +10206,14 @@
       "publication_date": "2026-11-20T11:22:32.270000+00:00",
       "deadline": "2026-11-20T19:59:59+00:00",
       "offers_receiving_deadline": "2026-11-20T21:59:59+00:00",
-      "published_tender_participation_status": 1,
+      "published_tender_participation_status": 2,
       "tender_status": 1,
       "procedure_type": 9,
       "url": "https://app.eop.bg/today/tenders/621108",
-      "status": "active",
-      "is_active": true,
-      "status_label": "Active",
-      "status_reason": "participation_open",
+      "status": "closed",
+      "is_active": false,
+      "status_label": "Closed",
+      "status_reason": "participation_closed",
       "estimated_value": 14139.94,
       "budget_amount": 14139.94,
       "currency_code": "EUR",
@@ -10221,7 +10221,7 @@
       "contact_name": "Кирил Славейков Илков",
       "contact_email": "k.ilkov@eea.government.bg",
       "contact_phone": "+359 29406415",
-      "contact_source": "tender",
+      "contact_source": "buyer_profile",
       "buyer_contact_name": "Кирил Славейков Илков",
       "buyer_contact_email": "k.ilkov@eea.government.bg",
       "buyer_contact_phone": "+359 29406415",
@@ -10236,9 +10236,9 @@
       "offer_phase_end": "2026-11-20T21:59:59+00:00",
       "published_tender_status": 1,
       "title_en": "Technical support of Oracle Database Management Systems for the National Information System for Environmental Monitoring (NISEM) at the Executive Environment Agency (EEA) for the period 25.11.2026-02.02.2027.",
-      "title_en_provider": "mymemory",
+      "title_en_provider": "cache",
       "description_en": "Renewal of technical support for licensed Oracle database management software products for the needs of NISO Product Description***CSI No.*** Quantity***License Metric***License Level/Type*** Start Date***End Date Oracle Database Enterprise Edition - Processor Perpetual *** 104669282 *** 7 *** PROCESSOR *** FULL USE *** 25-Nov-26 *** 2-Feb-27 Oracle Diagnostics Pack - Processor Perpetual *** 104669282 *** 7 *** PROCESSOR *** FULL USE *** 25-Nov-26 *** 2-Feb-27 Oracle Partitioning - Processor Perpetual *** 104669282 *** 7 *** PROCESSOR *** FULL USE *** 25-Nov-26 *** 2-Feb-27 Oracle Tuning Pack - Processor Perpetual *** 104669282 *** 7 *** PROCESSOR *** FULL USE *** 25-Nov-26 *** 2-Feb-27",
-      "description_en_provider": "mymemory"
+      "description_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -10866,10 +10866,10 @@
       "budget_amount": 38207.0,
       "currency_code": "EUR",
       "budget_scope": "Estimated value: 38 207 EUR",
-      "contact_name": "Мария Стоянова Колева",
-      "contact_email": "m.koleva@is-bg.net",
-      "contact_phone": "+359 876580228",
-      "contact_source": "buyer_profile",
+      "contact_name": "Станислава  Стойнева",
+      "contact_email": "s.stoyneva@is-bg.net",
+      "contact_phone": "+359 876435714",
+      "contact_source": "tender",
       "buyer_contact_name": "Мария Стоянова Колева",
       "buyer_contact_email": "m.koleva@is-bg.net",
       "buyer_contact_phone": "+359 876580228",
@@ -13249,6 +13249,67 @@
       "title_en_provider": "cache",
       "description_en": "Currently, in the State Enterprise \"Bulgarian Sports Totalizer\" all end users /200+/use operating systems and products Microsoft - Windows, Office, Teams, Sharepoint, Exel, Outlook, etc. Also, the server infrastructure and databases of the enterprise are on Microsoft, which requires licenses of the same type or equivalent. Subject of the public procurement \"Supply of software licenses for use of applications for the office\", includes the assignment of software licenses for the use of applications for the office (referred to as\" products \") as follows: Product - Estimated quantity in cash Microsoft 365 Business Premium - 250 pieces Microsoft 356 E3 - 13 pieces Power BI Pro - 1 piece Visio Plan 1 - 1 piece Project Plan 3 - 1 piece Microsoft Defender for Business servers - 1 piece",
       "description_en_provider": "cache"
+    },
+    {
+      "kind": "contract",
+      "source": "contracts_subject",
+      "query": "информационна система",
+      "relevance_score": 85,
+      "relevance_hits": [
+        "информационн\\w*\\s+систем",
+        "поддръжка\\s+на\\s+(информационн|софтуер|систем)",
+        "визуализац"
+      ],
+      "contract_id": 274048,
+      "contract_number": "274048",
+      "contract_subject": "Обслужване и поддръжка на информационната система WPS 32 за събиране, архив и визуализация на технологична информация от газопреносната мрежа на “Булгартрансгаз” ЕАД",
+      "contract_value": 178950.0,
+      "currency": 1,
+      "contract_date": "2026-11-11T22:00:00+00:00",
+      "supplier": "МОБИЛ СЪРКЪЛ",
+      "supplier_registry": "202106043",
+      "tender_id": 591740,
+      "published_tender_id": 927880,
+      "special_number": "01351-2026-0043",
+      "title": "Обслужване и поддръжка на информационната система WPS 32 за събиране, архив и визуализация на технологична информация от газопреносната мрежа на “Булгартрансгаз” ЕАД",
+      "description": "Обслужване и поддръжка на информационната система WPS 32 за събиране, архив и визуализация на технологична информация от газопреносната мрежа на “Булгартрансгаз” ЕАД",
+      "organization": "БУЛГАРТРАНСГАЗ ЕАД",
+      "organization_id": 11715,
+      "cpv": "72267100",
+      "publication_date": "2026-11-23T11:47:15.440000+00:00",
+      "url": "https://app.eop.bg/today/tenders/591740",
+      "status": "awarded",
+      "is_active": false,
+      "status_label": "Awarded",
+      "status_reason": "awarded_contract",
+      "estimated_value": 178950,
+      "budget_amount": 178950.0,
+      "currency_code": "EUR",
+      "budget_scope": "Contract value: 178 950 EUR",
+      "contact_name": "Vesela Ivanova Tafradzhiyska",
+      "contact_email": "vtafradziyska@bulgartransgaz.bg",
+      "contact_phone": "",
+      "contact_source": "buyer_profile",
+      "buyer_contact_name": "Vesela Ivanova Tafradzhiyska",
+      "buyer_contact_email": "vtafradziyska@bulgartransgaz.bg",
+      "buyer_contact_phone": "",
+      "buyer_registry_number": "175203478",
+      "buyer_vat_number": "BG175203478",
+      "buyer_address": "ж.к. Люлин 2, бул. Панчо Владигеров №66, гр. София, 1336",
+      "buyer_city": "гр. София",
+      "buyer_postcode": "1336",
+      "buyer_street": "ж.к. Люлин 2, бул. Панчо Владигеров №66",
+      "buyer_url": "https://www.bulgartransgaz.bg",
+      "buyer_nuts": "BG411",
+      "offer_phase_end": "2026-09-01T20:59:59+00:00",
+      "published_tender_participation_status": 2,
+      "published_tender_status": 1,
+      "title_en": "Service and maintenance of the WPS 32 information system for the collection, archiving and visualization of technological information from the gas transmission network of Bulgartransgaz EAD",
+      "title_en_provider": "mymemory",
+      "description_en": "Service and maintenance of the WPS 32 information system for the collection, archiving and visualization of technological information from the gas transmission network of Bulgartransgaz EAD",
+      "description_en_provider": "cache",
+      "contract_subject_en": "Service and maintenance of the WPS 32 information system for the collection, archiving and visualization of technological information from the gas transmission network of Bulgartransgaz EAD",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -18898,9 +18959,9 @@
       "offer_phase_end": "2026-12-08T21:59:59+00:00",
       "published_tender_status": 1,
       "title_en": "Maintenance of a customer information system – integrated end-to-end solution (SAP IS-U) and implementation of additional developments in the system",
-      "title_en_provider": "mymemory",
+      "title_en_provider": "cache",
       "description_en": "The subject of the public procurement procedure is divided into the following lots: Lot 1: Maintenance of a customer information system – integrated comprehensive solution /SAP IS-U/; Lot 2: Implementation of additional developments in the SAP IS-U system",
-      "description_en_provider": "mymemory"
+      "description_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -19010,7 +19071,12 @@
       "buyer_nuts": "BG411",
       "published_tender_participation_status": 2,
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Implementation of system integration activities falling within the scope of Article 7c of the Electronic Governance Act – \"Development, implementation and maintenance of a website for the Swiss-Bulgarian Cooperation Programme",
+      "title_en_provider": "mymemory",
+      "description_en": "Implementation of system integration activities falling within the scope of Article 7c of the Electronic Governance Act – \"Development, implementation and maintenance of a website for the Swiss-Bulgarian Cooperation Programme",
+      "description_en_provider": "cache",
+      "contract_subject_en": "Implementation of system integration activities falling within the scope of Article 7c of the Electronic Governance Act – \"Development, implementation and maintenance of a website for the Swiss-Bulgarian Cooperation Programme",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -19064,7 +19130,12 @@
       "buyer_nuts": "BG411",
       "published_tender_participation_status": 2,
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Implementation of system integration activities falling within the scope of Article 7c of the Electronic Governance Act – \"Upgrade and provision of a management service for the Single Information Portal for general information on the implementation and management of EU funds (www.eufunds.bg)",
+      "title_en_provider": "mymemory",
+      "description_en": "Implementation of system integration activities falling within the scope of Article 7c of the Electronic Governance Act – \"Upgrade and provision of a management service for the Single Information Portal for general information on the implementation and management of EU funds (www.eufunds.bg)",
+      "description_en_provider": "cache",
+      "contract_subject_en": "Implementation of system integration activities falling within the scope of Article 7c of the Electronic Governance Act – \"Upgrade and provision of a management service for the Single Information Portal for general information on the implementation and management of EU funds (www.eufunds.bg)",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -19119,7 +19190,12 @@
       "offer_phase_end": "2026-09-08T20:59:59+00:00",
       "published_tender_participation_status": 2,
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Design, development and implementation of improvements, amendments and additions to the Monetary and Interest Rate Statistics Information System (MIRSIS) at the BNB",
+      "title_en_provider": "mymemory",
+      "description_en": "Design, development and implementation of improvements, amendments and additions to the Monetary and Interest Rate Statistics Information System (MIRSIS) at the BNB",
+      "description_en_provider": "cache",
+      "contract_subject_en": "Design, development and implementation of improvements, amendments and additions to the Monetary and Interest Rate Statistics Information System (MIRSIS) at the BNB",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -19173,7 +19249,12 @@
       "buyer_nuts": "BG411",
       "published_tender_participation_status": 2,
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "System integration services falling within the scope of Art. 7c of the Public Procurement Act, entitled: \"Development and implementation of an Electronic State Aid Centre for the needs of the Ministry of Finance",
+      "title_en_provider": "mymemory",
+      "description_en": "System integration services falling within the scope of Article 7c of the Public Procurement Act, entitled \"Development and implementation of an Electronic State Aid Centre for the needs of the Ministry of Finance",
+      "description_en_provider": "mymemory",
+      "contract_subject_en": "System integration services falling within the scope of Article 7c of the Public Procurement Act, entitled \"Development and implementation of an Electronic State Aid Centre for the needs of the Ministry of Finance",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -19228,7 +19309,12 @@
       "offer_phase_end": "2026-07-28T20:59:59+00:00",
       "published_tender_participation_status": 2,
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Design, development and implementation of amendments and additions to the information system of the Central Credit Register at the BNB (\"Application for loading data into the CCR IS\")",
+      "title_en_provider": "mymemory",
+      "description_en": "Design, development and implementation of amendments and additions to the information system of the Central Credit Register at the BNB (\"Application for loading data into the CCR IS\")",
+      "description_en_provider": "cache",
+      "contract_subject_en": "Design, development and implementation of amendments and additions to the information system of the Central Credit Register at the BNB (\"Application for loading data into the CCR IS\")",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -19341,9 +19427,9 @@
       "offer_phase_end": "2026-07-27T20:59:59+00:00",
       "published_tender_status": 1,
       "title_en": "Updating and upgrading /re-engineering/ of the software for calculating the energy performance of buildings in order to adapt it to the current regulatory requirements and to add functionalities that will assist enterprises in the process of certifying buildings and carrying out energy efficiency audits",
-      "title_en_provider": "mymemory",
+      "title_en_provider": "cache",
       "description_en": "Updating and upgrading /re-engineering/ of the software for calculating the energy performance of buildings to an online specialized calculation system with an updated calculation algorithm and a web-based interface in full compliance with the current regulatory framework for determining the energy performance of buildings, as well as for the inspection and certification of buildings. Integration of advanced and enhanced processing of primary data, covering the calculation process when conducting an energy efficiency audit of a building and the use of databases. Development of automatic generation of regulatory documents in a standardized format (summary and certificate) and data export.",
-      "description_en_provider": "mymemory"
+      "description_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -19399,7 +19485,7 @@
       "published_tender_participation_status": 2,
       "published_tender_status": 1,
       "title_en": "Development of new functionalities, as well as provision of related consulting, training and software support services for the remote meter reading system built in Elektrorazpredelenie Yug EAD",
-      "title_en_provider": "mymemory",
+      "title_en_provider": "cache",
       "description_en": "Development of new functionalities, as well as provision of related consulting, training and software support services for the remote meter reading system built in Elektrorazpredelenie Yug EAD",
       "description_en_provider": "cache",
       "contract_subject_en": "Development of new functionalities, as well as provision of related consulting, training and software support services for the remote meter reading system built in Elektrorazpredelenie Yug EAD",
@@ -19519,9 +19605,9 @@
       "published_tender_participation_status": 2,
       "published_tender_status": 1,
       "title_en": "Provision of a solution for automated collection and storage of information with the possibility of generating reports and development of an intellectual property management platform in connection with the implementation of the Policy for the Support of Scientific Research and Innovation Activities of the Medical University of Plovdiv",
-      "title_en_provider": "mymemory",
+      "title_en_provider": "cache",
       "description_en": "Provision of a solution for automated collection and storage of information with the possibility of preparing reports and development of an intellectual property management platform in connection with the implementation of the Plan for Scientific Research and Innovation Activities of the Medical University of Plovdiv\", Lot 2: Development of an intellectual property management platform",
-      "description_en_provider": "mymemory",
+      "description_en_provider": "cache",
       "contract_subject_en": "Provision of a solution for automated collection and storage of information with the possibility of preparing reports and development of an intellectual property management platform in connection with the implementation of the Plan for Scientific Research and Innovation Activities of the Medical University of Plovdiv\", Lot 2: Development of an intellectual property management platform",
       "contract_subject_en_provider": "cache"
     },
@@ -19578,7 +19664,12 @@
       "offer_phase_end": "2026-04-29T20:59:59+00:00",
       "published_tender_participation_status": 2,
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Subscription service and support for the WEB-based Human Resources Management Software \"TEREZA.BG\" and development of new functionalities",
+      "title_en_provider": "mymemory",
+      "description_en": "Subscription service and support for the WEB-based Human Resources Management Software \"TEREZA.BG\" and development of new functionalities",
+      "description_en_provider": "cache",
+      "contract_subject_en": "Subscription service and support for the WEB-based Human Resources Management Software \"TEREZA.BG\" and development of new functionalities",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -19691,7 +19782,10 @@
       "buyer_nuts": "BG323",
       "offer_phase_end": "2026-05-26T20:59:59+00:00",
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Development of a joint online platform for cross-border education and training in special educational needs under a project with the abbreviation \"EQUAL\" and code: ROBG00284....\"/continued in Section VI/",
+      "title_en_provider": "mymemory",
+      "description_en": "In the performance of this public procurement, a contractor should be appointed to develop a joint online platform for cross-border education and training in special educational needs (SEN). The scope of the procurement includes the development, delivery, implementation, functionality testing, and warranty support of a multilingual online platform for cross-border education and training in special educational needs – EQUAL platform, as well as training of the Contracting Authority's staff to work with the developed and implemented platform and transfer of intellectual property rights over it. The full information on the scope, volume and requirements for the performance of the public procurement is described and regulated in Part II. \"Technical Specification\", an integral part of the tender documentation.",
+      "description_en_provider": "mymemory"
     },
     {
       "kind": "tender",
@@ -19800,7 +19894,10 @@
       "buyer_nuts": "",
       "offer_phase_end": "2026-05-07T20:59:59+00:00",
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Modification and addition of functions to the \"Deliveries\" program module (https://delivery.bulgargaz.bg) and provision of technical support for the module",
+      "title_en_provider": "mymemory",
+      "description_en": "In connection with the natural gas supply contracts concluded between Bulgargaz EAD and its customers in 2026, with the aim of improving the functionality and security of the \"Supplies\" module, experts from Bulgargaz EAD have developed Technical Specifications for modifying and adding functions to the \"Supplies\" software module (https://delivery.bulgargaz.bg/). The main functional changes to the module are as follows: 1. Changes to \"Capacity Transfer\" should Changes should be made to the operator and client profiles in the \"Deliveries\" module in the Capacity Transfer section, and the option to select a user as a drop-down menu during the transfer process should be added to the client profile. 2. Modification of reports to Ajur due to contracts created for gas year 3. For the entry of excise duty allocation without a signature from the operator for Interconnection Point (IP) contracts, an option should be developed for entering the allocation of…",
+      "description_en_provider": "mymemory"
     },
     {
       "kind": "tender",
@@ -19853,7 +19950,10 @@
       "buyer_nuts": "",
       "offer_phase_end": "2026-05-05T20:59:59+00:00",
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Subscription Support for Bulgargaz EAD in connection with the use of software products from the AZHURL series",
+      "title_en_provider": "mymemory",
+      "description_en": "Bulgargaz EAD enters into an annual contract with Bonev Soft Auditing OOD in connection with the subscription support of the contracting authority Bulgargaz EAD for software products from the AZHUR L series and all modules thereto, including those additionally developed. The software product AZHUR L, including its developments, is subject to the exclusive intellectual property right of Bonev Soft Auditing OOD, as the company is the copyright holder. on the software product and owns the AZHUR trademark. The Contracting Authority assigns, and the Contractor accepts, in return for the remuneration specified in the Agreement, to provide subscription support for its software products from the AZHURL series. The subscription support for the AZHURL software product also covers all modules thereof, including those additionally developed at the request of the Contracting Authority to the Contractor prior to the conclusion of this…",
+      "description_en_provider": "mymemory"
     },
     {
       "kind": "tender",
@@ -19907,8 +20007,9 @@
       "offer_phase_end": "2026-05-22T20:59:59+00:00",
       "published_tender_status": 1,
       "title_en": "Subscription service and functional development of an information system for information services for the budget and the fiscal reserve at the BNB (ISBFR)",
-      "title_en_provider": "mymemory",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en_provider": "cache",
+      "description_en": "The public procurement is for the conclusion of a framework agreement and includes the following activities: 1. Subscription service for the Information System for Information Services for the Budget and the Fiscal Reserve (ISBFR) (\"the System\"). The subscription service is provided in accordance with the scope and requirements described in detail in items 3.1.1. and 3.1.2. of the Technical Specification for Subscription Service and Functional Development of an Information System for Information Services for the Budget and the Fiscal Reserve (ISBFR) – Annex No. 1; 2. Design, development and implementation of amendments and additions (\"functional development/updates\") to the Information System for Information Services for the Budget and Fiscal Reserve (ISBFR). The activities shall be carried out in accordance with the main guidelines for the development of the System, described in item 3.1.3. of the Technical Specification for Subscription Service and Functional Развитие на",
+      "description_en_provider": "mymemory"
     },
     {
       "kind": "contract",
@@ -20023,7 +20124,12 @@
       "offer_phase_end": "2026-01-26T21:59:59+00:00",
       "published_tender_participation_status": 2,
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Development, delivery, implementation, testing and commissioning of an intelligent medical platform for clinical support based on artificial intelligence to support medical specialists",
+      "title_en_provider": "mymemory",
+      "description_en": "Development, delivery, implementation, testing and commissioning of an intelligent medical platform for clinical support based on artificial intelligence to support medical professionals through the integration of data from national and international registries, therapeutic guidelines, clinical calculators, drug interaction checks and expert databases, for the needs of the Medical University of Plovdiv",
+      "description_en_provider": "mymemory",
+      "contract_subject_en": "Development, delivery, implementation, testing and commissioning of an intelligent medical platform for clinical support based on artificial intelligence to support medical professionals through the integration of data from national and international registries, therapeutic guidelines, clinical calculators, drug interaction checks and expert databases, for the needs of the Medical University of Plovdiv",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -20077,9 +20183,9 @@
       "offer_phase_end": "2026-03-23T21:59:59+00:00",
       "published_tender_status": 1,
       "title_en": "Upgrade of the IS of the Commercial Register and the Register of Non-Profit Organizations, in connection with European legislation and transposition of Directive (EU) 2019/2121 of the European Parliament and of the Council of 27 November 2019 amending Directive (EU) 2017/1132 as regards cross-border conversions, mergers and divisions (BRIS 4) and amendment of the Commercial Act as regards the fast-track liquidation procedure, for the needs of the Registry Agency (RA)",
-      "title_en_provider": "mymemory",
+      "title_en_provider": "cache",
       "description_en": "The subject of the public procurement is the services for upgrading the Information System (IS) of the Commercial Register and the Register of Non-Profit Legal Entities (CRRNLE) in connection with European legislation and the transposition of Directive (EU) 2019/2121 of the European Parliament and of the Council of 27 November 2019 amending Directive (EU) 2017/1132 as regards cross-border conversions, mergers and divisions (BRIS 4) and an amendment to Commercial Act in connection with the fast-track liquidation proceedings, for the needs of the Registry Agency (RA). The Services are implemented through the following activities: Activity 1: \"Upgrade of the IS of the CRNPLNC in accordance with the amendments to the Commercial Act (prom. SG, issue 82 of 2024) on the expedited liquidation procedure\"; Sub-activity 1.1: \"Providing the possibility of entering in the CRNLE the circumstances regarding the expedited procedure for…",
-      "description_en_provider": "mymemory"
+      "description_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -20190,7 +20296,7 @@
       "published_tender_participation_status": 2,
       "published_tender_status": 1,
       "title_en": "Implementation of system integration activities falling within the scope of Article 7c of the Electronic Governance Act – Provision of a platform for intelligence and proactive detection of cyber threats in real time (Threat Intelligence Solution) in the Healthcare Sector",
-      "title_en_provider": "mymemory",
+      "title_en_provider": "cache",
       "description_en": "Implementation of system integration activities falling within the scope of Article 7c of the Electronic Governance Act – Provision of a platform for intelligence and proactive detection of cyber threats in real time (Threat Intelligence Solution) in the Healthcare Sector",
       "description_en_provider": "cache",
       "contract_subject_en": "Implementation of system integration activities falling within the scope of Article 7c of the Electronic Governance Act – Provision of a platform for intelligence and proactive detection of cyber threats in real time (Threat Intelligence Solution) in the Healthcare Sector",
@@ -20309,7 +20415,7 @@
       "published_tender_participation_status": 2,
       "published_tender_status": 1,
       "title_en": "Selection of a contractor to provide maintenance and upgrade services for the secondary integration and law enforcement system",
-      "title_en_provider": "mymemory",
+      "title_en_provider": "cache",
       "description_en": "Selection of a contractor to provide maintenance and upgrade services for the secondary integration and law enforcement system",
       "description_en_provider": "cache",
       "contract_subject_en": "Selection of a contractor to provide maintenance and upgrade services for the secondary integration and law enforcement system",
@@ -20366,7 +20472,10 @@
       "buyer_nuts": "BG411",
       "offer_phase_end": "2026-02-05T21:59:59+00:00",
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Upgrade of the AKSTER-OFFICE system through the implementation of the \"AKSTER e-OFFICE ARCHIVE\" module and the \"AKSTER FULL-TEXT SEARCH\" module for the needs of the State Financial Inspection Agency",
+      "title_en_provider": "mymemory",
+      "description_en": "The subject of the procurement includes upgrading the AKSTER-OFFICE system by implementing the \"AKSTER e-INSTITUTIONAL ARCHIVE\" module and the \"AKSTER FULL-TEXT SEARCH\" module, as well as their maintenance. The requirements for the performance of the public procurement are described in detail in the Technical Specification of the Contracting Authority – Annex No. 1. **** The deadlines for the performance of the Service are as follows: • The deadline for the implementation of the modules is until 05.03.2026. • The deadline for The right of use and maintenance is from the date of their implementation until December 31, 2026. **** The place of performance is the administrative building of the State Financial Inspection Agency in the city of Sofia, 2 Lege Str. *** The standardized documents under Art. 231, para. 3 of the Public Procurement Act have not been attached, due to the fact that \"INFORMATION SERVICES\" AD is bound by its obligations under the System Integration Contract (SIC) and the clauses of the public procurement contract are synchronized with those of the SIC.…",
+      "description_en_provider": "mymemory"
     },
     {
       "kind": "contract",
@@ -20420,7 +20529,12 @@
       "buyer_nuts": "BG411",
       "published_tender_participation_status": 2,
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Implementation of system integration activities falling within the scope of Article 7c of the Electronic Governance Act - Provision of a service for periodic (Penetration) tests for vulnerabilities in the information system of the National Social Security Institute (NSSI)",
+      "title_en_provider": "mymemory",
+      "description_en": "Implementation of system integration activities falling within the scope of Article 7c of the Electronic Governance Act - Provision of a service for periodic (Penetration) tests for vulnerabilities in the information system of the National Social Security Institute (NSSI)",
+      "description_en_provider": "cache",
+      "contract_subject_en": "Implementation of system integration activities falling within the scope of Article 7c of the Electronic Governance Act - Provision of a service for periodic (Penetration) tests for vulnerabilities in the information system of the National Social Security Institute (NSSI)",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -20651,7 +20765,10 @@
       "buyer_nuts": "BG",
       "offer_phase_end": "2025-12-15T21:59:59+00:00",
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Development of software for the management of intercompany loans of Bulgarian Water and Sewerage Holding EAD",
+      "title_en_provider": "mymemory",
+      "description_en": "The subject of this procurement is the development of a software product for the management of intercompany loans of Bulgarian Water and Sewerage Holding EAD, which will be used to improve work processes through a combination of automation and digitalization. The activities are described in more detail in Section II.2.4) of this notice and must be carried out in accordance with the technical specification. Method of performance: The activities covered by the subject of the procurement will be shall be performed in accordance with the terms of the Technical Specification and the draft contract, with a performance period of up to 180 calendar days from the date of receipt of the Contracting Authority's letter of award and provision of the necessary input data and information. In accordance with Art. 48, para. 1 of the Public Procurement Act, the necessary characteristics of the subject of the public procurement are described in detail in the Technical Specification attached to this documentation.",
+      "description_en_provider": "mymemory"
     },
     {
       "kind": "contract",
@@ -20767,7 +20884,7 @@
       "published_tender_participation_status": 2,
       "published_tender_status": 1,
       "title_en": "Subscription service and services related to the system integration of software products into the established IT infrastructure of the University of National and World Economy",
-      "title_en_provider": "mymemory",
+      "title_en_provider": "cache",
       "description_en": "Subscription service and services related to the system integration of software products into the established IT infrastructure of the University of National and World Economy",
       "description_en_provider": "cache",
       "contract_subject_en": "Subscription service and services related to the system integration of software products into the established IT infrastructure of the University of National and World Economy",
@@ -20827,7 +20944,7 @@
       "published_tender_participation_status": 2,
       "published_tender_status": 1,
       "title_en": "Design, development and implementation of amendments and additions to the Core Banking Information System (SAP) at the Bulgarian National Bank",
-      "title_en_provider": "mymemory",
+      "title_en_provider": "cache",
       "description_en": "Design, development and implementation of amendments and additions to the Core Banking Information System (SAP) at the Bulgarian National Bank",
       "description_en_provider": "cache",
       "contract_subject_en": "Design, development and implementation of amendments and additions to the Core Banking Information System (SAP) at the Bulgarian National Bank",
@@ -20886,7 +21003,12 @@
       "offer_phase_end": "2025-07-15T20:59:59+00:00",
       "published_tender_participation_status": 2,
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Design, development and implementation of improvements, amendments and additions to the Information System for the Collection and Processing of Information and Reports under the Payment Services and Payment Systems Act at the BNB (PSPPA) (\"Functional Development/Updates of the System\")",
+      "title_en_provider": "mymemory",
+      "description_en": "Design, development and implementation of improvements, amendments and additions to the Information System for the Collection and Processing of Information and Reports under the Payment Services and Payment Systems Act at the BNB (PSPPA) (\"Functional Development/Updates of the System\")",
+      "description_en_provider": "cache",
+      "contract_subject_en": "Design, development and implementation of improvements, amendments and additions to the Information System for the Collection and Processing of Information and Reports under the Payment Services and Payment Systems Act at the BNB (PSPPA) (\"Functional Development/Updates of the System\")",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -20939,7 +21061,10 @@
       "buyer_nuts": "",
       "offer_phase_end": "2025-07-28T20:59:59+00:00",
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Provision of an IT solution for the automated reading and verification of electricity bills for individuals and for the archiving and storage of the results and source data",
+      "title_en_provider": "mymemory",
+      "description_en": "Development, delivery and implementation of software for automation of a process related to extraction and comparison of data from primary accounting documents and submitted applications for compensation.",
+      "description_en_provider": "mymemory"
     },
     {
       "kind": "contract",
@@ -20994,7 +21119,12 @@
       "offer_phase_end": "2025-03-31T20:59:59+00:00",
       "published_tender_participation_status": 2,
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Development of a platform for the application of virtual microscopy for internal project 3.4.4. under Contract No. BG-RRP-2.004-0009-C02, funded by the EU – NextGenerationEU through the National Recovery and Resilience Plan",
+      "title_en_provider": "mymemory",
+      "description_en": "Development of a platform for the application of virtual microscopy for internal project 3.4.4. under Contract No. BG-RRP-2.004-0009-C02, funded by the EU – NextGenerationEU through the National Recovery and Resilience Plan",
+      "description_en_provider": "cache",
+      "contract_subject_en": "Development of a platform for the application of virtual microscopy for internal project 3.4.4. under Contract No. BG-RRP-2.004-0009-C02, funded by the EU – NextGenerationEU through the National Recovery and Resilience Plan",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -21276,9 +21406,9 @@
       "offer_phase_end": "2024-08-28T20:59:59+00:00",
       "published_tender_status": 1,
       "title_en": "Subscription-based software support for voice operating connection systems",
-      "title_en_provider": "mymemory",
+      "title_en_provider": "cache",
       "description_en": "Provision of subscription-based software support by maintaining Unify OpenScape 4000 OS4K, Unify OS Xpert, Unify OpenScape Business X8, Vidicode Apresa Super Micro Server systems in the latest fully functional versions. Performing activities related to the Unify OpenScape 4000 OS4K, Unify OS Xpert, Unify OpenScape Business X8, Vidicode Apresa Super Micro Server systems after an email request has been sent by the contracting authority's specialists. The activities include the construction of new and reconfiguration of existing internal and external lines, reconfiguration of the established communication networks between the individual systems, technical advice, consultations, configurations, best practices and recommendations, with the aim of improving the performance, reliability and fault tolerance of the operational voice communication network. Subscription software support must provide at least: - Update of…",
-      "description_en_provider": "mymemory"
+      "description_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -21452,9 +21582,9 @@
       "offer_phase_end": "2023-04-24T20:59:00+00:00",
       "published_tender_status": 1,
       "title_en": "Development of an e-platform for distance learning of employees in the Emergency Medical Care system in the implementation of project BG05M9OP001-3.007-0001 \"Improvement of conditions for treatment of emergency conditions",
-      "title_en_provider": "mymemory",
+      "title_en_provider": "cache",
       "description_en": "The project aims to develop an electronic platform for distance learning of employees from the Emergency Medical Care (EMC) system, which will enable periodic training of medical specialists from the EMC system by providing access to learning materials, taking online tests/exams to assess the new knowledge and skills acquired, solving practical cases, and conducting online seminars/courses. The administrators of the electronic platform must be able to perform an analysis of the results of the distance learning conducted, of the identified needs for additional theoretical and practical training of medical specialists, as well as the electronic platform to provide the possibility of providing various versions of statistical information through the database created in the system, including at least by: categories of personnel, specialties, place of work, training conducted, results achieved and certificates obtained. It should be possible to process the information for Aldebaran",
-      "description_en_provider": "mymemory"
+      "description_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -21563,7 +21693,10 @@
       "buyer_nuts": "BG411",
       "offer_phase_end": "2022-12-01T21:59:00+00:00",
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Supply of equipment for the construction of a Communication and Information System (CIS) for the implementation of an Identification Friend or Foe (IFF) system in Mode 5 at Military Unit 44510 - Sofia",
+      "title_en_provider": "mymemory",
+      "description_en": "The execution of the procurement includes the supply of equipment, in accordance with the \"Technical Requirements for Equipment for the Construction of a Communication and Information System (CIS) for the Implementation of an Identification Friend or Foe (IFF) Mode 5: - routers; - switches; - router modules.",
+      "description_en_provider": "mymemory"
     },
     {
       "kind": "tender",
@@ -21734,7 +21867,12 @@
       "offer_phase_end": "2021-11-05T21:59:00+00:00",
       "published_tender_participation_status": 2,
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Monitoring and control of the implementation of the contract for upgrading the public register and the information system, as well as of the contract for building a new information portal of the CPC",
+      "title_en_provider": "mymemory",
+      "description_en": "Monitoring and control of the implementation of a contract for the development of a new information portal for the Commission for Protection of Competition.",
+      "description_en_provider": "mymemory",
+      "contract_subject_en": "Monitoring and control of the implementation of a contract for the development of a new information portal for the Commission for Protection of Competition.",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -21789,7 +21927,12 @@
       "offer_phase_end": "2021-11-24T21:59:00+00:00",
       "published_tender_participation_status": 2,
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Development of new functionality for Infor ERP LN",
+      "title_en_provider": "mymemory",
+      "description_en": "Development of new functionality for Infor ERP LN",
+      "description_en_provider": "cache",
+      "contract_subject_en": "Development of new functionality for Infor ERP LN",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -21845,7 +21988,7 @@
       "title_en": "Development and implementation of a National Information System (platform) for analyzing and assessing the risks of disasters caused by floods and landslides",
       "title_en_provider": "cache",
       "description_en": "The purpose of the public procurement is to develop and implement a National Information System (platform) for analyzing and assessing the risks of disasters caused by floods and landslides. The development of the platform for analyzing and assessing the risks of disasters will ensure the provision of timely information to the responsible units and executive authorities, which, in view of their statutorily defined functions, must have preparedness to take action in the event of danger or a disaster that has already occurred. The platform will enable the collection, processing and visualization of information and data related to disasters. The platform can be used both in the operational and preventive activities of the General Directorate \"Fire Safety and Protection of the Population\" (GDFSPP) and by the responsible units and executive authorities in the planning and implementation of preventive measures aimed at reducing the risk of disasters",
-      "description_en_provider": "mymemory"
+      "description_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -21958,7 +22101,10 @@
       "buyer_nuts": "BG321",
       "offer_phase_end": "2021-04-26T20:59:00+00:00",
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Operational support and upgrade of the integration platform for an e-municipality of the Municipality of Veliko Tarnovo (eCity Platform)",
+      "title_en_provider": "mymemory",
+      "description_en": "The performance of the public procurement contract includes the following activities: 1. Operational maintenance (technical service) of the integration platform of the e-Municipality, implemented and operating on the territory of the Municipality of Veliko Tarnovo; 2. Upgrade of the integration platform of the e-Municipality, implemented and operating on the territory of the Municipality of Veliko Tarnovo, including expansion or modification of the products/modules associated with it – the Contracting Authority reserves the right to award an option for additional services under Art. 21, para. 1 of the Public Procurement Act, which includes the activities for upgrading the integration platform for the electronic municipality",
+      "description_en_provider": "mymemory"
     },
     {
       "kind": "tender",
@@ -22126,7 +22272,8 @@
       "buyer_url": "https://www.mvr.bg/dcis/                       ",
       "buyer_nuts": "BG411",
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Provision of licenses for a platform for additional cyber protection of Internet access and the web portal of the Ministry of Interior in order to enhance the security and performance of the electronic services offered",
+      "title_en_provider": "mymemory"
     },
     {
       "kind": "tender",
@@ -22183,7 +22330,10 @@
       "buyer_nuts": "BG411",
       "offer_phase_end": "2023-11-20T21:59:00+00:00",
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Post-warranty support for licenses ensuring the technological functioning of the portal platform on which the e-Government Portal is built",
+      "title_en_provider": "mymemory",
+      "description_en": "The subject of this procurement is the provision of post-warranty support for licenses ensuring the technological functioning of the portal platform on which the e-Government Portal is built. The subject of this public procurement is the provision of post-warranty support for the software licenses for the HCL Software package (portal platform) on which the e-Government Portal is built and operates.",
+      "description_en_provider": "mymemory"
     },
     {
       "kind": "tender",
@@ -22352,7 +22502,8 @@
       "buyer_url": "https://www.mvr.bg/dcis/                       ",
       "buyer_nuts": "BG411",
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Market consultation to determine the current estimated value with the subject: \"Upgrade of the ICT infrastructure of police systems through the supply of hardware and platforms for the development and updating of the systems",
+      "title_en_provider": "mymemory"
     },
     {
       "kind": "contract",
@@ -22471,7 +22622,11 @@
       "offer_phase_end": "2026-02-24T21:59:59+00:00",
       "published_tender_participation_status": 2,
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "description_en": "Provision of licenses for the continuation of the right to use and maintain software and hardware products of a technical solution for physical risk prevention and security enhancement\" for the needs of the Registry Agency (RA)",
+      "description_en_provider": "mymemory",
+      "contract_subject_en": "Provision of licenses for the continuation of the right to use and maintain software and hardware products of a technical solution for physical risk prevention and security enhancement\" for the needs of the Registry Agency (RA)",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -22803,6 +22958,8 @@
       "buyer_nuts": "BG411",
       "offer_phase_end": "2025-12-01T21:59:59+00:00",
       "published_tender_status": 1,
+      "title_en": "Renewal of software assurance for Windows Server Datacenter licenses for the needs of the Civil Registration and Administrative Services General Directorate (CRAS GD)",
+      "title_en_provider": "mymemory",
       "translation_note": "EN translation unavailable; showing Bulgarian source text"
     },
     {
@@ -23032,6 +23189,8 @@
       "buyer_nuts": "BG411",
       "offer_phase_end": "2025-04-22T20:59:59+00:00",
       "published_tender_status": 1,
+      "title_en": "Development and administration of a system environment for the operation and development of a virtual e-learning platform",
+      "title_en_provider": "mymemory",
       "translation_note": "EN translation unavailable; showing Bulgarian source text"
     },
     {
@@ -23142,7 +23301,10 @@
       "buyer_nuts": "BG411",
       "offer_phase_end": "2025-03-20T21:59:59+00:00",
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Licensing of subscription rights to use Microsoft software products and provision of professional consulting services for the needs of preschool and school education in the Republic of Bulgaria",
+      "title_en_provider": "mymemory",
+      "description_en": "The scope of this public procurement includes the supply on request/renewal of Microsoft software products, detailed in the Technical Specification for the Procurement, the licensing of the Contracting Authority's subscription right to use and software assurance for them, the provision of a package of professional consulting services and the provision of license management services, as well as the provision of a centralized management system for the support (Help desk/service), where all requests, incidents and problems of the Contracting Authority are to be registered. The specifics, scope and requirements for the performance of all activities and services falling within the scope of the public procurement are described in detail in the Technical Specification for the Procurement – Annex No. 1 to the tender documentation. The software products for which the Contracting Authority's subscription right is to be licensed on…",
+      "description_en_provider": "mymemory"
     },
     {
       "kind": "contract",
@@ -23370,6 +23532,8 @@
       "buyer_nuts": "BG411",
       "offer_phase_end": "2023-12-01T21:59:00+00:00",
       "published_tender_status": 1,
+      "title_en": "Software support for the IT service management system",
+      "title_en_provider": "mymemory",
       "translation_note": "EN translation unavailable; showing Bulgarian source text"
     },
     {
@@ -23535,6 +23699,8 @@
       "buyer_nuts": "BG411",
       "offer_phase_end": "2022-07-08T20:59:00+00:00",
       "published_tender_status": 1,
+      "title_en": "The full name of the public procurement is indicated in item II.1.4.) Short description",
+      "title_en_provider": "mymemory",
       "translation_note": "EN translation unavailable; showing Bulgarian source text"
     },
     {
@@ -23569,7 +23735,7 @@
       "is_active": false,
       "status_label": "Closed",
       "status_reason": "participation_closed",
-      "estimated_value": 14101984,
+      "estimated_value": null,
       "budget_amount": 14101984.0,
       "currency_code": "BGN",
       "budget_scope": "Estimated value: 14 101 984 BGN",
@@ -23588,8 +23754,6 @@
       "buyer_street": "ул. ТРИАДИЦА № 8",
       "buyer_url": "https://www.nek.bg",
       "buyer_nuts": "BG411",
-      "offer_phase_end": "2025-11-26T21:59:59+00:00",
-      "published_tender_status": 1,
       "translation_note": "EN translation unavailable; showing Bulgarian source text"
     },
     {
@@ -23727,18 +23891,18 @@
       "tender_status": 1,
       "procedure_type": 9,
       "url": "https://app.eop.bg/today/tenders/621155",
-      "status": "active",
-      "is_active": true,
-      "status_label": "Active",
-      "status_reason": "participation_open",
-      "estimated_value": 99000,
+      "status": "closed",
+      "is_active": false,
+      "status_label": "Closed",
+      "status_reason": "deadline_passed",
+      "estimated_value": null,
       "budget_amount": 99000.0,
       "currency_code": "EUR",
       "budget_scope": "Estimated value: 99 000 EUR",
       "contact_name": "Кирил Славейков Илков",
       "contact_email": "k.ilkov@eea.government.bg",
       "contact_phone": "+359 29406415",
-      "contact_source": "tender",
+      "contact_source": "buyer_profile",
       "buyer_contact_name": "Кирил Славейков Илков",
       "buyer_contact_email": "k.ilkov@eea.government.bg",
       "buyer_contact_phone": "+359 29406415",
@@ -23750,12 +23914,10 @@
       "buyer_street": "ж. к. ПАВЛОВО, бул. ЦАР БОРИС III, № 136",
       "buyer_url": "https://eea.government.bg/",
       "buyer_nuts": "BG411",
-      "offer_phase_end": "2026-11-20T21:59:59+00:00",
-      "published_tender_status": 1,
       "title_en": "Renewal of support for ESRI ArcGIS server software",
-      "title_en_provider": "mymemory",
+      "title_en_provider": "cache",
       "description_en": "The specific objectives of the public procurement are: • Renewal of support for ArcGIS for Server Enterprise Advanced Up to 8 cores License - upgrade to the latest version; • Installation of the software; • Technical support for 12 months. Requirements for the performance of the procurement • Provision of the license with an acceptance and handover protocol. • Installation of the ArcGIS Server software product, latest version, on a machine provided by the Contracting Authority; • Technical support for the software, which consists of: - technical consultations by phone and email; - technical intervention on site (if necessary) to resolve technical problems related to the delivered software; - receipt of a Patch with which the manufacturer resolves technical problems. - troubleshooting of the installed software, within 3 days of the Contracting Authority reporting the issue.",
-      "description_en_provider": "mymemory"
+      "description_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -29419,6 +29581,8 @@
       "buyer_street": "бул.  АЛ. СТАМБОЛИЙСКИ № 62-64",
       "buyer_url": "https://www.noi.bg",
       "buyer_nuts": "BG411",
+      "title_en": "Software support for the IT service management system",
+      "title_en_provider": "cache",
       "translation_note": "EN translation unavailable; showing Bulgarian source text"
     },
     {
@@ -30163,7 +30327,12 @@
       "offer_phase_end": "2023-11-20T21:59:00+00:00",
       "published_tender_participation_status": 2,
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Post-warranty support for licenses ensuring the technological functioning of the portal platform on which the e-Government Portal is built",
+      "title_en_provider": "cache",
+      "description_en": "Post-warranty support for licenses ensuring the technological functioning of the portal platform on which the e-Government Portal is built",
+      "description_en_provider": "cache",
+      "contract_subject_en": "Post-warranty support for licenses ensuring the technological functioning of the portal platform on which the e-Government Portal is built",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -30324,7 +30493,12 @@
       "offer_phase_end": "2023-12-01T21:59:00+00:00",
       "published_tender_participation_status": 2,
       "published_tender_status": 1,
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Software support for the IT service management system",
+      "title_en_provider": "cache",
+      "description_en": "Software support for the IT service management system",
+      "description_en_provider": "cache",
+      "contract_subject_en": "Software support for the IT service management system",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -31339,7 +31513,11 @@
       "buyer_street": "пл. \"Княз Александър I\" № 1",
       "buyer_url": "www.bnb.bg",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Provision of Enterprise Support for SAP licensed software of the Main Banking Information System (MBIS) at the BNB and purchase of new licenses for SAP licensed software (or equivalent)",
+      "title_en_provider": "mymemory",
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "contract_subject_en": "Provision of Enterprise Support for licensed SAP software of the Core Banking Information System (CBIS) at the BNB.",
+      "contract_subject_en_provider": "mymemory"
     },
     {
       "kind": "contract",
@@ -32047,6 +32225,60 @@
     {
       "kind": "contract",
       "source": "contracts_subject",
+      "query": "информационна система",
+      "relevance_score": 70,
+      "relevance_hits": [
+        "информационн\\w*\\s+систем",
+        "поддръжка\\s+на\\s+(информационн|софтуер|систем)"
+      ],
+      "contract_id": 273846,
+      "contract_number": "273846",
+      "contract_subject": "Развитие и поддръжка на информационната система Eventis R7",
+      "contract_value": 4848.0,
+      "currency": 1,
+      "contract_date": "2026-10-19T21:00:00+00:00",
+      "supplier": "ЕНВИЗИМО ВНЕДРЯВАНИЯ И ПОДДРЪЖКА ЕООД",
+      "supplier_registry": "201544448",
+      "tender_id": 608925,
+      "published_tender_id": 927114,
+      "special_number": "00515-2026-0036",
+      "title": "Развитие и поддръжка на информационната система Eventis R7",
+      "description": "Развитие и поддръжка на информационната система Eventis R7",
+      "organization": "Изпълнителна агенция “Военни клубове и военно-почивно дело”",
+      "organization_id": 22843,
+      "cpv": "72260000",
+      "publication_date": "2026-11-23T01:16:30+00:00",
+      "url": "https://app.eop.bg/today/tenders/608925",
+      "status": "awarded",
+      "is_active": false,
+      "status_label": "Awarded",
+      "status_reason": "awarded_contract",
+      "estimated_value": 4848,
+      "budget_amount": 4848.0,
+      "currency_code": "EUR",
+      "budget_scope": "Contract value: 4 848 EUR",
+      "contact_name": "Ивелина Любомирова Лозанова",
+      "contact_email": "ivalozanova@abv.bg",
+      "contact_phone": "+359 29221774",
+      "contact_source": "tender",
+      "buyer_contact_name": "Михаела  Караджова",
+      "buyer_contact_email": "m_karadjova@militaryclubs.bg",
+      "buyer_contact_phone": "+359 29221774",
+      "buyer_registry_number": "129008829",
+      "buyer_vat_number": "",
+      "buyer_address": "бул. Цар Освободител №7, София, 1000",
+      "buyer_city": "София",
+      "buyer_postcode": "1000",
+      "buyer_street": "бул. Цар Освободител №7",
+      "buyer_url": "https://militaryclubs.bg/",
+      "buyer_nuts": "BG411",
+      "offer_phase_end": "2026-10-08T20:59:59+00:00",
+      "published_tender_participation_status": 2,
+      "published_tender_status": 1
+    },
+    {
+      "kind": "contract",
+      "source": "contracts_subject",
       "query": "софтуер",
       "relevance_score": 70,
       "relevance_hits": [
@@ -32320,7 +32552,11 @@
       "buyer_street": "ул. Александър Жендов №2",
       "buyer_url": "https://www.mfa.bg/",
       "buyer_nuts": "BG",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "description_en": "Subscription service for the eBDS information system for Bulgarian identity documents for the needs of the Ministry of Foreign Affairs",
+      "description_en_provider": "mymemory",
+      "contract_subject_en": "Subscription service for the eBDS information system for Bulgarian identity documents for the needs of the Ministry of Foreign Affairs",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -32372,7 +32608,11 @@
       "buyer_street": "ул. Александър Жендов №2",
       "buyer_url": "https://www.mfa.bg/",
       "buyer_nuts": "BG",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "description_en": "Subscription Service for the Information System 'Registration of Signatures and Seals of Legal Entities and Individuals and Processing of Applications for Certification and Legalization of Documents' and the Information System 'Administration of Translators Translating from a Foreign Language into Bulgarian' for the needs of the 'Administrative Services for Citizens' Department of the 'Consular Relations' Directorate of the Ministry of Foreign Affairs",
+      "description_en_provider": "mymemory",
+      "contract_subject_en": "Subscription Service for the Information System 'Registration of Signatures and Seals of Legal Entities and Individuals and Processing of Applications for Certification and Legalization of Documents' and the Information System 'Administration of Translators Translating from a Foreign Language into Bulgarian' for the needs of the 'Administrative Services for Citizens' Department of the 'Consular Relations' Directorate of the Ministry of Foreign Affairs",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -32594,7 +32834,11 @@
       "buyer_street": "ул. \"Ген. Йосиф В. Гурко\" № 6",
       "buyer_url": "www.crc.bg",
       "buyer_nuts": "",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "OUTSIDE THE MAINTENANCE OF THE INFORMATION SYSTEM OF THE CRC FOR ONLINE SUBMISSION AND RECEIPT OF QUESTIONS REGARDING THE REPORT ON THE ACTIVITIES OF UNDERTAKINGS PROVIDING PUBLIC ELECTRONIC COMMUNICATIONS NETWORKS AND/OR SERVICES AND OF POSTAL SERVICE OPERATORS",
+      "title_en_provider": "mymemory",
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "contract_subject_en": "OUT-OF-WARRANTY MAINTENANCE OF THE INFORMATION SYSTEM OF THE CRC FOR ONLINE COMPLETION AND ACCEPTANCE OF QUESTIONNAIRES FOR REPORTING ON THE ACTIVITIES OF UNDERTAKINGS PROVIDING PUBLIC ELECTRONIC COMMUNICATIONS NETWORKS AND/OR SERVICES AND OF POSTAL SERVICE OPERATORS",
+      "contract_subject_en_provider": "mymemory"
     },
     {
       "kind": "contract",
@@ -32751,8 +32995,7 @@
       "buyer_postcode": "1040",
       "buyer_street": "ул. 15 НОЕМВРИ № 1",
       "buyer_url": "https://www.bas.bg/",
-      "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "buyer_nuts": "BG411"
     },
     {
       "kind": "contract",
@@ -32864,7 +33107,12 @@
       "buyer_street": "ул. МОСКОВСКА №33",
       "buyer_url": "https://www.sofia.bg/",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Provision of out-of-warranty maintenance services for the \"Waste Management\" Information System in Sofia Municipality",
+      "title_en_provider": "cache",
+      "description_en": "Provision of out-of-warranty maintenance services for the Waste Management Information System (WMIS) in Sofia Municipality",
+      "description_en_provider": "mymemory",
+      "contract_subject_en": "Provision of out-of-warranty maintenance services for the Waste Management Information System (WMIS) in Sofia Municipality",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -32916,7 +33164,12 @@
       "buyer_street": "бул. БЪЛГАРИЯ №.2",
       "buyer_url": "https://mbalsmolyan.com/",
       "buyer_nuts": "BG424",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Subscription-based software support for the hospital information system of \"MHAT Dr. Bratan Shukerov\" AD, Smolyan",
+      "title_en_provider": "mymemory",
+      "description_en": "Subscription-based software support for the hospital information system of \"MHAT Dr. Bratan Shukerov\" AD, Smolyan",
+      "description_en_provider": "cache",
+      "contract_subject_en": "Subscription-based software support for the hospital information system of \"MHAT Dr. Bratan Shukerov\" AD, Smolyan",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -32968,7 +33221,12 @@
       "buyer_street": "Площадка АЕЦ Козлодуй",
       "buyer_url": "https://www.kznpp.org",
       "buyer_nuts": "BG313",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Provision of a subscription right to use a software product for backing up and restoring information – Veeam Data Platform",
+      "title_en_provider": "mymemory",
+      "description_en": "Provision of a subscription right to use a software product for backing up and restoring information – Veeam Data Platform",
+      "description_en_provider": "cache",
+      "contract_subject_en": "Provision of a subscription right to use a software product for backing up and restoring information – Veeam Data Platform",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -33076,7 +33334,11 @@
       "buyer_street": "ул. МОСКОВСКА №33",
       "buyer_url": "https://www.sofia.bg/",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "description_en": "Subscription support for the human resources management system, calculation of salaries and additional financial incentives for the needs of Sofia Municipality",
+      "description_en_provider": "mymemory",
+      "contract_subject_en": "Subscription support for the human resources management system, calculation of salaries and additional financial incentives for the needs of Sofia Municipality",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -33178,7 +33440,11 @@
       "buyer_street": "ул. ПАНАЙОТ ВОЛОВ № 2",
       "buyer_url": "https://www.is-bg.net/",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "description_en": "Provision and Maintenance of Software Products under Three Lots\", Lot 2: \"Provision of an Email Security Solution for the Needs of the Ministry of Energy (ME)",
+      "description_en_provider": "mymemory",
+      "contract_subject_en": "Provision and Maintenance of Software Products under Three Lots\", Lot 2: \"Provision of an Email Security Solution for the Needs of the Ministry of Energy (ME)",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -33230,7 +33496,11 @@
       "buyer_street": "ул. ПАНАЙОТ ВОЛОВ № 2",
       "buyer_url": "https://www.is-bg.net/",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "description_en": "Provision and Maintenance of Software Products under Three Lots\", Lot 1: \"Provision of an Endpoint Protection Solution for the Needs of the Ministry of Energy (ME)",
+      "description_en_provider": "mymemory",
+      "contract_subject_en": "Provision and Maintenance of Software Products under Three Lots\", Lot 1: \"Provision of an Endpoint Protection Solution for the Needs of the Ministry of Energy (ME)",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -33331,7 +33601,10 @@
       "buyer_street": "ул. МОСКОВСКА №33",
       "buyer_url": "https://www.sofia.bg/",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Subscription support for the human resources management system, calculation of salaries and additional financial incentives for the needs of Sofia Municipality",
+      "title_en_provider": "cache",
+      "description_en": "Subscription support for the human resources management system, calculation of salaries and additional financial incentives for the needs of Sofia Municipality",
+      "description_en_provider": "mymemory"
     },
     {
       "kind": "contract",
@@ -33383,7 +33656,12 @@
       "buyer_street": "бул. 6-ТИ СЕПТЕМВРИ №250",
       "buyer_url": "www.vik.bg",
       "buyer_nuts": "BG421",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Subscription Support for Software Products for the Needs of \"ViK\" EOOD - Plovdiv",
+      "title_en_provider": "mymemory",
+      "description_en": "Subscription Support for Software Products for the Needs of \"ViK\" EOOD - Plovdiv",
+      "description_en_provider": "cache",
+      "contract_subject_en": "Subscription Support for Software Products for the Needs of \"ViK\" EOOD - Plovdiv",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -33435,7 +33713,9 @@
       "buyer_street": "бул. Брюксел №1",
       "buyer_url": "https://www.bulatsa.com",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "contract_subject_en": "Extended out-of-warranty software support for software products of TechnoLogica EAD",
+      "contract_subject_en_provider": "mymemory"
     },
     {
       "kind": "tender",
@@ -33486,6 +33766,8 @@
       "buyer_street": "ул. МОСКОВСКА №33",
       "buyer_url": "https://www.sofia.bg/",
       "buyer_nuts": "BG411",
+      "title_en": "Provision of out-of-warranty maintenance services for the \"Waste Management\" Information System in Sofia Municipality",
+      "title_en_provider": "mymemory",
       "translation_note": "EN translation unavailable; showing Bulgarian source text"
     },
     {
@@ -33538,6 +33820,8 @@
       "buyer_street": "бул. Акад. Иван Евстратиев Гешов 15, ет. 12",
       "buyer_url": "https://www.mu-sofia.bg",
       "buyer_nuts": "BG411",
+      "title_en": "Annual subscription to foreign periodicals for 2026 and provision of online access to scientific journals for the needs of the units of the Medical University – Sofia by lots",
+      "title_en_provider": "mymemory",
       "translation_note": "EN translation unavailable; showing Bulgarian source text"
     },
     {
@@ -33590,7 +33874,12 @@
       "buyer_street": "бул. ЦАРИГРАДСКО ШОСЕ №.125 ет.5",
       "buyer_url": "",
       "buyer_nuts": "",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "POST-WARRANTY MAINTENANCE OF THE INFORMATION SYSTEM OF THE NATIONAL AGENCY FOR VOCATIONAL EDUCATION AND TRAINING",
+      "title_en_provider": "cache",
+      "description_en": "POST-WARRANTY MAINTENANCE OF THE INFORMATION SYSTEM OF THE NATIONAL AGENCY FOR VOCATIONAL EDUCATION AND TRAINING",
+      "description_en_provider": "cache",
+      "contract_subject_en": "POST-WARRANTY MAINTENANCE OF THE INFORMATION SYSTEM OF THE NATIONAL AGENCY FOR VOCATIONAL EDUCATION AND TRAINING",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -33642,7 +33931,12 @@
       "buyer_street": "Студентски град АКАД. СТЕФАН МЛАДЕНОВ №.1 бл.31",
       "buyer_url": "www.bgpost.bg",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Subscription service/maintenance of the \"ALPHA AGENT\" software system for the provision of the customs representation service to the clients of \"Bulgarian Posts\" EAD",
+      "title_en_provider": "cache",
+      "description_en": "Subscription service/maintenance of the \"ALPHA AGENT\" software system for the provision of the customs representation service to the clients of \"Bulgarian Posts\" EAD",
+      "description_en_provider": "cache",
+      "contract_subject_en": "Subscription service/maintenance of the \"ALPHA AGENT\" software system for the provision of the customs representation service to the clients of \"Bulgarian Posts\" EAD",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -33855,7 +34149,10 @@
       "buyer_street": "Студентски град АКАД. СТЕФАН МЛАДЕНОВ №.1 бл.31",
       "buyer_url": "www.bgpost.bg",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Subscription service/maintenance of the \"ALPHA AGENT\" software system for the provision of the customs representation service to the clients of \"Bulgarian Posts\" EAD",
+      "title_en_provider": "cache",
+      "description_en": "This procurement is conducted on the basis of Art. 191, para. 1, item 2 of the Public Procurement Act (PPA). The chosen type of procurement is \"invitation to a specific person\", as there are copyrights, including intellectual property rights within the meaning of the Copyright and Related Rights Act (CRRA). The Company is the copyright holder of the \"ALPHA AGENT\" software system, through which Bulgarian Posts EAD provides its customers with the customs service representation. This procurement is being conducted on the basis of Art. 191, para. 1, item 2 of the Public Procurement Act (PPA). The chosen type of procurement is \"invitation to a specific person\", as there are copyrights, including intellectual property rights within the meaning of the Copyright and Related Rights Act (CRRA). The Company is the copyright holder of the \"ALPHA AGENT\" software system, through which Bulgarian Posts EAD provides its customers with the service…",
+      "description_en_provider": "mymemory"
     },
     {
       "kind": "contract",
@@ -34061,6 +34358,8 @@
       "buyer_street": "ул. \"Бяло море\" № 8",
       "buyer_url": "https://isul.eu/",
       "buyer_nuts": "BG411",
+      "title_en": "Subscription support, updating and improvement of the Global Hospital Information System (HIS)",
+      "title_en_provider": "mymemory",
       "translation_note": "EN translation unavailable; showing Bulgarian source text"
     },
     {
@@ -34113,7 +34412,12 @@
       "buyer_street": "ул. \"Будапеща\" №16",
       "buyer_url": "https://www.fsc.bg/bg",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Renewal of technical support for Oracle software products for the needs of the Financial Supervision Commission",
+      "title_en_provider": "mymemory",
+      "description_en": "Renewal of technical support for Oracle software products for the needs of the Financial Supervision Commission",
+      "description_en_provider": "cache",
+      "contract_subject_en": "Renewal of technical support for Oracle software products for the needs of the Financial Supervision Commission",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -34164,6 +34468,8 @@
       "buyer_street": "Площадка АЕЦ Козлодуй",
       "buyer_url": "https://www.kznpp.org",
       "buyer_nuts": "BG313",
+      "title_en": "Development of a single software package covering all existing modules, as well as updating modeling programs for assessing the dose burden on the population",
+      "title_en_provider": "cache",
       "translation_note": "EN translation unavailable; showing Bulgarian source text"
     },
     {
@@ -34215,7 +34521,9 @@
       "buyer_street": "ул. БЪЛГАРИЯ № 12",
       "buyer_url": "https://www.dobrich.bg",
       "buyer_nuts": "BG332",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "description_en": "The procurement includes the provision by the Contractor to the Contracting Authority of \"software as a service\" for paid parking zones and centralized management for the needs of the Municipal Enterprise \"Parking Lots and Markets\" of the Municipality of Dobrich. In addition to the right to use the software, the subject of the Contract also includes the performance of the following activities:- Training of the Contracting Authority's staff to work with the provided software;- Warranty support of the software for the term of the Contract.​​​​​​​",
+      "description_en_provider": "mymemory"
     },
     {
       "kind": "tender",
@@ -34536,6 +34844,8 @@
       "buyer_street": "бул. ЦАРИГРАДСКО ШОСЕ №.125 ет.5",
       "buyer_url": "",
       "buyer_nuts": "",
+      "title_en": "POST-WARRANTY MAINTENANCE OF THE INFORMATION SYSTEM OF THE NATIONAL AGENCY FOR VOCATIONAL EDUCATION AND TRAINING",
+      "title_en_provider": "cache",
       "translation_note": "EN translation unavailable; showing Bulgarian source text"
     },
     {
@@ -35025,7 +35335,9 @@
       "buyer_street": "ул. МОСКОВСКА №33",
       "buyer_url": "https://www.sofia.bg/",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "description_en": "The subject of the procurement includes subscription software support for the following products: SUSE Linux Enterprise Server with Live Patching, x86-64, 1-2 Sockets with Unlimited Virtual Machines, Standard Subscription, 1 Year - 4 pcs.; Catalogic Software DPX - \"Silver Level Support\" – 6TB, 1 Year - 1 pc.“ PrivX Core – Subscription License 1 – Year - 100 pcs.;",
+      "description_en_provider": "mymemory"
     },
     {
       "kind": "contract",
@@ -35077,7 +35389,12 @@
       "buyer_street": "Студентски град АКАД. СТЕФАН МЛАДЕНОВ №.1 бл.31",
       "buyer_url": "www.bgpost.bg",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Administration and maintenance of the \"BGPost Vouchers\" software system managing the processes of the \"Food Voucher Operator\" activity",
+      "title_en_provider": "cache",
+      "description_en": "Administration and maintenance of the \"BGPost Vouchers\" software system managing the processes of the \"Food Voucher Operator\" activity",
+      "description_en_provider": "cache",
+      "contract_subject_en": "Administration and maintenance of the \"BGPost Vouchers\" software system managing the processes of the \"Food Voucher Operator\" activity",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -35468,7 +35785,10 @@
       "published_tender_status": 1,
       "title_en": "Maintenance of software systems\", by lots",
       "title_en_provider": "cache",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "description_en": "Maintenance of Software Systems\", by lots, Lot 1: \"Maintenance of the HeRMeS Software System for Human Resources Management",
+      "description_en_provider": "mymemory",
+      "contract_subject_en": "Maintenance of Software Systems\", by lots, Lot 1: \"Maintenance of the HeRMeS Software System for Human Resources Management",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -35519,6 +35839,8 @@
       "buyer_street": "пл. \"Княз Александър I\" № 1",
       "buyer_url": "www.bnb.bg",
       "buyer_nuts": "BG411",
+      "title_en": "Subscription service for the Human Resources and Payroll Management Information System at the Bulgarian National Bank",
+      "title_en_provider": "mymemory",
       "translation_note": "EN translation unavailable; showing Bulgarian source text"
     },
     {
@@ -35621,6 +35943,8 @@
       "buyer_street": "Студентски град АКАД. СТЕФАН МЛАДЕНОВ №.1 бл.31",
       "buyer_url": "www.bgpost.bg",
       "buyer_nuts": "BG411",
+      "title_en": "Administration and maintenance of the \"BGPost Vouchers\" software system managing the processes of the \"Food Voucher Operator\" activity",
+      "title_en_provider": "mymemory",
       "translation_note": "EN translation unavailable; showing Bulgarian source text"
     },
     {
@@ -35672,6 +35996,8 @@
       "buyer_street": "пл. \"Княз Александър I\" № 1",
       "buyer_url": "www.bnb.bg",
       "buyer_nuts": "BG411",
+      "title_en": "Subscription service for the Human Resources and Payroll Management Information System at the Bulgarian National Bank",
+      "title_en_provider": "cache",
       "translation_note": "EN translation unavailable; showing Bulgarian source text"
     },
     {
@@ -35891,7 +36217,10 @@
       "published_tender_status": 1,
       "title_en": "Provision and maintenance of virtualization platform and operating system",
       "title_en_provider": "cache",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "description_en": "Provision and maintenance of a virtualization platform and operating system, Lot 2: Lot 2. Operating System Support",
+      "description_en_provider": "mymemory",
+      "contract_subject_en": "Provision and maintenance of a virtualization platform and operating system, Lot 2: Lot 2. Operating System Support",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -36044,7 +36373,12 @@
       "buyer_street": "ул. МОСКОВСКА №33",
       "buyer_url": "https://www.sofia.bg/",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Provision of out-of-warranty maintenance services for the Waste Management Information System (WMIS) in Sofia Municipality",
+      "title_en_provider": "cache",
+      "description_en": "Provision of out-of-warranty maintenance services for the Waste Management Information System (WMIS) in Sofia Municipality",
+      "description_en_provider": "cache",
+      "contract_subject_en": "Provision of out-of-warranty maintenance services for the Waste Management Information System (WMIS) in Sofia Municipality",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -36204,6 +36538,8 @@
       "buyer_street": "пл. ВЪЗРАЖДАНЕ № 3",
       "buyer_url": "https://gabrovo.bg/bg",
       "buyer_nuts": "BG322",
+      "title_en": "USE OF \"SOFTWARE AS A SERVICE\" FOR CENTRALIZED MANAGEMENT OF MUNICIPAL PARKING FOR THE NEEDS OF ME \"PARKING AND TOWING",
+      "title_en_provider": "mymemory",
       "translation_note": "EN translation unavailable; showing Bulgarian source text"
     },
     {
@@ -36256,7 +36592,12 @@
       "buyer_street": "бул. \"Княгиня Мария Луиза\" №22",
       "buyer_url": "https://www.moew.government.bg/",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Upgrade of the HeRMeS Human Resources Management System used by the Ministry of Environment and Water with a new Self-Service Portal and implementation of an improved model for managing approvers in the leave request process",
+      "title_en_provider": "mymemory",
+      "description_en": "Upgrade of the HeRMeS Human Resources Management System used by the Ministry of Environment and Water with a new Self-Service Portal and implementation of an improved model for managing approvers in the leave request process",
+      "description_en_provider": "cache",
+      "contract_subject_en": "Upgrade of the HeRMeS Human Resources Management System used by the Ministry of Environment and Water with a new Self-Service Portal and implementation of an improved model for managing approvers in the leave request process",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -36308,7 +36649,9 @@
       "buyer_street": "бул. \"Ген. Тотлебен\" №34",
       "buyer_url": "",
       "buyer_nuts": "",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "contract_subject_en": "Software maintenance and repair, Lot 2: Maintenance of ArcGIS Pro software for the creation of a cartographic base for the production of medium-scale state topographic maps",
+      "contract_subject_en_provider": "mymemory"
     },
     {
       "kind": "contract",
@@ -36360,7 +36703,12 @@
       "buyer_street": "бул. \"Ген. Тотлебен\" №34",
       "buyer_url": "",
       "buyer_nuts": "",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Software maintenance and repair",
+      "title_en_provider": "mymemory",
+      "description_en": "Software maintenance and repair, Lot 1: Subscription-based maintenance of software for remote sensing of the Earth's surface, photogrammetry and geospatial information analysis",
+      "description_en_provider": "mymemory",
+      "contract_subject_en": "Software maintenance and repair, Lot 1: Subscription-based maintenance of software for remote sensing of the Earth's surface, photogrammetry and geospatial information analysis",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -36781,6 +37129,8 @@
       "buyer_street": "бул. ШИПЧЕНСКИ ПРОХОД №.69",
       "buyer_url": "",
       "buyer_nuts": "",
+      "title_en": "Introduction of a fully electronic internal circulation of documents for all administrative procedures in the Nuclear Regulatory Agency with two separate items",
+      "title_en_provider": "mymemory",
       "translation_note": "EN translation unavailable; showing Bulgarian source text"
     },
     {
@@ -36883,6 +37233,8 @@
       "buyer_street": "ул. МОСКОВСКА №33",
       "buyer_url": "https://www.sofia.bg/",
       "buyer_nuts": "BG411",
+      "title_en": "Provision of out-of-warranty maintenance services for the Waste Management Information System (WMIS) in Sofia Municipality",
+      "title_en_provider": "mymemory",
       "translation_note": "EN translation unavailable; showing Bulgarian source text"
     },
     {
@@ -36935,7 +37287,12 @@
       "buyer_street": "бул. ЦАРИГРАДСКО ШОСЕ №.125 ет.5",
       "buyer_url": "",
       "buyer_nuts": "",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "POST-WARRANTY MAINTENANCE OF THE INFORMATION SYSTEM OF THE NATIONAL AGENCY FOR VOCATIONAL EDUCATION AND TRAINING",
+      "title_en_provider": "mymemory",
+      "description_en": "POST-WARRANTY MAINTENANCE OF THE INFORMATION SYSTEM OF THE NATIONAL AGENCY FOR VOCATIONAL EDUCATION AND TRAINING",
+      "description_en_provider": "cache",
+      "contract_subject_en": "POST-WARRANTY MAINTENANCE OF THE INFORMATION SYSTEM OF THE NATIONAL AGENCY FOR VOCATIONAL EDUCATION AND TRAINING",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -37505,6 +37862,8 @@
       "buyer_street": "бул. Акад. Иван Евстратиев Гешов 15, ет. 12",
       "buyer_url": "https://www.mu-sofia.bg",
       "buyer_nuts": "BG411",
+      "title_en": "Annual subscription to foreign periodicals for 2025 and provision of online access to scientific journals for the needs of the units of the Medical University – Sofia under 4 separate lots",
+      "title_en_provider": "mymemory",
       "translation_note": "EN translation unavailable; showing Bulgarian source text"
     },
     {
@@ -37607,6 +37966,8 @@
       "buyer_street": "Площадка АЕЦ Козлодуй",
       "buyer_url": "https://www.kznpp.org",
       "buyer_nuts": "BG313",
+      "title_en": "Development of a single software package covering all existing modules, as well as updating modeling programs for assessing the dose burden on the population",
+      "title_en_provider": "mymemory",
       "translation_note": "EN translation unavailable; showing Bulgarian source text"
     },
     {
@@ -37865,7 +38226,12 @@
       "buyer_street": "Студентски град АКАД. СТЕФАН МЛАДЕНОВ №.1 бл.31",
       "buyer_url": "www.bgpost.bg",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Subscription service/maintenance of the \"ALPHA AGENT\" software system for the provision of the customs representation service to the clients of \"Bulgarian Posts\" EAD",
+      "title_en_provider": "mymemory",
+      "description_en": "Subscription service/maintenance of the \"ALPHA AGENT\" software system for the provision of the customs representation service to the clients of \"Bulgarian Posts\" EAD",
+      "description_en_provider": "cache",
+      "contract_subject_en": "Subscription service/maintenance of the \"ALPHA AGENT\" software system for the provision of the customs representation service to the clients of \"Bulgarian Posts\" EAD",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -38121,6 +38487,8 @@
       "buyer_street": "ул. СЛАВЯНСКА № 1",
       "buyer_url": "https://www.justice.government.bg/",
       "buyer_nuts": "BG411",
+      "title_en": "Subscription-based maintenance service for information systems in the Ministry of Justice\" in nine lots",
+      "title_en_provider": "mymemory",
       "translation_note": "EN translation unavailable; showing Bulgarian source text"
     },
     {
@@ -38482,7 +38850,9 @@
       "buyer_street": "Студентски град АКАД. СТЕФАН МЛАДЕНОВ №.1 бл.31",
       "buyer_url": "www.bgpost.bg",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "description_en": "This procurement is being conducted on the basis of Art. 191, para. 1, item 2 of the Public Procurement Act (PPA). The chosen type of procurement is \"invitation to a specific person\", as there are copyrights, including intellectual property rights within the meaning of the Copyright and Related Rights Act (CRRA). The Company is the copyright holder of the \"ALPHA AGENT\" software system, through which Bulgarian Posts EAD provides its customers with the customs service representation",
+      "description_en_provider": "mymemory"
     },
     {
       "kind": "tender",
@@ -38585,7 +38955,12 @@
       "buyer_street": "Студентски град АКАД. СТЕФАН МЛАДЕНОВ №.1 бл.31",
       "buyer_url": "www.bgpost.bg",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "ADMINISTRATION AND MAINTENANCE OF THE SOFTWARE SYSTEM \"BGPOST VOUCHERS\" MANAGING THE PROCESSES OF THE ACTIVITY \"FOOD VOUCHER OPERATOR",
+      "title_en_provider": "mymemory",
+      "description_en": "ADMINISTRATION AND MAINTENANCE OF THE SOFTWARE SYSTEM \"BGPOST VOUCHERS\" MANAGING THE PROCESSES OF THE ACTIVITY \"FOOD VOUCHER OPERATOR",
+      "description_en_provider": "cache",
+      "contract_subject_en": "ADMINISTRATION AND MAINTENANCE OF THE SOFTWARE SYSTEM \"BGPOST VOUCHERS\" MANAGING THE PROCESSES OF THE ACTIVITY \"FOOD VOUCHER OPERATOR",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -38748,7 +39123,11 @@
       "buyer_street": "бул. КНЯЗ АЛЕКСАНДЪР ДОНДУКОВ №3",
       "buyer_url": "https://www.az.government.bg/",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "description_en": "Subscription-based support for the HeRMeS Human Resources Management System, Self-Service Leave and Self-Service Payslip – part of the HeRMeS Human Resources Management System",
+      "description_en_provider": "mymemory",
+      "contract_subject_en": "Subscription-based support for the HeRMeS Human Resources Management System, Self-Service Leave and Self-Service Payslip – part of the HeRMeS Human Resources Management System",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -38799,6 +39178,8 @@
       "buyer_street": "ул. МАРИН ДРИНОВ №.55",
       "buyer_url": "https://www.mu-varna.bg",
       "buyer_nuts": "BG331",
+      "title_en": "Supply and implementation of a centralized automated information system for records management",
+      "title_en_provider": "mymemory",
       "translation_note": "EN translation unavailable; showing Bulgarian source text"
     },
     {
@@ -39066,6 +39447,8 @@
       "buyer_street": "Студентски град АКАД. СТЕФАН МЛАДЕНОВ №.1 бл.31",
       "buyer_url": "www.bgpost.bg",
       "buyer_nuts": "BG411",
+      "title_en": "ADMINISTRATION AND MAINTENANCE OF THE SOFTWARE SYSTEM \"BGPOST VOUCHERS\" MANAGING THE PROCESSES OF THE ACTIVITY \"FOOD VOUCHER OPERATOR",
+      "title_en_provider": "cache",
       "translation_note": "EN translation unavailable; showing Bulgarian source text"
     },
     {
@@ -39117,6 +39500,8 @@
       "buyer_street": "бул. КНЯЗ АЛЕКСАНДЪР ДОНДУКОВ №3",
       "buyer_url": "https://www.az.government.bg/",
       "buyer_nuts": "BG411",
+      "title_en": "Subscription-based support for the HeRMeS Human Resources Management System, Self-Service Leave and Self-Service Payslip – part of the HeRMeS Human Resources Management System",
+      "title_en_provider": "cache",
       "translation_note": "EN translation unavailable; showing Bulgarian source text"
     },
     {
@@ -39221,7 +39606,11 @@
       "buyer_street": "ул. \"Ген. Йосиф В. Гурко\" № 6",
       "buyer_url": "www.crc.bg",
       "buyer_nuts": "",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Out-of-warranty support for an online questionnaire system for reporting the activities of enterprises registered with the Communications Regulation Commission (CRC) under the Electronic Communications Act (ECA) and postal operators under the Postal Services Act (PSA), by lots.",
+      "title_en_provider": "mymemory",
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "contract_subject_en": "Out-of-warranty support and implementation of changes to the current version of the CRC information system for online completion and acceptance of questionnaires for reporting the activities of undertakings providing public electronic communications networks and/or services and of postal service operators, by lots",
+      "contract_subject_en_provider": "mymemory"
     },
     {
       "kind": "tender",
@@ -39955,7 +40344,9 @@
       "published_tender_status": 1,
       "title_en": "Implementation of activities for operational maintenance of the eCity Platform and SMS parking module, by lots",
       "title_en_provider": "cache",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "contract_subject_en": "Lot 1: \"Performance of operational maintenance activities for the eCity Platform",
+      "contract_subject_en_provider": "mymemory"
     },
     {
       "kind": "contract",
@@ -40012,7 +40403,9 @@
       "published_tender_status": 1,
       "title_en": "Implementation of activities for operational maintenance of the eCity Platform and SMS parking module, by lots",
       "title_en_provider": "cache",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "contract_subject_en": "Lot 2: \"Performance of operational maintenance activities for an SMS parking module",
+      "contract_subject_en_provider": "mymemory"
     },
     {
       "kind": "contract",
@@ -40064,7 +40457,11 @@
       "buyer_street": "бул. Акад. Иван Евстратиев Гешов 15, ет. 12",
       "buyer_url": "https://www.mu-sofia.bg",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Annual subscription to foreign periodicals for 2024 and provision of online access to scientific journals for the needs of the units of the Medical University – Sofia under 8 separate lots",
+      "title_en_provider": "mymemory",
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "contract_subject_en": "Lot 6: \"Providing online access to international electronic journals in the MEDLINE Complete database through the EBSCO Information Services platform for the Central Medical Library (CML)",
+      "contract_subject_en_provider": "mymemory"
     },
     {
       "kind": "contract",
@@ -40374,7 +40771,12 @@
       "buyer_street": "Студентски град АКАД. СТЕФАН МЛАДЕНОВ №.1 бл.31",
       "buyer_url": "www.bgpost.bg",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Administration and maintenance of the \"BGPost Vouchers\" software system managing the processes of the \"Food Voucher Operator\" activity",
+      "title_en_provider": "cache",
+      "description_en": "Administration and maintenance of the \"BGPost Vouchers\" software system managing the processes of the \"Food Voucher Operator\" activity",
+      "description_en_provider": "cache",
+      "contract_subject_en": "Administration and maintenance of the \"BGPost Vouchers\" software system managing the processes of the \"Food Voucher Operator\" activity",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -40529,7 +40931,11 @@
       "buyer_street": "ул. АКАДЕМИК ГЕОРГИ БОНЧЕВ, бл. 2",
       "buyer_url": "www.iict.bas.bg",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "description_en": "Supply of software for the Laboratory for 3D Digitization and Microstructural Analysis, Lot 3: Software for management and processing of data from non-contact laser vibrometer VibroGo VGO-200 of",
+      "description_en_provider": "mymemory",
+      "contract_subject_en": "Supply of software for the Laboratory for 3D Digitization and Microstructural Analysis, Lot 3: Software for management and processing of data from non-contact laser vibrometer VibroGo VGO-200 of",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -40581,7 +40987,11 @@
       "buyer_street": "ул. АКАДЕМИК ГЕОРГИ БОНЧЕВ, бл. 2",
       "buyer_url": "www.iict.bas.bg",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "description_en": "Supply of software for the Laboratory for 3D Digitization and Microstructural Analysis, Lot 1: Software for processing tomographic data",
+      "description_en_provider": "mymemory",
+      "contract_subject_en": "Supply of software for the Laboratory for 3D Digitization and Microstructural Analysis, Lot 1: Software for processing tomographic data",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -40633,7 +41043,12 @@
       "buyer_street": "Студентски град АКАД. СТЕФАН МЛАДЕНОВ №.1 бл.31",
       "buyer_url": "www.bgpost.bg",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Subscription service/maintenance of the \"ALPHA AGENT\" software system for the provision of the customs representation service to the clients of \"Bulgarian Posts\" EAD",
+      "title_en_provider": "cache",
+      "description_en": "Subscription service/maintenance of the \"ALPHA AGENT\" software system for the provision of the customs representation service to the clients of \"Bulgarian Posts\" EAD",
+      "description_en_provider": "cache",
+      "contract_subject_en": "Subscription service/maintenance of the \"ALPHA AGENT\" software system for the provision of the customs representation service to the clients of \"Bulgarian Posts\" EAD",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -40684,7 +41099,10 @@
       "buyer_street": "Студентски град АКАД. СТЕФАН МЛАДЕНОВ №.1 бл.31",
       "buyer_url": "www.bgpost.bg",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Administration and maintenance of the \"BGPost Vouchers\" software system managing the processes of the \"Food Voucher Operator\" activity",
+      "title_en_provider": "cache",
+      "description_en": "The purpose of the procurement is the service and maintenance of an implemented software product – the \"BGPost Vouchers\" software system, necessary for the needs of \"Bulgarian Posts\" EAD.",
+      "description_en_provider": "mymemory"
     },
     {
       "kind": "tender",
@@ -40735,7 +41153,10 @@
       "buyer_street": "Студентски град АКАД. СТЕФАН МЛАДЕНОВ №.1 бл.31",
       "buyer_url": "www.bgpost.bg",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Subscription service/maintenance of the \"ALPHA AGENT\" software system for the provision of the customs representation service to the clients of \"Bulgarian Posts\" EAD",
+      "title_en_provider": "cache",
+      "description_en": "This procurement is being conducted on the basis of Art. 191, para. 1, item 2 of the Public Procurement Act (PPA). The chosen type of procurement is \"invitation to a specific person\", as there are copyrights, including intellectual property rights within the meaning of the Copyright and Related Rights Act (CRRA). The Company is the copyright holder of the \"ALPHA AGENT\" software system, through which Bulgarian Posts EAD provides its customers with the customs service representation",
+      "description_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -40792,7 +41213,10 @@
       "published_tender_status": 1,
       "title_en": "Development of website and CMS system for content management, databases, files and users by project",
       "title_en_provider": "cache",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "description_en": "Development of a website and a CMS system for managing content, databases, files, and users for the project \"Preservation and Promotion of Cultural Heritage through Digital Preservation and Presentation",
+      "description_en_provider": "mymemory",
+      "contract_subject_en": "Development of a website and a CMS system for managing content, databases, files, and users for the project \"Preservation and Promotion of Cultural Heritage through Digital Preservation and Presentation",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -40844,7 +41268,11 @@
       "buyer_street": "бул. \"Княгиня Мария Луиза\" №22",
       "buyer_url": "https://www.moew.government.bg/",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "description_en": "Software Support for the E-Services Portal and the Administrative Information System of the Ministry of Environment and Water – Central Administration",
+      "description_en_provider": "mymemory",
+      "contract_subject_en": "Software Support for the E-Services Portal and the Administrative Information System of the Ministry of Environment and Water – Central Administration",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -41054,7 +41482,12 @@
       "buyer_street": "бул. МАРИЯ ЛУИЗА №.41",
       "buyer_url": "",
       "buyer_nuts": "BG",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Development of web-based applications for the needs of the Regional History Museum-Varna in two separate lots",
+      "title_en_provider": "mymemory",
+      "description_en": "Lot 1: Development of a \"Personal Guide\" mobile application with an associated CMS for content management and a CMS for kiosk management for digital museum collections",
+      "description_en_provider": "mymemory",
+      "contract_subject_en": "Lot 1: Development of a \"Personal Guide\" mobile application with an associated CMS for content management and a CMS for kiosk management for digital museum collections",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -41541,7 +41974,9 @@
       "buyer_street": "ул. МАРИН ДРИНОВ №.55",
       "buyer_url": "https://www.mu-varna.bg",
       "buyer_nuts": "BG331",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "contract_subject_en": "Upgrade and development of new functionalities in the existing software platform \"e-University\" for the needs of the Medical University - Varna",
+      "contract_subject_en_provider": "mymemory"
     },
     {
       "kind": "tender",
@@ -41755,7 +42190,11 @@
       "buyer_street": "ж.к. СТ.ГРАД бул. 8-МИ ДЕКЕМВРИ 19",
       "buyer_url": "https://www.unwe.bg/",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "description_en": "Installation, configuration, commissioning and maintenance of a Software System for innovative digitalization of business processes for micro, small and medium-sized enterprises, under the project \"Digitalization of the",
+      "description_en_provider": "mymemory",
+      "contract_subject_en": "Installation, configuration, commissioning and maintenance of a Software System for innovative digitalization of business processes for micro, small and medium-sized enterprises, under the project \"Digitalization of the",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -41807,57 +42246,6 @@
       "buyer_street": "ул. \"6-ти септември\" 29",
       "buyer_url": "https://www.mvr.bg/dcis/                       ",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
-    },
-    {
-      "kind": "tender",
-      "source": "advanced_tenders_cpv",
-      "query": "72260000",
-      "relevance_score": 70,
-      "relevance_hits": [
-        "софтуер",
-        "платформ"
-      ],
-      "tender_id": 272397,
-      "published_tender_id": 95266,
-      "special_number": "00983-2023-0017",
-      "title": "„Надграждане и разработване на нови функционалности в съществуваща софтуерна платформа „е-университет“ за нуждите на Медицински университет - Варна“",
-      "description": "Предметът на обществената поръчка е избор на изпълнител за надграждане и разработване на нови функционалности в съществуваща софтуерна платформа „е-университет“ (наричана по-долу „софтуер/а“ или „софтуерен/ия продукт“), внедряване и проверка функционалността на софтуерния продукт, обучение за работа и гаранционна поддръжка за нуждите на Медицински университет – Варна.     Предвидени са дейности по създаване на нови функционалности в софтуера „е-университет“ за връзка с регистъра на всички действащи, прекъснали и завършили студенти и докторанти (РДПЗСД), промени в модул „Студентско досие“, адаптация в други модули на софтуера „е-университет“, свързани с обслужване на студентско положение в съответствие с изискванията регламентирани с нормативни актове.",
-      "organization": "МЕДИЦИНСКИ УНИВЕРСИТЕТ-ВАРНА \"ПРОФ. Д-Р ПАРАСКЕВ ИВ.СТОЯНОВ\"",
-      "organization_id": 18416,
-      "amount": 70000.0,
-      "currency": 3,
-      "cpv": "72260000",
-      "publication_date": "2023-02-22T08:31:04.683000+00:00",
-      "deadline": "2023-03-20T19:59:00+00:00",
-      "offers_receiving_deadline": "2023-03-20T21:59:00+00:00",
-      "published_tender_participation_status": 2,
-      "tender_status": 4,
-      "procedure_type": 2,
-      "url": "https://app.eop.bg/today/tenders/272397",
-      "status": "closed",
-      "is_active": false,
-      "status_label": "Closed",
-      "status_reason": "participation_closed",
-      "estimated_value": null,
-      "budget_amount": 70000.0,
-      "currency_code": "BGN",
-      "budget_scope": "Estimated value: 70 000 BGN",
-      "contact_name": "Deyan Grigorov Grancharov",
-      "contact_email": "grancharov@mu-varna.bg",
-      "contact_phone": "+359 889318559",
-      "contact_source": "buyer_profile",
-      "buyer_contact_name": "Deyan Grigorov Grancharov",
-      "buyer_contact_email": "grancharov@mu-varna.bg",
-      "buyer_contact_phone": "+359 889318559",
-      "buyer_registry_number": "000083633",
-      "buyer_vat_number": "",
-      "buyer_address": "ул. МАРИН ДРИНОВ №.55, гр. Варна, 9002",
-      "buyer_city": "гр. Варна",
-      "buyer_postcode": "9002",
-      "buyer_street": "ул. МАРИН ДРИНОВ №.55",
-      "buyer_url": "https://www.mu-varna.bg",
-      "buyer_nuts": "BG331",
       "translation_note": "EN translation unavailable; showing Bulgarian source text"
     },
     {
@@ -42330,7 +42718,9 @@
       "buyer_street": "бул. ВИТОША №.2",
       "buyer_url": "www.prb.bg",
       "buyer_nuts": "",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "contract_subject_en": "Upgrade of the software of the core of the Unified Information System for Counteracting Crime (UISCC) and the Centralized Information System of the Investigative Services (CISIS)",
+      "contract_subject_en_provider": "mymemory"
     },
     {
       "kind": "contract",
@@ -42382,7 +42772,12 @@
       "buyer_street": "бул. \"Княгиня Мария Луиза\" №22",
       "buyer_url": "https://www.moew.government.bg/",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Software Support for the E-Services Portal and the Administrative Information System of the Ministry of Environment and Water – Central Administration",
+      "title_en_provider": "cache",
+      "description_en": "Software Support for the E-Services Portal and the Administrative Information System of the Ministry of Environment and Water – Central Administration",
+      "description_en_provider": "cache",
+      "contract_subject_en": "Software Support for the E-Services Portal and the Administrative Information System of the Ministry of Environment and Water – Central Administration",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -42741,7 +43136,9 @@
       "buyer_street": "пл. НАРОДНО СЪБРАНИЕ №.2",
       "buyer_url": "",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "contract_subject_en": "Maintenance of the Integrated Information System of the National Assembly and the website of the State Gazette",
+      "contract_subject_en_provider": "mymemory"
     },
     {
       "kind": "contract",
@@ -42947,7 +43344,12 @@
       "buyer_street": "БЕЛОМОРСКИ №.53",
       "buyer_url": "https://www.hospital-kj.com/",
       "buyer_nuts": "BG425",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Subscription-based software support for the hospital information system at MHAT \"Dr. Atanas Dafovski\" AD, Kardzhali",
+      "title_en_provider": "mymemory",
+      "description_en": "Subscription-based software support for the hospital information system at MHAT \"Dr. Atanas Dafovski\" AD, Kardzhali",
+      "description_en_provider": "cache",
+      "contract_subject_en": "Subscription-based software support for the hospital information system at MHAT \"Dr. Atanas Dafovski\" AD, Kardzhali",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -42998,7 +43400,9 @@
       "buyer_street": "БЕЛОМОРСКИ №.53",
       "buyer_url": "https://www.hospital-kj.com/",
       "buyer_nuts": "BG425",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "description_en": "Subscription-based software support for the Hospital Information System (HIS) at MHAT \"Dr. Atanas Dafovski\" AD, Kardzhali\", consisting of 137 (one hundred and thirty-seven) workstations, for a period of 12 months.",
+      "description_en_provider": "mymemory"
     },
     {
       "kind": "contract",
@@ -43265,6 +43669,8 @@
       "buyer_nuts": "BG411",
       "offer_phase_end": "2021-11-05T21:59:00+00:00",
       "published_tender_status": 1,
+      "title_en": "Monitoring and control of the implementation of the contract for upgrading the public register and the information system, as well as of the contract for building a new information portal of the CPC",
+      "title_en_provider": "cache",
       "translation_note": "EN translation unavailable; showing Bulgarian source text"
     },
     {
@@ -43316,6 +43722,8 @@
       "buyer_street": "бул. ОСМИ ПРИМОРСКИ ПОЛК №.43",
       "buyer_url": "www.varna.bg",
       "buyer_nuts": "BG331",
+      "title_en": "Providing 365/24/7 access to the CityTouch web-based platform for the management, control and monitoring of street lighting fixtures",
+      "title_en_provider": "mymemory",
       "translation_note": "EN translation unavailable; showing Bulgarian source text"
     },
     {
@@ -43368,7 +43776,12 @@
       "buyer_street": "ул. ПАНАЙОТ ВОЛОВ № 2",
       "buyer_url": "https://www.is-bg.net/",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Modernization of the EVENTIS R7 information system for the needs of the General Directorate of Civil Aviation Administration through the implementation of a \"Document Portal\" module and a Second Registry",
+      "title_en_provider": "mymemory",
+      "description_en": "Modernization of the EVENTIS R7 information system for the needs of the General Directorate of Civil Aviation Administration through the implementation of a \"Document Portal\" module and a Second Registry",
+      "description_en_provider": "cache",
+      "contract_subject_en": "Modernization of the EVENTIS R7 information system for the needs of the General Directorate of Civil Aviation Administration through the implementation of a \"Document Portal\" module and a Second Registry",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -43420,7 +43833,11 @@
       "buyer_street": "ул. АКАДЕМИК ГЕОРГИ БОНЧЕВ, бл. 2",
       "buyer_url": "www.iict.bas.bg",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Creation of software solutions for a Web-GIS application, a Meteorological Database and a connecting Website for the purposes of the eOUTLAND project under 3 separate lots",
+      "title_en_provider": "cache",
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "contract_subject_en": "Creation of software solutions for a Web-GIS application, a Meteorological Database and a connecting Website for the purposes of the eOUTLAND project in 3 lots \", Lot 3: Lot 3",
+      "contract_subject_en_provider": "mymemory"
     },
     {
       "kind": "contract",
@@ -43472,7 +43889,12 @@
       "buyer_street": "ул. АКАДЕМИК ГЕОРГИ БОНЧЕВ, бл. 2",
       "buyer_url": "www.iict.bas.bg",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "title_en": "Creation of software solutions for a Web-GIS application, a Meteorological Database and a connecting Website for the purposes of the eOUTLAND project under 3 separate lots",
+      "title_en_provider": "mymemory",
+      "description_en": "Creation of software solutions for a Web-GIS application, Meteorological Database and connecting Website for the purposes of the eOUTLAND project in 3 lots \", Lot 2: Lot 2",
+      "description_en_provider": "mymemory",
+      "contract_subject_en": "Creation of software solutions for a Web-GIS application, Meteorological Database and connecting Website for the purposes of the eOUTLAND project in 3 lots \", Lot 2: Lot 2",
+      "contract_subject_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -43525,7 +43947,9 @@
       "buyer_street": "бул. ВИТОША №18 ",
       "buyer_url": "www.cpc.bg",
       "buyer_nuts": "BG411",
-      "translation_note": "EN translation unavailable; showing Bulgarian source text"
+      "translation_note": "EN translation unavailable; showing Bulgarian source text",
+      "description_en": "The public procurement with the subject: \"Development of a new CPC information portal\" is Activity 2 under Project No. BG05SFOP001-1.014-0001 \"Development of the information system and the public register of the Commission for Protection of Competition\". Within the scope of the procurement, a new CPC information portal will be developed, which will provide information in a structured and appropriate manner regarding the Commission's activities, administrative services, and the public register. The menu will be restructured by topics, services, and information of interest to users; information from the existing portal will be migrated to the newly created one. New sections: Register under the LENIENCY Program; Electronic channel for reporting violations of competition rules; Electronic services; Meetings of the Commission under the Public Procurement Act and the Competition Protection Act; Electronic bulletin board and Consultation Module, etc. Details…",
+      "description_en_provider": "mymemory"
     },
     {
       "kind": "tender",
@@ -49215,62 +49639,9 @@
       "offer_phase_end": "2026-12-01T21:59:59+00:00",
       "published_tender_status": 1,
       "title_en": "Maintenance of the existing video surveillance system of the General Directorate for the Execution of Sentences and its regional offices",
-      "title_en_provider": "mymemory",
+      "title_en_provider": "cache",
       "description_en": "The Contractor shall provide continuous technical and software support for the existing HikCentral platform for centralized management and monitoring of video surveillance systems, without access to video recordings and real-time monitoring. The support includes diagnostics and troubleshooting; maintenance of servers, DVR/NVR devices, communication and peripheral equipment, including the video wall in the GDES building; compatibility and integration with perimeter security, burglar alarm system, access control and fire alarm; backup power supply for a minimum of 30 minutes; provision of storage capacity for recordings for a minimum of 30 days at full load; primary and backup connectivity with minimum guaranteed speeds for all the Contracting Authority's sites, including maintenance of end network devices. Round-the-clock remote support (24/7) is provided by phone, email, mail(s)",
-      "description_en_provider": "mymemory"
-    },
-    {
-      "kind": "tender",
-      "source": "quick_search",
-      "query": "изграждане на система",
-      "relevance_score": 63,
-      "relevance_hits": [
-        "софтуер",
-        "база\\s+данни|database",
-        "модул\\w*\\s+за",
-        "weak:хардуер",
-        "weak:мрежов"
-      ],
-      "tender_id": 614084,
-      "published_tender_id": 214259,
-      "special_number": "00193-2026-0080",
-      "title": "Изграждане на специализирана изчислителна среда и лабораторни макети",
-      "description": "Поръчката има за цел Изграждане на специализирана изчислителна среда и лабораторни макети, включващи следните компоненти за нуждите на ФКСТ:\r\n\r\nИнсталирана лабораторна среда за провеждане на киберсимулации и валидиране на мрежова сигурност, пентестинг, криминалистика, криптография, включваща решения покриващи минимум следните технически функционалности:\r\n- Сканиране на 1000 TCP порта и техния статус \r\n- Сканиране TCP SYN, TCP connect, UDP, SCTP INIT \r\n- Сканиране на минимум 1000 порта и различни протоколи \r\n- Засичане на версията на минимум 2000 услуги или софтуера, базирайки се на собствена база данни \r\n- Поддръжка на инструменти \r\n- Софтуерни компоненти за удостоверяване работоспособност и устойчивост на въздействие\r\n- Модул за анализ на памет от операционни системи\r\n- Изолирана виртуална лабораторна среда за практическо обучение по тестване на проникване, състояща се от две виртуални машини с различно предназначение, свързани в затворена вътрешна мрежа.\r\no Компонент А — Работна станция за анализ на сигурността\r\nПредварително инсталиран и конфигуриран пакет от инструменти за: \r\n• сканиране на мрежи и услуги (network/port scanning);\r\n• идентифициране и експлоатация на уязвимости (exploitation framework);\r\n• анализ на трафик (packet capture/analysis);\r\n• тестване на пароли и криптографски механизми;\r\n• уеб приложен одит.\r\n• Графична и конзолна работна среда.\r\n• Възможност за редовно обновяване на инструментариума.\r\n• Съвместимост с популярни хипервизори (Type 1 и Type 2).\r\no Компонент Б — Целева тренировъчна среда\r\nНаличие на разнообразни уязвими услуги, представителни за реални сценарии: \r\n• остарели мрежови услуги с известни CVE;\r\n• слаби или подразбиращи се идентификационни данни;\r\n• грешни конфигурации на достъпа;\r\n• уязвими уеб приложения за практика по OWASP Top 10.\r\n• Документирани сценарии на уязвимости за учебни цели.\r\n• Изолирано от компонент А състояние по подразбиране (snapshot/restore функционалност).\r\n\r\nХардуерна среда\r\nМОДУЛ I. ИЗЧИСЛИТЕЛНИ КОМПОНЕНТИ",
-      "organization": "ТЕХНИЧЕСКИ УНИВЕРСИТЕТ",
-      "organization_id": 20751,
-      "amount": 39000.0,
-      "currency": 1,
-      "cpv": null,
-      "publication_date": "2026-10-22T05:06:42.550000+00:00",
-      "deadline": "2026-11-19T21:59:59+00:00",
-      "offers_receiving_deadline": null,
-      "published_tender_participation_status": 2,
-      "tender_status": null,
-      "procedure_type": 2,
-      "url": "https://app.eop.bg/today/tenders/614084",
-      "status": "closed",
-      "is_active": false,
-      "status_label": "Closed",
-      "status_reason": "participation_closed",
-      "estimated_value": null,
-      "budget_amount": 39000.0,
-      "currency_code": "EUR",
-      "budget_scope": "Estimated value: 39 000 EUR",
-      "contact_name": "Донка Кирилова Симеонова",
-      "contact_email": "dsimeonova@tu-sofia.bg",
-      "contact_phone": "",
-      "contact_source": "buyer_profile",
-      "buyer_contact_name": "Донка Кирилова Симеонова",
-      "buyer_contact_email": "dsimeonova@tu-sofia.bg",
-      "buyer_contact_phone": "",
-      "buyer_registry_number": "831917834",
-      "buyer_vat_number": "",
-      "buyer_address": "кв. ДЪРВЕНИЦА ул. КЛИМЕНТ ОХРИДСКИ №.8, гр.София, 1756",
-      "buyer_city": "гр.София",
-      "buyer_postcode": "1756",
-      "buyer_street": "кв. ДЪРВЕНИЦА ул. КЛИМЕНТ ОХРИДСКИ №.8",
-      "buyer_url": "",
-      "buyer_nuts": "BG411"
+      "description_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -51673,7 +52044,7 @@
       "currency": 1,
       "cpv": null,
       "publication_date": "2026-11-10T05:26:00.480000+00:00",
-      "deadline": "2026-12-09T21:59:59+00:00",
+      "deadline": "2026-12-17T21:59:59+00:00",
       "offers_receiving_deadline": null,
       "published_tender_participation_status": 1,
       "tender_status": null,
@@ -51702,7 +52073,7 @@
       "buyer_street": "бул. ХРИСТО БОТЕВ № 55",
       "buyer_url": "http://www.mzh.government.bg/bg/",
       "buyer_nuts": "BG411",
-      "offer_phase_end": "2026-12-09T21:59:59+00:00",
+      "offer_phase_end": "2026-12-17T21:59:59+00:00",
       "published_tender_status": 1,
       "title_en": "Procurement, launch into low Earth orbit, and commissioning of a satellite platform and sensor for remote sensing of the Earth's surface",
       "title_en_provider": "cache",
@@ -53783,10 +54154,10 @@
       "budget_amount": 38207.0,
       "currency_code": "EUR",
       "budget_scope": "Contract value: 38 207 EUR",
-      "contact_name": "Мария Стоянова Колева",
-      "contact_email": "m.koleva@is-bg.net",
-      "contact_phone": "+359 876580228",
-      "contact_source": "buyer_profile",
+      "contact_name": "Станислава  Стойнева",
+      "contact_email": "s.stoyneva@is-bg.net",
+      "contact_phone": "+359 876435714",
+      "contact_source": "tender",
       "buyer_contact_name": "Мария Стоянова Колева",
       "buyer_contact_email": "m.koleva@is-bg.net",
       "buyer_contact_phone": "+359 876580228",
@@ -62612,56 +62983,6 @@
       "buyer_nuts": "BG411"
     },
     {
-      "kind": "tender",
-      "source": "advanced_tenders_cpv",
-      "query": "72260000",
-      "relevance_score": 59,
-      "relevance_hits": [
-        "софтуер",
-        "weak:лиценз"
-      ],
-      "tender_id": 269636,
-      "published_tender_id": 95697,
-      "special_number": "05948-2023-0023",
-      "title": "„Осигуряване ползването на антиспам решение за защита на пощенските кутии на Министерство на здравеопазването“",
-      "description": "Предметът на обществената поръчка включва осигуряване ползването на антиспам решение за защита на пощенските кутии на Министерство на здравеопазването, подробно описано в Техническата спецификация на Възложителя - Приложение № 1, част от документацията на обществената поръчка.Срокът за осигуряване на лицензите на софтуерния продукт е  до 30.04.2023 г.В случай, че Договорът се сключи след 30.04.2023 г., срокът за осигуряване на лицензите на софтуерния продукт е до 2 (два) работни дни, считано от датата на влизане в сила на договора. Правото на ползване на антиспам решение за защита на пощенските кутии на Министерство на здравеопазването следва да се осигури за срок от 36 месеца, считано от датата на осигуряване на лицензите на софтуерния продукт.",
-      "organization": ",,ИНФОРМАЦИОННО ОБСЛУЖВАНЕ'' АД",
-      "organization_id": 1141,
-      "amount": 52650.0,
-      "currency": 3,
-      "cpv": "72260000",
-      "publication_date": "2023-02-27T08:13:48.653000+00:00",
-      "deadline": "2023-03-27T17:59:00+00:00",
-      "offers_receiving_deadline": "2023-03-27T20:59:00+00:00",
-      "published_tender_participation_status": 2,
-      "tender_status": 4,
-      "procedure_type": 2,
-      "url": "https://app.eop.bg/today/tenders/269636",
-      "status": "closed",
-      "is_active": false,
-      "status_label": "Closed",
-      "status_reason": "participation_closed",
-      "estimated_value": null,
-      "budget_amount": 52650.0,
-      "currency_code": "BGN",
-      "budget_scope": "Estimated value: 52 650 BGN",
-      "contact_name": "Мария Стоянова Колева",
-      "contact_email": "m.koleva@is-bg.net",
-      "contact_phone": "+359 876580228",
-      "contact_source": "buyer_profile",
-      "buyer_contact_name": "Мария Стоянова Колева",
-      "buyer_contact_email": "m.koleva@is-bg.net",
-      "buyer_contact_phone": "+359 876580228",
-      "buyer_registry_number": "831641791",
-      "buyer_vat_number": "BG831641791",
-      "buyer_address": "ул. ПАНАЙОТ ВОЛОВ № 2, гр. София, 1504",
-      "buyer_city": "гр. София",
-      "buyer_postcode": "1504",
-      "buyer_street": "ул. ПАНАЙОТ ВОЛОВ № 2",
-      "buyer_url": "https://www.is-bg.net/",
-      "buyer_nuts": "BG411"
-    },
-    {
       "kind": "contract",
       "source": "contracts_subject",
       "query": "ERP",
@@ -63169,57 +63490,6 @@
       "buyer_street": "пл. СТЕФАН СТАМБОЛОВ № 1",
       "buyer_url": "https://www.plovdiv.bg/",
       "buyer_nuts": "BG421"
-    },
-    {
-      "kind": "contract",
-      "source": "contracts_cpv",
-      "query": "72260000",
-      "relevance_score": 59,
-      "relevance_hits": [
-        "информационн\\w*\\s+систем",
-        "weak:лиценз"
-      ],
-      "contract_id": 34537,
-      "contract_number": "34537",
-      "contract_subject": "Избор на изпълнител за осигуряване на абонаментна поддръжка, консултиране и лицензи на приложни програмни продукти, изграждащи болничната информационна система на СБАЛ по детски болести „Проф. Иван Ми",
-      "contract_value": 39993.84,
-      "currency": 3,
-      "contract_date": "2022-03-01T22:00:00+00:00",
-      "supplier": "ГАМА КОНСУЛТ-КАЛИНКИН,ПРОКОПОВ И С-ИЕ СД",
-      "supplier_registry": "121562456",
-      "tender_id": 181745,
-      "published_tender_id": 204090,
-      "special_number": "00870-2022-0002",
-      "title": "Избор на изпълнител за осигуряване на абонаментна поддръжка, консултиране и лицензи на приложни програмни продукти",
-      "description": "Избор на изпълнител за осигуряване на абонаментна поддръжка, консултиране и лицензи на приложни програмни продукти, изграждащи болничната информационна система на СБАЛ по детски болести „Проф. Иван Ми",
-      "organization": "Специализирана болница за активно лечение по детски болести – проф.Иван Митев ЕАД",
-      "organization_id": 27345,
-      "cpv": "72260000",
-      "publication_date": "2022-03-04T09:59:54.243000+00:00",
-      "url": "https://app.eop.bg/today/tenders/181745",
-      "status": "awarded",
-      "is_active": false,
-      "status_label": "Awarded",
-      "status_reason": "awarded_contract",
-      "estimated_value": null,
-      "budget_amount": 39993.84,
-      "currency_code": "BGN",
-      "budget_scope": "Contract value: 39 993.84 BGN",
-      "contact_name": "Ралица  Туйкова",
-      "contact_email": "tuykova_r@pediatrichospital.bg",
-      "contact_phone": "+359 28154279",
-      "contact_source": "buyer_profile",
-      "buyer_contact_name": "Ралица  Туйкова",
-      "buyer_contact_email": "tuykova_r@pediatrichospital.bg",
-      "buyer_contact_phone": "+359 28154279",
-      "buyer_registry_number": "000662790",
-      "buyer_vat_number": "",
-      "buyer_address": "бул. АКАД. ИВАН ГЕШОВ 11, гр. София, 1606",
-      "buyer_city": "гр. София",
-      "buyer_postcode": "1606",
-      "buyer_street": "бул. АКАД. ИВАН ГЕШОВ 11",
-      "buyer_url": "http://pediatrichospital.bg/",
-      "buyer_nuts": "BG411"
     },
     {
       "kind": "contract",
@@ -64148,6 +64418,56 @@
       "buyer_nuts": "BG411"
     },
     {
+      "kind": "contract",
+      "source": "contracts_subject",
+      "query": "софтуер",
+      "relevance_score": 55,
+      "relevance_hits": [
+        "софтуер"
+      ],
+      "contract_id": 274330,
+      "contract_number": "274330",
+      "contract_subject": "„Осигуряване правото за ползване и поддържане на софтуерния пакет на ATDI SA, Франция”",
+      "contract_value": 29950.0,
+      "currency": 1,
+      "contract_date": "2026-11-19T22:00:00+00:00",
+      "supplier": "ТЕЛКОМ ИНЖЕНЕРИНГ ООД",
+      "supplier_registry": "121127962",
+      "tender_id": 615720,
+      "published_tender_id": 928894,
+      "special_number": "00610-2026-0014",
+      "title": "„Осигуряване правото за ползване и поддържане на софтуерния пакет на ATDI SA, Франция”",
+      "description": "„Осигуряване правото за ползване и поддържане на софтуерния пакет на ATDI SA, Франция”",
+      "organization": "КОМИСИЯ ЗА РЕГУЛИРАНЕ НА СЪОБЩЕНИЯТА",
+      "organization_id": 18419,
+      "cpv": "72267100",
+      "publication_date": "2026-11-23T07:10:18.683000+00:00",
+      "url": "https://app.eop.bg/today/tenders/615720",
+      "status": "awarded",
+      "is_active": false,
+      "status_label": "Awarded",
+      "status_reason": "awarded_contract",
+      "estimated_value": null,
+      "budget_amount": 29950.0,
+      "currency_code": "EUR",
+      "budget_scope": "Contract value: 29 950 EUR",
+      "contact_name": "Stefka Mihaylova Dobreva-Petkova",
+      "contact_email": "sdobreva@crc.bg",
+      "contact_phone": "",
+      "contact_source": "buyer_profile",
+      "buyer_contact_name": "Stefka Mihaylova Dobreva-Petkova",
+      "buyer_contact_email": "sdobreva@crc.bg",
+      "buyer_contact_phone": "",
+      "buyer_registry_number": "121747864",
+      "buyer_vat_number": "",
+      "buyer_address": "ул. \"Ген. Йосиф В. Гурко\" № 6, гр. София, 1000",
+      "buyer_city": "гр. София",
+      "buyer_postcode": "1000",
+      "buyer_street": "ул. \"Ген. Йосиф В. Гурко\" № 6",
+      "buyer_url": "www.crc.bg",
+      "buyer_nuts": ""
+    },
+    {
       "kind": "tender",
       "source": "advanced_tenders_cpv",
       "query": "72260000",
@@ -64198,9 +64518,9 @@
       "offer_phase_end": "2026-11-25T21:59:59+00:00",
       "published_tender_status": 1,
       "title_en": "Use of \"Software as a Service\" for the centralized management of municipal parking for the needs of Municipal Enterprise \"PARKING LOTS, GARAGES AND PARKING ZONES",
-      "title_en_provider": "mymemory",
+      "title_en_provider": "cache",
       "description_en": "The subject of the public procurement is \"Use of \"Software as a Service\" for the centralized management of municipal parking for the needs of Municipal Enterprise \"PARKING LOTS, GARAGES AND PARKING AREAS – Kardzhali\". The performance requirements are described in the Technical Specification of the Contracting Authority.",
-      "description_en_provider": "mymemory"
+      "description_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -64253,9 +64573,9 @@
       "offer_phase_end": "2026-12-01T21:59:59+00:00",
       "published_tender_status": 1,
       "title_en": "Technical Support for Oracle Standard Base Software",
-      "title_en_provider": "mymemory",
+      "title_en_provider": "cache",
       "description_en": "The procurement concerns technical support for standard Oracle base software.",
-      "description_en_provider": "mymemory"
+      "description_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -70191,8 +70511,8 @@
     },
     {
       "kind": "contract",
-      "source": "contracts_subject",
-      "query": "софтуер",
+      "source": "contracts_cpv",
+      "query": "48000000",
       "relevance_score": 55,
       "relevance_hits": [
         "софтуер"
@@ -85819,7 +86139,7 @@
       "is_active": false,
       "status_label": "Awarded",
       "status_reason": "awarded_contract",
-      "estimated_value": 14101984,
+      "estimated_value": null,
       "budget_amount": 7200773.74,
       "currency_code": "EUR",
       "budget_scope": "Contract value: 7 200 773.74 EUR",
@@ -85837,10 +86157,7 @@
       "buyer_postcode": "1000",
       "buyer_street": "ул. ТРИАДИЦА № 8",
       "buyer_url": "https://www.nek.bg",
-      "buyer_nuts": "BG411",
-      "offer_phase_end": "2025-11-26T21:59:59+00:00",
-      "published_tender_participation_status": 2,
-      "published_tender_status": 1
+      "buyer_nuts": "BG411"
     },
     {
       "kind": "contract",
@@ -89125,6 +89442,57 @@
       "buyer_nuts": "BG411"
     },
     {
+      "kind": "contract",
+      "source": "contracts_subject",
+      "query": "информационна система",
+      "relevance_score": 48,
+      "relevance_hits": [
+        "weak:мрежов",
+        "weak:лиценз"
+      ],
+      "contract_id": 274485,
+      "contract_number": "274485",
+      "contract_subject": "„Осигуряване на лиценз/и за обезпечаване на съществуваща система за анализ и корелация на логове, мрежови трафик, системни файлове и управление на кибер-инциденти, базирана на Rapid7 InsightIDR/lnsightVM“",
+      "contract_value": 48200.0,
+      "currency": 1,
+      "contract_date": "2026-11-22T22:00:00+00:00",
+      "supplier": "ХАЙ КОМПЮТЪРС ЕООД",
+      "supplier_registry": "130647293",
+      "tender_id": 616930,
+      "published_tender_id": 929214,
+      "special_number": "00165-2026-0006",
+      "title": "Осигуряване на лиценз/и за обезпечаване на съществуваща система за анализ и корелация на логове, мрежови трафик, системни файлове и упр-е на кибер-инциденти, базирана на Rapid7 InsightIDR/lnsightVM",
+      "description": "„Осигуряване на лиценз/и за обезпечаване на съществуваща система за анализ и корелация на логове, мрежови трафик, системни файлове и управление на кибер-инциденти, базирана на Rapid7 InsightIDR/lnsightVM“",
+      "organization": "МИНИСТЕРСТВО НА ОБРАЗОВАНИЕТО И НАУКАТА",
+      "organization_id": 15947,
+      "cpv": "48730000",
+      "publication_date": "2026-11-23T13:09:31.096000+00:00",
+      "url": "https://app.eop.bg/today/tenders/616930",
+      "status": "awarded",
+      "is_active": false,
+      "status_label": "Awarded",
+      "status_reason": "awarded_contract",
+      "estimated_value": null,
+      "budget_amount": 48200.0,
+      "currency_code": "EUR",
+      "budget_scope": "Contract value: 48 200 EUR",
+      "contact_name": "Петър  Пачев",
+      "contact_email": "ppachev@mon.bg",
+      "contact_phone": "+359 29217664",
+      "contact_source": "buyer_profile",
+      "buyer_contact_name": "Петър  Пачев",
+      "buyer_contact_email": "ppachev@mon.bg",
+      "buyer_contact_phone": "+359 29217664",
+      "buyer_registry_number": "000695114",
+      "buyer_vat_number": "",
+      "buyer_address": "бул. КНЯЗ АЛЕКСАНДЪР ДОНДУКОВ №2А, гр.София, 1000",
+      "buyer_city": "гр.София",
+      "buyer_postcode": "1000",
+      "buyer_street": "бул. КНЯЗ АЛЕКСАНДЪР ДОНДУКОВ №2А",
+      "buyer_url": "https://mon.bg",
+      "buyer_nuts": "BG411"
+    },
+    {
       "kind": "tender",
       "source": "quick_search",
       "query": "информационна система",
@@ -90471,22 +90839,22 @@
       "publication_date": "2026-10-19T05:24:45.383000+00:00",
       "deadline": "2026-11-20T21:59:59+00:00",
       "offers_receiving_deadline": null,
-      "published_tender_participation_status": 1,
+      "published_tender_participation_status": 2,
       "tender_status": null,
       "procedure_type": 2,
       "url": "https://app.eop.bg/today/tenders/607500",
-      "status": "active",
-      "is_active": true,
-      "status_label": "Active",
-      "status_reason": "participation_open",
-      "estimated_value": 298270,
+      "status": "closed",
+      "is_active": false,
+      "status_label": "Closed",
+      "status_reason": "participation_closed",
+      "estimated_value": null,
       "budget_amount": 298270.0,
       "currency_code": "EUR",
       "budget_scope": "Estimated value: 298 270 EUR",
-      "contact_name": "Станислава  Стойнева",
-      "contact_email": "s.stoyneva@is-bg.net",
-      "contact_phone": "+359 876435714",
-      "contact_source": "tender",
+      "contact_name": "Мария Стоянова Колева",
+      "contact_email": "m.koleva@is-bg.net",
+      "contact_phone": "+359 876580228",
+      "contact_source": "buyer_profile",
       "buyer_contact_name": "Мария Стоянова Колева",
       "buyer_contact_email": "m.koleva@is-bg.net",
       "buyer_contact_phone": "+359 876580228",
@@ -90497,13 +90865,64 @@
       "buyer_postcode": "1504",
       "buyer_street": "ул. ПАНАЙОТ ВОЛОВ № 2",
       "buyer_url": "https://www.is-bg.net/",
+      "buyer_nuts": "BG411"
+    },
+    {
+      "kind": "tender",
+      "source": "quick_search",
+      "query": "софтуер",
+      "relevance_score": 45,
+      "relevance_hits": [
+        "софтуер",
+        "платформ",
+        "поддръжка\\s+на\\s+(информационн|софтуер|систем)"
+      ],
+      "tender_id": 620358,
+      "published_tender_id": 216564,
+      "special_number": "00277-2026-0117",
+      "title": "„Доставка на софтуерен продукт тип EDR за защита на крайни точки, дейности по анализ на текущото състояние, изготвяне на необходимата документация и обучения на служители и управленчески екип по киберсигурност“",
+      "description": "Предметът на обществената поръчка е „Доставка на софтуерен продукт тип EDR за защита на крайни точки, дейности по анализ на текущото състояние, изготвяне на необходимата документация и обучения на служители и управленчески екип по киберсигурност“ и включва следните основни компоненти:\r\nАнализ на текущото състояние;\r\nИзготвяне на необходимата документация по ЗКС/NIS2;\r\nИзготвяне на финален доклад;\r\nОсигуряване право на ползване на платформата за извършване на обучения и получаване на бюлетин за киберзаплахи за минимум 1000 служители[1] на възложителя на тема киберсигурност по ЗКС/NIS2;\r\nОбучения на управленчески екип по ЗКС/NIS2;\r\nДоставка, инсталиране и конфигуриране на софтуерен продукт за осигуряване на киберсигурност;\r\nОсигуряване на права за ползване и гаранционна поддръжка на софтуерен продукт за осигуряване на киберсигурност за период от 36 месеца.\r\n\r\nСрокът за изпълнение на всички дейности в обхвата на поръчката е 39 месеца. \r\nОтделните видове дейности и изискванията към изпълнението са описани подробно в Техническа спецификация, публикувана в електронната преписка на поръчката.",
+      "organization": "ТОПЛОФИКАЦИЯ СОФИЯ ЕАД",
+      "organization_id": 26646,
+      "amount": 259862.5,
+      "currency": 1,
+      "cpv": null,
+      "publication_date": "2026-11-23T15:29:45.533000+00:00",
+      "deadline": "2026-12-15T21:59:59+00:00",
+      "offers_receiving_deadline": null,
+      "published_tender_participation_status": 1,
+      "tender_status": null,
+      "procedure_type": 12,
+      "url": "https://app.eop.bg/today/tenders/620358",
+      "status": "active",
+      "is_active": true,
+      "status_label": "Active",
+      "status_reason": "participation_open",
+      "estimated_value": 259862.5,
+      "budget_amount": 259862.5,
+      "currency_code": "EUR",
+      "budget_scope": "Estimated value: 259 862.50 EUR",
+      "contact_name": "Ирина  Тодорова",
+      "contact_email": "i.todorova@toplo.bg",
+      "contact_phone": "+359 29033226",
+      "contact_source": "tender",
+      "buyer_contact_name": "Петър Руменов Петров",
+      "buyer_contact_email": "p.r.petrov@toplo.bg",
+      "buyer_contact_phone": "+359 29033001",
+      "buyer_registry_number": "831609046",
+      "buyer_vat_number": "",
+      "buyer_address": "ул. \"Ястребец\" № 23 Б, гр. София, 1680",
+      "buyer_city": "гр. София",
+      "buyer_postcode": "1680",
+      "buyer_street": "ул. \"Ястребец\" № 23 Б",
+      "buyer_url": "https://www.toplo.bg",
       "buyer_nuts": "BG411",
-      "offer_phase_end": "2026-11-20T21:59:59+00:00",
+      "offer_phase_end": "2026-12-15T21:59:59+00:00",
       "published_tender_status": 1,
-      "title_en": "Providing a system for network detection, investigation and response to cyber threats and renewal of a software solution for audit and analysis of changes in the ICT environment FOR the needs of the Ministry of Foreign Affairs (MFA)",
-      "title_en_provider": "cache",
-      "description_en": "The subject of the public procurement includes the following: 1. Provision of a system for network detection, investigation and response to cyber threats: The Contractor shall deliver 1 Network Detection & Response (NDR) solution for detection of threats, based on behavioral analysis of network traffic data. The Contractor shall deliver all necessary licenses with the rights to use all required functionalities for 1500 IP addresses. The Contractor should provide: - Hardware support: minimum 36 months; - Maintenance type: 24x7x365; - Possibility to update the software during the maintenance period to the latest up-to-date version of the manufacturer. 2. Renewal of a software solution for audit and analysis of changes in THE ICI environments The Contractor shall provide renewal of the right of use and support for Netwrix products as follows: 2.1. NW-MS-NA-AD - 750 pcs. - Netwrix Auditor for…",
-      "description_en_provider": "cache"
+      "title_en": "Provision of an EDR software product for endpoint protection, current state analysis activities, preparation of the necessary documentation, and training of employees and the cybersecurity management team",
+      "title_en_provider": "mymemory",
+      "description_en": "The subject of the public procurement is \"Supply of an EDR-type software product for endpoint protection, current state analysis activities, preparation of the necessary documentation and training of employees and the cybersecurity management team\" and includes the following main components: Current state analysis; Preparation of the necessary documentation under the Cybersecurity Act/NIS2; Preparation of a final report; Ensuring the right to use the platform for Conducting training sessions and providing a cyber threat newsletter for a minimum of 1,000 employees[1] of the contracting authority on the topic of cybersecurity under the Cybersecurity Act/NIS2; Training for the management team on the Cybersecurity Act/NIS2; Supply, installation, and configuration of a software product for ensuring cybersecurity; Provision of user rights and warranty support for the cybersecurity software product for a period of 36 months. The deadline for the implementation of…",
+      "description_en_provider": "mymemory"
     },
     {
       "kind": "tender",
@@ -93081,9 +93500,9 @@
       "offer_phase_end": "2026-12-10T21:59:59+00:00",
       "published_tender_status": 1,
       "title_en": "PROVISION OF VMWARE LICENSES FOR THE NEEDS OF THE COMMUNICATIONS REGULATION COMMISSION",
-      "title_en_provider": "mymemory",
+      "title_en_provider": "cache",
       "description_en": "The place of performance of the procurement is: the building of the Communications Regulation Commission (CRC), located in the city of Sofia, 6 Gen. Yosif V. Gurko Str. No. 6 and the city of Veliko Tarnovo, 2a Hristo Botev Str., fl. 2, if necessary, and remotely. The contract for the performance of the procurement will be valid until December 16, 2027. The total estimated value of this public procurement is EUR 82,000 excluding VAT and EUR 98,400 including VAT. The funds for the public procurement is financed from the budget of the Communications Regulation Commission. The Contracting Authority shall make the payments of the remuneration due in accordance with the terms and conditions set out in the draft contract. The public procurement contract shall be awarded on the basis of the most economically advantageous tender. The most economically advantageous tender shall be determined on the basis of the award criterion \"lowest price\" under Art. 70, para. 2, item 1 of the PPA. Variants of the tenders will not be…",
-      "description_en_provider": "mymemory"
+      "description_en_provider": "cache"
     },
     {
       "kind": "contract",
@@ -103404,6 +103823,106 @@
       "buyer_nuts": "BG411"
     },
     {
+      "kind": "tender",
+      "source": "advanced_tenders_cpv",
+      "query": "72260000",
+      "relevance_score": 40,
+      "relevance_hits": [],
+      "tender_id": 615008,
+      "published_tender_id": 216505,
+      "special_number": "00325-2026-0063",
+      "title": "„Периодична доставка на ваучери за храна от оператор за нуждите на Университетска многопрофилна болница за активно лечение „Свети Георги” ЕАД гр. Пловдив.“",
+      "description": "Поръчката включва доставка на ваучери за храна по Наредба 7 от 9.07.2003 г. за условията и реда за издаване и отнемане на разрешение за извършване на дейност като оператор на ваучери за храна на хартиен и електронен носител, за издаване на ваучери за храна на електронен носител, характеристиките на издаваните ваучери за храна на електронен носител и осъществяване дейност като оператор (Загл. доп. – ДВ, бр. 99 от 2023 г., в сила от 1.01.2024 г.) и доставка ваучери за храна по Наредба № 11 от 21.12.2005 г. за определяне на условията и реда за осигуряване на безплатна храна и/или на добавки към нея, при количества и характеристики, описани чрез Приложение №1 - Техническа спецификация, публикувана в профила на купувача в ЦАИС ЕОП и чрез посочената в документацията прогнозна стойност, определена за максималният срок на договора, който е 36 (тридесет и шест) месеца.\r\nВ предмета на поръчката е включена доставка на ваучери на хартиен носител – за ваучерите по Наредба № 11 от 21.12.2005 г. и доставка на ваучери на електронен носител – за ваучерите по Наредба 7 от 9.07.2003 г., като за ваучерите по Наредба № 11 от 21.12.2005 г. - в случай, че през срока на договора за тях бъде регламентиран нормативен ред за издаването им на електронен носител, който е императивен за възложителя или не е императивен, но за възложителя е предпочел издаването на ваучери на електронен носител. Приблизителен брой работници и служители към датата на изтичане на крайния срок за подаване на офертите: 3300 ( три хилядии и триста) броя. За период от 24 месеца служебно са заложени 12 броя зареждания за като всяко е на стойност 60 евро по реда на Наредба № 7 от 9 юли 2003 г. При ориентировъчния брой от 3300 служители, които ще получават ваучери ще се направят 39 600 броя зареждания.  По отношение на ваучерите по реда на Наредба №11 от 21.12.2005 г. : Номинална стойност и прогнозен брой за срок от 24 месеца на ваучерите по Наредба №11 от 21.12.2005 г.: 2,30 евро - до 2200 броя, 2,10 евро – до 120000 броя",
+      "organization": "УНИВЕРСИТЕТСКА МНОГОПРОФИЛНА БОЛНИЦА ЗА АКТИВНО ЛЕЧЕНИЕ \"СВЕТИ ГЕОРГИ\" ЕАД",
+      "organization_id": 1273,
+      "amount": 5471207.93,
+      "currency": 1,
+      "cpv": "72260000",
+      "publication_date": "2026-11-23T03:25:42.216000+00:00",
+      "deadline": "2026-12-21T19:59:59+00:00",
+      "offers_receiving_deadline": "2026-12-21T21:59:59+00:00",
+      "published_tender_participation_status": 1,
+      "tender_status": 1,
+      "procedure_type": 2,
+      "url": "https://app.eop.bg/today/tenders/615008",
+      "status": "active",
+      "is_active": true,
+      "status_label": "Active",
+      "status_reason": "participation_open",
+      "estimated_value": 5471207.93,
+      "budget_amount": 5471207.93,
+      "currency_code": "EUR",
+      "budget_scope": "Estimated value: 5 471 207.93 EUR",
+      "contact_name": "Рангел Христозов Христозов",
+      "contact_email": "rangel1973@abv.bg",
+      "contact_phone": "+359 32602974",
+      "contact_source": "tender",
+      "buyer_contact_name": "Карен  Джамбазов",
+      "buyer_contact_email": "k.dzhambazov@unihosp.com",
+      "buyer_contact_phone": "+359 32602974",
+      "buyer_registry_number": "115576405",
+      "buyer_vat_number": "",
+      "buyer_address": "бул.\"Пещерско шосе\" №.66, гр. Пловдив, 4002",
+      "buyer_city": "гр. Пловдив",
+      "buyer_postcode": "4002",
+      "buyer_street": "бул.\"Пещерско шосе\" №.66",
+      "buyer_url": "https://www.unihosp.com",
+      "buyer_nuts": "BG421",
+      "offer_phase_end": "2026-12-21T21:59:59+00:00",
+      "published_tender_status": 1,
+      "title_en": "Periodic delivery of food vouchers by an operator for the needs of the St. George University Multiprofile Hospital for Active Treatment EAD, Plovdiv.",
+      "title_en_provider": "mymemory",
+      "description_en": "The procurement includes the supply of food vouchers under Ordinance 7 of 09.07.2003 on the terms and procedure for issuing and revoking a permit to operate as an operator of food vouchers on paper and electronic media, for issuing food vouchers on electronic media, the characteristics of the food vouchers issued on electronic media and operating as an operator (Title amended – SG, issue 99 of 2023, effective from 01.01.2024) and delivery of food vouchers under Ordinance No. 11 of December 21, 2005 on determining the terms and conditions for the provision of free food and/or supplements thereto, in the quantities and with the characteristics described in Annex No. 1 – Technical Specification, published in the buyer's profile in the Centralized Public Procurement Information System (CPPIs) and through the estimated value specified in the documentation, determined for the maximum term of the contract, which is 36 (thirty-six) months. The subject of the procurement is…",
+      "description_en_provider": "mymemory"
+    },
+    {
+      "kind": "tender",
+      "source": "advanced_tenders_cpv",
+      "query": "72260000",
+      "relevance_score": 40,
+      "relevance_hits": [],
+      "tender_id": 621316,
+      "published_tender_id": 216487,
+      "special_number": "T621316",
+      "title": "„Абонаментна поддръжка на счетоводен програмен продукт“ по 2 (две) обособени позиции.",
+      "description": null,
+      "organization": "Дирекция Управление на собствеността и социални дейности /ДУССД/ към Министерство на вътрешните работи - МВР",
+      "organization_id": 5606,
+      "amount": null,
+      "currency": 1,
+      "cpv": "72260000",
+      "publication_date": "2026-11-20T15:11:56.326000+00:00",
+      "deadline": null,
+      "offers_receiving_deadline": null,
+      "published_tender_participation_status": 2,
+      "tender_status": 2,
+      "procedure_type": 19,
+      "url": "https://app.eop.bg/today/tenders/621316",
+      "status": "closed",
+      "is_active": false,
+      "status_label": "Closed",
+      "status_reason": "participation_closed",
+      "estimated_value": null,
+      "budget_amount": null,
+      "currency_code": "EUR",
+      "budget_scope": "Budget unknown",
+      "contact_name": "Ива  Иванова",
+      "contact_email": "IGeIvanova@mvr.bg",
+      "contact_phone": "",
+      "contact_source": "buyer_profile",
+      "buyer_contact_name": "Ива  Иванова",
+      "buyer_contact_email": "IGeIvanova@mvr.bg",
+      "buyer_contact_phone": "",
+      "buyer_registry_number": "129010157",
+      "buyer_vat_number": "",
+      "buyer_address": "ул. \"Княз Борис I\" № 124, София, 1301",
+      "buyer_city": "София",
+      "buyer_postcode": "1301",
+      "buyer_street": "ул. \"Княз Борис I\" № 124",
+      "buyer_url": "https://www.mvr.bg/dussd/",
+      "buyer_nuts": "BG411"
+    },
+    {
       "kind": "contract",
       "source": "contracts_subject",
       "query": "информационна система",
@@ -103548,9 +104067,9 @@
       "offer_phase_end": "2026-12-16T21:59:59+00:00",
       "published_tender_status": 1,
       "title_en": "Maintenance of a taxi register under Art. 12, para. 4 of the Road Transport Act",
-      "title_en_provider": "mymemory",
+      "title_en_provider": "cache",
       "description_en": "Maintenance of a taxi register under Art. 12, para. 4 of the Road Transport Act, which ensures the following activities: registration of issued certificates for registration of traders carrying out taxi transport of passengers; issuance of permits for carrying out taxi transport of passengers; generation of reference information for the needs of municipalities and the State Road Transport Administration.",
-      "description_en_provider": "mymemory"
+      "description_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -104473,54 +104992,6 @@
       "buyer_street": "бул. ВИТОША №.2",
       "buyer_url": "www.prb.bg",
       "buyer_nuts": ""
-    },
-    {
-      "kind": "contract",
-      "source": "contracts_subject",
-      "query": "информационна система",
-      "relevance_score": 40,
-      "relevance_hits": [],
-      "contract_id": 266213,
-      "contract_number": "266213",
-      "contract_subject": "„Подновяване на правото на ползване и поддръжка на видеоконферентна система Cisco Webex по 2 (две) обособени позиции“, Обособена позиция № 1: “Осигуряване на правото на ползване на видеоконферентна система Cisco Webex за нуждите на Министерство на енергетиката (МЕ)“",
-      "contract_value": 2263.0,
-      "currency": 1,
-      "contract_date": "2026-09-08T21:00:00+00:00",
-      "supplier": "ПАРАФЛОУ КОМУНИКЕЙШЪНС ЕООД",
-      "supplier_registry": "831913775",
-      "tender_id": 595806,
-      "published_tender_id": 903797,
-      "special_number": "05948-2026-0060",
-      "title": "„Подновяване на правото на ползване и поддръжка на видеоконферентна система Cisco Webex по 2 (две) обособени позиции“",
-      "description": "„Подновяване на правото на ползване и поддръжка на видеоконферентна система Cisco Webex по 2 (две) обособени позиции“, Обособена позиция № 1: “Осигуряване на правото на ползване на видеоконферентна система Cisco Webex за нуждите на Министерство на енергетиката (МЕ)“",
-      "organization": "ИНФОРМАЦИОННО ОБСЛУЖВАНЕ АД",
-      "organization_id": 1141,
-      "cpv": "72416000",
-      "publication_date": "2026-09-23T23:04:00+00:00",
-      "url": "https://app.eop.bg/today/tenders/595806",
-      "status": "awarded",
-      "is_active": false,
-      "status_label": "Awarded",
-      "status_reason": "awarded_contract",
-      "estimated_value": null,
-      "budget_amount": 2263.0,
-      "currency_code": "EUR",
-      "budget_scope": "Contract value: 2 263 EUR",
-      "contact_name": "Мария Стоянова Колева",
-      "contact_email": "m.koleva@is-bg.net",
-      "contact_phone": "+359 876580228",
-      "contact_source": "buyer_profile",
-      "buyer_contact_name": "Мария Стоянова Колева",
-      "buyer_contact_email": "m.koleva@is-bg.net",
-      "buyer_contact_phone": "+359 876580228",
-      "buyer_registry_number": "831641791",
-      "buyer_vat_number": "BG831641791",
-      "buyer_address": "ул. ПАНАЙОТ ВОЛОВ № 2, гр. София, 1504",
-      "buyer_city": "гр. София",
-      "buyer_postcode": "1504",
-      "buyer_street": "ул. ПАНАЙОТ ВОЛОВ № 2",
-      "buyer_url": "https://www.is-bg.net/",
-      "buyer_nuts": "BG411"
     },
     {
       "kind": "contract",
@@ -109202,56 +109673,6 @@
       "buyer_street": "ул. \"България\" №35",
       "buyer_url": "http://belene.bg/",
       "buyer_nuts": "BG314"
-    },
-    {
-      "kind": "tender",
-      "source": "quick_search",
-      "query": "софтуер",
-      "relevance_score": 40,
-      "relevance_hits": [
-        "софтуер",
-        "интеграци"
-      ],
-      "tender_id": 561909,
-      "published_tender_id": 193685,
-      "special_number": "561909",
-      "title": "Покана за участие в пазарна консултация с предмет: „Осигуряване на софтуери за защита на крайни точки и сигурност на ИТ инфраструктурата, внедряване, интеграция, обучение и поддръжка“",
-      "description": null,
-      "organization": "НАЦИОНАЛНА ЕЛЕКТРИЧЕСКА КОМПАНИЯ ЕАД",
-      "organization_id": 21310,
-      "amount": null,
-      "currency": 1,
-      "cpv": null,
-      "publication_date": "2026-02-26T12:21:20.546000+00:00",
-      "deadline": null,
-      "offers_receiving_deadline": null,
-      "published_tender_participation_status": 2,
-      "tender_status": null,
-      "procedure_type": 19,
-      "url": "https://app.eop.bg/today/tenders/561909",
-      "status": "closed",
-      "is_active": false,
-      "status_label": "Closed",
-      "status_reason": "participation_closed",
-      "estimated_value": null,
-      "budget_amount": null,
-      "currency_code": "EUR",
-      "budget_scope": "Budget unknown",
-      "contact_name": "Силвена Димитрова Стоянова",
-      "contact_email": "silvena.stoyanova@nek.bg",
-      "contact_phone": "+359 886840679",
-      "contact_source": "buyer_profile",
-      "buyer_contact_name": "Силвена Димитрова Стоянова",
-      "buyer_contact_email": "silvena.stoyanova@nek.bg",
-      "buyer_contact_phone": "+359 886840679",
-      "buyer_registry_number": "000649348",
-      "buyer_vat_number": "",
-      "buyer_address": "ул. ТРИАДИЦА № 8, гр. София, 1000",
-      "buyer_city": "гр. София",
-      "buyer_postcode": "1000",
-      "buyer_street": "ул. ТРИАДИЦА № 8",
-      "buyer_url": "https://www.nek.bg",
-      "buyer_nuts": "BG411"
     },
     {
       "kind": "contract",
@@ -143377,9 +143798,9 @@
       "offer_phase_end": "2026-12-14T21:59:59+00:00",
       "published_tender_status": 1,
       "title_en": "Installation of video surveillance systems on Škoda Solaris 26Tr/Trolino 12 trolleybuses and Solaris Urbino 12 and SOR NB18 buses",
-      "title_en_provider": "mymemory",
+      "title_en_provider": "cache",
       "description_en": "The subject of this procurement is the installation of a new comprehensive video surveillance system for \"Skoda Solaris 26Tr/Trolino 12\" trolleybuses and \"Solaris Urbino 12\" and \"SOR NB18\" buses by replacing defective video surveillance equipment in the vehicles. The Contractor shall dismantle the defective equipment and install a new complete video surveillance system for the \"Skoda Solaris 26Tr/Trolino\" trolleybus and the \"Solaris Urbino 12\" and \"SOR NB18\" buses within 20 /twenty/ working days after submission of the request. All products used in the execution of the order must be newly manufactured and comply with the specifications prescribed by the manufacturer in terms of: type, parameters and other technical characteristics. Electronic circuit boards, modules and computer configurations must have programs and software installed in accordance with their intended use.",
-      "description_en_provider": "mymemory"
+      "description_en_provider": "cache"
     },
     {
       "kind": "tender",
@@ -145719,6 +146140,56 @@
       "buyer_street": "р-н Красно село, Бизнес Център Интерпред Цар Борис, бул.\"Цар Борис III\" № 159, ет. 2 и 3",
       "buyer_url": "https://www.sofiyskavoda.bg ",
       "buyer_nuts": "BG411"
+    },
+    {
+      "kind": "contract",
+      "source": "contracts_subject",
+      "query": "интеграция на системи",
+      "relevance_score": 25,
+      "relevance_hits": [
+        "интеграци"
+      ],
+      "contract_id": 258858,
+      "contract_number": "258858",
+      "contract_subject": "„Избор на изпълнител за изпълнение на мерки за информация и публичност по проект Създаване на алтернативни социални услуги за непридружени деца - бежанци в България, Програма на Република България по фонд „Убежище, миграция и интеграция“.",
+      "contract_value": 6710.0,
+      "currency": 1,
+      "contract_date": "2026-07-14T21:00:00+00:00",
+      "supplier": "ДИ ЕМ АЙ ДИВЕЛОПМЪНТ ЕООД",
+      "supplier_registry": "201557566",
+      "tender_id": 586607,
+      "published_tender_id": 880217,
+      "special_number": "00041-2026-0003",
+      "title": "„Избор на изпълнител за изпълнение на мерки за информация и публичност по проект Създаване на алтернативни социални услуги за непридружени деца - бежанци в България, Програма на Република България по фонд „Убежище, миграция и интеграция“.",
+      "description": "„Избор на изпълнител за изпълнение на мерки за информация и публичност по проект Създаване на алтернативни социални услуги за непридружени деца - бежанци в България, Програма на Република България по фонд „Убежище, миграция и интеграция“.",
+      "organization": "ОБЩИНА ИВАЙЛОВГРАД",
+      "organization_id": 2402,
+      "cpv": "79952000",
+      "publication_date": "2026-07-16T05:19:28.130000+00:00",
+      "url": "https://app.eop.bg/today/tenders/586607",
+      "status": "awarded",
+      "is_active": false,
+      "status_label": "Awarded",
+      "status_reason": "awarded_contract",
+      "estimated_value": null,
+      "budget_amount": 6710.0,
+      "currency_code": "EUR",
+      "budget_scope": "Contract value: 6 710 EUR",
+      "contact_name": "Diana Dimitrova Ovcharova",
+      "contact_email": "oba_ivaylovgrad@abv.bg",
+      "contact_phone": "+359 36616090",
+      "contact_source": "buyer_profile",
+      "buyer_contact_name": "Diana Dimitrova Ovcharova",
+      "buyer_contact_email": "oba_ivaylovgrad@abv.bg",
+      "buyer_contact_phone": "+359 36616090",
+      "buyer_registry_number": "000235870",
+      "buyer_vat_number": "BG000235870",
+      "buyer_address": "ул. България № 49, гр.Ивайловград, 6570",
+      "buyer_city": "гр.Ивайловград",
+      "buyer_postcode": "6570",
+      "buyer_street": "ул. България № 49",
+      "buyer_url": "https://ivaylovgrad.bg/",
+      "buyer_nuts": "BG422"
     },
     {
       "kind": "contract",
@@ -148258,21 +148729,21 @@
       "relevance_score": 24,
       "relevance_hits": [
         "дигитализац",
-        "weak:принтер"
+        "weak:лиценз"
       ],
-      "contract_id": 229710,
-      "contract_number": "229710",
-      "contract_subject": "Доставка, монтаж и въвеждане в експлоатация на дигитално оборудване по Програма „Научни изследвания, иновации и дигитализация за интелигентна трансформация“ 2021-2027 по обособени позиции, Обособена позиция 1: „3D принтер Bambu Lab“",
-      "contract_value": 4300.0,
+      "contract_id": 229825,
+      "contract_number": "229825",
+      "contract_subject": "Доставка, монтаж и въвеждане в експлоатация на дигитално оборудване по Програма „Научни изследвания, иновации и дигитализация за интелигентна трансформация“ 2021-2027 по обособени позиции, Обособена позиция 4: „3D скенер и лиценз за една година“",
+      "contract_value": 68510.0,
       "currency": 3,
       "contract_date": "2025-12-04T22:00:00+00:00",
-      "supplier": "Ейт Сел ООД",
-      "supplier_registry": "207922997",
+      "supplier": "БИ ТУ ЕН ТРЕЙД ООД",
+      "supplier_registry": "206772270",
       "tender_id": 503231,
       "published_tender_id": 788513,
       "special_number": "00373-2025-0024",
       "title": "Доставка, монтаж и въвеждане в експлоатация на дигитално оборудване по Програма „Научни изследвания, иновации и дигитализация за интелигентна трансформация“ 2021-2027 по обособени позиции",
-      "description": "Доставка, монтаж и въвеждане в експлоатация на дигитално оборудване по Програма „Научни изследвания, иновации и дигитализация за интелигентна трансформация“ 2021-2027 по обособени позиции, Обособена позиция 1: „3D принтер Bambu Lab“",
+      "description": "Доставка, монтаж и въвеждане в експлоатация на дигитално оборудване по Програма „Научни изследвания, иновации и дигитализация за интелигентна трансформация“ 2021-2027 по обособени позиции, Обособена позиция 4: „3D скенер и лиценз за една година“",
       "organization": "ТРАКИЙСКИ УНИВЕРСИТЕТ",
       "organization_id": 1117,
       "cpv": "30200000",
@@ -148283,9 +148754,9 @@
       "status_label": "Awarded",
       "status_reason": "awarded_contract",
       "estimated_value": null,
-      "budget_amount": 4300.0,
+      "budget_amount": 68510.0,
       "currency_code": "BGN",
-      "budget_scope": "Contract value: 4 300 BGN",
+      "budget_scope": "Contract value: 68 510 BGN",
       "contact_name": "Ивелина  Чехларова",
       "contact_email": "ivelina.chehlarova@trakia-uni.bg",
       "contact_phone": "+359 42699270",
@@ -148360,21 +148831,21 @@
       "relevance_score": 24,
       "relevance_hits": [
         "дигитализац",
-        "weak:лиценз"
+        "weak:принтер"
       ],
-      "contract_id": 229825,
-      "contract_number": "229825",
-      "contract_subject": "Доставка, монтаж и въвеждане в експлоатация на дигитално оборудване по Програма „Научни изследвания, иновации и дигитализация за интелигентна трансформация“ 2021-2027 по обособени позиции, Обособена позиция 4: „3D скенер и лиценз за една година“",
-      "contract_value": 68510.0,
+      "contract_id": 229710,
+      "contract_number": "229710",
+      "contract_subject": "Доставка, монтаж и въвеждане в експлоатация на дигитално оборудване по Програма „Научни изследвания, иновации и дигитализация за интелигентна трансформация“ 2021-2027 по обособени позиции, Обособена позиция 1: „3D принтер Bambu Lab“",
+      "contract_value": 4300.0,
       "currency": 3,
       "contract_date": "2025-12-04T22:00:00+00:00",
-      "supplier": "БИ ТУ ЕН ТРЕЙД ООД",
-      "supplier_registry": "206772270",
+      "supplier": "Ейт Сел ООД",
+      "supplier_registry": "207922997",
       "tender_id": 503231,
       "published_tender_id": 788513,
       "special_number": "00373-2025-0024",
       "title": "Доставка, монтаж и въвеждане в експлоатация на дигитално оборудване по Програма „Научни изследвания, иновации и дигитализация за интелигентна трансформация“ 2021-2027 по обособени позиции",
-      "description": "Доставка, монтаж и въвеждане в експлоатация на дигитално оборудване по Програма „Научни изследвания, иновации и дигитализация за интелигентна трансформация“ 2021-2027 по обособени позиции, Обособена позиция 4: „3D скенер и лиценз за една година“",
+      "description": "Доставка, монтаж и въвеждане в експлоатация на дигитално оборудване по Програма „Научни изследвания, иновации и дигитализация за интелигентна трансформация“ 2021-2027 по обособени позиции, Обособена позиция 1: „3D принтер Bambu Lab“",
       "organization": "ТРАКИЙСКИ УНИВЕРСИТЕТ",
       "organization_id": 1117,
       "cpv": "30200000",
@@ -148385,9 +148856,9 @@
       "status_label": "Awarded",
       "status_reason": "awarded_contract",
       "estimated_value": null,
-      "budget_amount": 68510.0,
+      "budget_amount": 4300.0,
       "currency_code": "BGN",
-      "budget_scope": "Contract value: 68 510 BGN",
+      "budget_scope": "Contract value: 4 300 BGN",
       "contact_name": "Ивелина  Чехларова",
       "contact_email": "ivelina.chehlarova@trakia-uni.bg",
       "contact_phone": "+359 42699270",
@@ -149068,57 +149539,6 @@
       "buyer_street": "бул. \"Княгиня Мария Луиза\" №22",
       "buyer_url": "https://www.moew.government.bg/",
       "buyer_nuts": "BG411"
-    },
-    {
-      "kind": "contract",
-      "source": "contracts_subject",
-      "query": "интеграция на системи",
-      "relevance_score": 23,
-      "relevance_hits": [
-        "weak:сърв\\w*",
-        "weak:икт"
-      ],
-      "contract_id": 257911,
-      "contract_number": "257911",
-      "contract_subject": "Доставка, инсталация и въвеждане в експлоатация на ИКТ оборудване, сървърни системи и специализирано оборудване за SCADA контролен център за нуждите на Водоснабдяване и канализация - Благоевград, Обособена позиция 2: Доставка, инсталация и монтаж на специализирано оборудване за изграждане на SCADA контролен център за нуждите на Водоснабдяване и канализация - Благоевград",
-      "contract_value": 25870.0,
-      "currency": 1,
-      "contract_date": "2026-06-24T21:00:00+00:00",
-      "supplier": "ГЛОБАЛ УАН ООД",
-      "supplier_registry": "175293707",
-      "tender_id": 581197,
-      "published_tender_id": 877400,
-      "special_number": "00220-2026-0008",
-      "title": "Доставка, инсталация и въвеждане в експлоатация на ИКТ оборудване, сървърни системи и специализирано оборудване за SCADA контролен център за нуждите на Водоснабдяване и канализация - Благоевград",
-      "description": "Доставка, инсталация и въвеждане в експлоатация на ИКТ оборудване, сървърни системи и специализирано оборудване за SCADA контролен център за нуждите на Водоснабдяване и канализация - Благоевград, Обособена позиция 2: Доставка, инсталация и монтаж на специализирано оборудване за изграждане на SCADA контролен център за нуждите на Водоснабдяване и канализация - Благоевград",
-      "organization": "ВОДОСНАБДЯВАНЕ И КАНАЛИЗАЦИЯ ЕООД",
-      "organization_id": 12762,
-      "cpv": "30200000",
-      "publication_date": "2026-07-09T05:33:59.240000+00:00",
-      "url": "https://app.eop.bg/today/tenders/581197",
-      "status": "awarded",
-      "is_active": false,
-      "status_label": "Awarded",
-      "status_reason": "awarded_contract",
-      "estimated_value": null,
-      "budget_amount": 25870.0,
-      "currency_code": "EUR",
-      "budget_scope": "Contract value: 25 870 EUR",
-      "contact_name": "Мартин Ивайлов Петров",
-      "contact_email": "vik_bl@avala.bg",
-      "contact_phone": "",
-      "contact_source": "buyer_profile",
-      "buyer_contact_name": "Мартин Ивайлов Петров",
-      "buyer_contact_email": "vik_bl@avala.bg",
-      "buyer_contact_phone": "",
-      "buyer_registry_number": "811047831",
-      "buyer_vat_number": "",
-      "buyer_address": "ул. АНТОН ЧЕХОВ №3, гр. Благоевград, 2700",
-      "buyer_city": "гр. Благоевград",
-      "buyer_postcode": "2700",
-      "buyer_street": "ул. АНТОН ЧЕХОВ №3",
-      "buyer_url": "http://vikblg.com/",
-      "buyer_nuts": "BG413"
     },
     {
       "kind": "tender",
